@@ -1,0 +1,7 @@
+module FirebaseAuthInterop {
+    umbrella header "FirebaseAuthInterop.h"
+
+    export *
+    module * { export * }
+}
+

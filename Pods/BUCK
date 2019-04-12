@@ -1,0 +1,107 @@
+load("//Config:buck_rule_macros.bzl", "apple_lib", "apple_third_party_lib", "apple_cxx_third_party_library")
+
+apple_third_party_lib(
+    name = "IGListKit",
+    exported_headers = glob([
+        "IGListKit/**/*.h",
+    ]),
+    srcs = glob([
+        "IGListKit/**/*.m",
+        "IGListKit/**/*.mm",
+    ]),
+)
+apple_third_party_lib(
+    name = 'Alamofire',
+    srcs = glob([
+        'Alamofire/Source/*.swift'
+    ]),
+)
+
+#firebase/core
+apple_third_party_lib(
+    name = "GoogleUtilities",
+    exported_headers = glob([
+	    "GoogleUtilities/**/*.h",
+    ]),
+    srcs = glob([
+	    "GoogleUtilities/**/*.m",
+        "GoogleUtilities/**/*.mm",
+    ]),
+)
+
+apple_third_party_lib(
+    name = "FirebaseCore",
+    exported_headers = glob([
+        "FirebaseCore/**/*.h",
+    ]),
+    deps = [
+        "//Pods:GoogleUtilities"
+    ],
+    srcs = glob([
+
+        "FirebaseCore/**/*.m",
+    ])
+)
+
+#firebase/database
+apple_third_party_lib(
+    name = "leveldbLibrary",
+    exported_headers = glob([
+	    "leveldb-library/**/crc32c.h",
+	    "leveldb-library/**/port.h",
+	    "leveldb-library/**/log_writer.h",
+	    "leveldb-library/**/cache.h",
+	    "leveldb-library/**/env.h",
+	    "leveldb-library/**/comparator.h",
+	    "leveldb-library/**/block_builder.h",
+	    "leveldb-library/**/dbformat.h",
+	    "leveldb-library/**/format.h",
+	    "leveldb-library/**/table.h",
+	    "leveldb-library/**/coding.h",
+	    "leveldb-library/**/version_edit.h",
+    ]),
+    headers = glob([
+        "leveldb-library/**/*.h",
+        "leveldb-library/include/leveldb/*.h"
+    ]),
+    srcs = glob([
+	    "leveldb-library/db/*.{cc}",
+		"leveldb-library/port/*.{cc}",
+		"leveldb-library/table/*.{cc}",
+		"leveldb-library/util/*.{cc}",
+    ], exclude = [
+        "leveldb-library/**/*_test.cc",
+        "leveldb-library/**/*_bench.cc",
+        "leveldb-library/port/win",
+    ]),
+)
+apple_third_party_lib(
+    name = "FirebaseAuthInterop",
+    exported_headers = glob([
+	    "FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h",
+    ]),
+    srcs = glob([
+	    #"FirebaseAuthInterop/Interop/Auth/**/FIRAuthInterop.h",
+    ]),
+    frameworks = [
+        "$SDKROOT/System/Library/Frameworks/Foundation.framework",
+    ],
+)
+apple_third_party_lib(
+    name = "FirebaseDatabase",
+    exported_headers = glob([
+        "FirebaseDatabase/**/*.h",
+    ]),
+    deps = [
+        "//Pods:leveldbLibrary",
+        "//Pods:FirebaseAuthInterop",
+        "//Pods:FirebaseCore",
+    ],
+    srcs = glob([
+
+        "FirebaseDatabase/**/*.m",
+    ]),
+    frameworks = [
+        "$SDKROOT/System/Library/Frameworks/Foundation.framework",
+    ],
+)

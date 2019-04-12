@@ -1,0 +1,46 @@
+-fcolor-diagnostics
+-x
+c++
+-isysroot
+/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk
+-arch
+x86_64
+-mios-simulator-version-min=11.0
+-iquote
+"/Users/stevenlee/Downloads/BuckTest 3"
+-fobjc-arc
+-std=c++14
+-D
+DEBUG
+-g
+-isysroot
+/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk
+-arch
+x86_64
+-mios-simulator-version-min=11.0
+-iquote
+"/Users/stevenlee/Downloads/BuckTest 3"
+-I
+buck-out/gen/Pods/leveldbLibrary#iphonesimulator-x86_64,private-headers.hmap
+-I
+buck-out
+-I
+buck-out/gen/Pods/leveldbLibrary#header-mode-symlink-tree-with-modulemap,headers,iphonesimulator-x86_64
+-w
+-fmodule-name=leveldbLibrary
+-Xclang
+-fdebug-compilation-dir
+-Xclang
+./////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+"-fdebug-prefix-map=/Users/stevenlee/Downloads/BuckTest 3=."
+"-fdebug-prefix-map=/Users/stevenlee/Downloads/BuckTest 3=./////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////"
+-fdebug-prefix-map=/Users/stevenlee/Downloads/Xcode.app/Contents/Developer=APPLE_DEVELOPER_DIR
+-fdebug-prefix-map=/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform=APPLE_PLATFORM_DIR
+-fdebug-prefix-map=/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk=APPLE_SDKROOT
+-o
+buck-out/gen/Pods/leveldbLibrary#compile-histogram.cc.o88269845,iphonesimulator-x86_64/leveldb-library/util/histogram.cc.o
+-c
+-MD
+-MF
+buck-out/gen/Pods/leveldbLibrary#compile-histogram.cc.o88269845,iphonesimulator-x86_64/leveldb-library/util/histogram.cc.o.dep
+Pods/leveldb-library/util/histogram.cc

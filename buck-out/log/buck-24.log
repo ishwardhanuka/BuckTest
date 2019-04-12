@@ -1,0 +1,1007 @@
+[2019-04-11 15:23:28.911][debug][command:null][tid:14][com.facebook.buck.cli.Main] Starting up (build date 1970-01-01 07:29:59 +0730, rev ad23befe7c1a36c999860af0af69e726f1c8e423), args: [build, //BuckTest:BuckTest]
+[2019-04-11 15:23:28.916][debug][command:null][tid:14][com.facebook.buck.cli.Main] System properties: {java.vendor=Oracle Corporation, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, jnidispatch.path=/Users/stevenlee/Downloads/BuckTest 3/.buckd/tmp/buck_run.AzLW03/jna-1522160945/jna8454960487638627117.tmp, os.name=Mac OS X, buck.enable_objc=true, sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/classes, user.country.format=SG, buck.module.resources=/Users/stevenlee/Downloads/BuckTest 3/.buckd/resources/ad23befe7c1a36c999860af0af69e726f1c8e423/buck-modules-resources, pf4j.pluginsDir=/Users/stevenlee/Downloads/BuckTest 3/.buckd/resources/ad23befe7c1a36c999860af0af69e726f1c8e423/buck-modules, buck.resource_lock_path=/Users/stevenlee/Downloads/BuckTest 3/.buckd/resources/ad23befe7c1a36c999860af0af69e726f1c8e423/.buck_lock, buck.path_to_isolated_trampoline=/Users/stevenlee/Downloads/BuckTest 3/.buckd/resources/ad23befe7c1a36c999860af0af69e726f1c8e423/path_to_isolated_trampoline, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_201-b09, jna.loaded=true, buck.testrunner_classes=/Users/stevenlee/Downloads/BuckTest 3/.buckd/resources/ad23befe7c1a36c999860af0af69e726f1c8e423/testrunner_classes, buck.logging_config_file=/Users/stevenlee/Downloads/BuckTest 3/.buckd/resources/ad23befe7c1a36c999860af0af69e726f1c8e423/logging_config_file, buck.path_to_sh_binary_template=/Users/stevenlee/Downloads/BuckTest 3/.buckd/resources/ad23befe7c1a36c999860af0af69e726f1c8e423/path_to_sh_binary_template, user.name=stevenlee, com.facebook.nailgun.NGServer.outputPath=/Users/stevenlee/Downloads/BuckTest 3/.buckd/tmp/buck_run.AzLW03/ngserver-out, buck.path_to_pywatchman=/Users/stevenlee/Downloads/BuckTest 3/.buckd/resources/ad23befe7c1a36c999860af0af69e726f1c8e423/path_to_pywatchman, buck.report_generator_jar=/Users/stevenlee/Downloads/BuckTest 3/.buckd/resources/ad23befe7c1a36c999860af0af69e726f1c8e423/report_generator_jar, buck.git_commit=ad23befe7c1a36c999860af0af69e726f1c8e423, user.language=en, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib, jna.nosys=true, java.version=1.8.0_201, user.timezone=Asia/Singapore, buck.test_util_no_tests_dir=true, sun.arch.data.model=64, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/endorsed, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, file.separator=/, java.specification.name=Java Platform API Specification, buck.jacoco_agent_jar=/Users/stevenlee/Downloads/BuckTest 3/.buckd/resources/ad23befe7c1a36c999860af0af69e726f1c8e423/jacoco_agent_jar, java.class.version=52.0, user.country=GB, buck.binary_hash=dbcee53f32f7fa760cef191b77064a13, java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre, buck.fix_script=/Users/stevenlee/Downloads/BuckTest 3/.buckd/resources/ad23befe7c1a36c999860af0af69e726f1c8e423/fix_script, java.vm.info=mixed mode, os.version=10.14.4, buck.version_uid=ad23befe7c1a36c999860af0af69e726f1c8e423, org.eclipse.jetty.util.log.class=org.eclipse.jetty.util.log.JavaUtilLog, path.separator=:, java.vm.version=25.201-b09, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, sun.io.unicode.encoding=UnicodeBig, awt.toolkit=sun.lwawt.macosx.LWCToolkit, buck.mode=package, buck.buck_build_type_info=/Users/stevenlee/Downloads/BuckTest 3/.buckd/resources/ad23befe7c1a36c999860af0af69e726f1c8e423/buck_build_type_info, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, buck.dx=/Users/stevenlee/Downloads/BuckTest 3/.buckd/resources/ad23befe7c1a36c999860af0af69e726f1c8e423/dx, buck.git_commit_timestamp=-1, user.home=/Users/stevenlee, java.specification.vendor=Oracle Corporation, buck.git_dirty=0, java.library.path=/Users/stevenlee/Downloads/BuckTest 3/.buckd/resources/ad23befe7c1a36c999860af0af69e726f1c8e423, java.vendor.url=http://java.oracle.com/, java.vm.vendor=Oracle Corporation, gopherProxySet=false, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=com.facebook.buck.cli.bootstrapper.ClassLoaderBootstrapper com.facebook.buck.cli.Main$DaemonBootstrap local:.buckd/sock 180000, java.class.path=/Users/stevenlee/Downloads/BuckTest 3/.buckd/resources/ad23befe7c1a36c999860af0af69e726f1c8e423/bootstrapper_jar, buck.buckd_dir=/Users/stevenlee/Downloads/BuckTest 3/.buckd, buck.path_to_pathlib_py=/Users/stevenlee/Downloads/BuckTest 3/.buckd/resources/ad23befe7c1a36c999860af0af69e726f1c8e423/pathlib.py, buck.buckd_launch_time_nanos=158044577246401, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=unknown, java.awt.headless=true, java.io.tmpdir=/Users/stevenlee/Downloads/BuckTest 3/.buckd/tmp/buck_run.AzLW03, buck.android_agent_path=/Users/stevenlee/Downloads/BuckTest 3/.buckd/resources/ad23befe7c1a36c999860af0af69e726f1c8e423/android_agent_path, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, buck.path_to_python_dsl=, jna.platform.library.path=/usr/lib:/usr/lib, os.arch=x86_64, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, java.ext.dirs=/Users/stevenlee/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, java.util.logging.config.class=com.facebook.buck.cli.bootstrapper.LogConfig, buck.path_to_six_py=/Users/stevenlee/Downloads/BuckTest 3/.buckd/resources/ad23befe7c1a36c999860af0af69e726f1c8e423/six.py, user.dir=/Users/stevenlee/Downloads/BuckTest 3, java.nio.file.spi.DefaultFileSystemProvider=com.facebook.buck.cli.bootstrapper.filesystem.BuckFileSystemProvider, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, buck.path_to_typing=/Users/stevenlee/Downloads/BuckTest 3/.buckd/resources/ad23befe7c1a36c999860af0af69e726f1c8e423/path_to_typing, buck.native_exopackage_fake_path=/Users/stevenlee/Downloads/BuckTest 3/.buckd/resources/ad23befe7c1a36c999860af0af69e726f1c8e423/native_exopackage_fake_path, file.encoding=UTF-8, java.specification.version=1.8}
+[2019-04-11 15:23:28.916][debug][command:null][tid:14][com.facebook.buck.util.config.Configs] Loading configuration for /Users/stevenlee/Downloads/BuckTest 3
+[2019-04-11 15:23:28.916][debug][command:null][tid:14][com.facebook.buck.util.config.Configs] Loaded project configuration file /Users/stevenlee/Downloads/BuckTest 3/.buckconfig
+[2019-04-11 15:23:28.916][debug][command:null][tid:14][com.facebook.buck.util.config.Configs] Adding configuration overrides RawConfig{values={}}
+[2019-04-11 15:23:28.918][info ][command:null][tid:14][com.facebook.buck.io.watchman.WatchmanFactory] Creating for: [/Users/stevenlee/Downloads/BuckTest 3]
+[2019-04-11 15:23:28.918][debug][command:null][tid:14][com.facebook.buck.io.ExecutableFinder] Executable 'watchman' mapped to 'Optional[/usr/local/bin/watchman]'
+[2019-04-11 15:23:28.918][debug][command:null][tid:14][com.facebook.buck.util.ListeningProcessExecutor] Launching process with params ProcessExecutorParams{command=[/usr/local/bin/watchman, --output-encoding=bser, get-sockname]}
+[2019-04-11 15:23:28.919][debug][command:null][tid:14][com.facebook.buck.util.ListeningProcessExecutor] Successfully launched process com.zaxxer.nuprocess.osx.OsxProcess@34510167
+[2019-04-11 15:23:28.919][debug][command:null][tid:14][com.facebook.buck.util.ListeningProcessExecutor] Waiting for process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@6af89093 timeout 1000000000 NANOSECONDS
+[2019-04-11 15:23:28.936][debug][command:null][tid:14][com.facebook.buck.util.ListeningProcessExecutor] Wait for process returned 0
+[2019-04-11 15:23:28.936][debug][command:null][tid:14][com.facebook.buck.io.watchman.WatchmanFactory] Waited 17 ms for Watchman command get-sockname, exit code 0
+[2019-04-11 15:23:28.937][debug][command:null][tid:14][com.facebook.buck.io.watchman.WatchmanFactory] stdout of command: {sockname=/usr/local/var/run/watchman/stevenlee-state/sock, version=4.9.0}
+[2019-04-11 15:23:28.937][info ][command:null][tid:14][com.facebook.buck.io.watchman.WatchmanFactory] Connecting to Watchman version 4.9.0 at /usr/local/var/run/watchman/stevenlee-state/sock
+[2019-04-11 15:23:28.937][debug][command:null][tid:14][com.facebook.buck.io.watchman.WatchmanTransportClient] Query [version, {required=[cmd-watch-project], optional=[term-dirname, cmd-watch-project, wildmatch, wildmatch_multislash, glob_generator, clock-sync-timeout]}] returned in 0 ms
+[2019-04-11 15:23:28.937][info ][command:null][tid:14][com.facebook.buck.io.watchman.WatchmanFactory] Took 0 ms to query capabilities {term-dirname=DIRNAME, cmd-watch-project=SUPPORTS_PROJECT_WATCH, wildmatch=WILDMATCH_GLOB, wildmatch_multislash=WILDMATCH_MULTISLASH, glob_generator=GLOB_GENERATOR, clock-sync-timeout=CLOCK_SYNC_TIMEOUT}
+[2019-04-11 15:23:28.938][debug][command:null][tid:14][com.facebook.buck.io.watchman.WatchmanFactory] Got capabilities response: {clock-sync-timeout=true, glob_generator=true, wildmatch_multislash=false, cmd-watch-project=true, wildmatch=true, term-dirname=true}
+[2019-04-11 15:23:28.938][debug][command:null][tid:14][com.facebook.buck.io.watchman.WatchmanFactory] Got Watchman capabilities: [CLOCK_SYNC_TIMEOUT, GLOB_GENERATOR, SUPPORTS_PROJECT_WATCH, WILDMATCH_GLOB, DIRNAME]
+[2019-04-11 15:23:28.938][info ][command:null][tid:14][com.facebook.buck.io.watchman.WatchmanFactory] Adding watchman root: /Users/stevenlee/Downloads/BuckTest 3
+[2019-04-11 15:23:28.938][debug][command:null][tid:14][com.facebook.buck.io.watchman.WatchmanTransportClient] Query [watch-project, /Users/stevenlee/Downloads/BuckTest 3] returned in 0 ms
+[2019-04-11 15:23:28.938][debug][command:null][tid:14][com.facebook.buck.io.watchman.WatchmanTransportClient] Query [watch-project, /Users/stevenlee/Downloads/BuckTest 3] returned in 0 ms
+[2019-04-11 15:23:28.938][info ][command:null][tid:14][com.facebook.buck.io.watchman.WatchmanFactory] Took 0 ms to add root /Users/stevenlee/Downloads/BuckTest 3
+[2019-04-11 15:23:28.942][debug][command:null][tid:14][com.facebook.buck.io.watchman.WatchmanTransportClient] Query [clock, /Users/stevenlee/Downloads/BuckTest 3, {sync_timeout=100}] returned in 3 ms
+[2019-04-11 15:23:28.942][info ][command:null][tid:14][com.facebook.buck.io.watchman.WatchmanFactory] Took 3 ms to query for initial clock id Optional[c:1554802630:396:1:5271]
+[2019-04-11 15:23:28.942][debug][command:null][tid:14][com.facebook.buck.io.watchman.WatchmanFactory] Connected to Watchman
+[2019-04-11 15:23:28.942][debug][command:null][tid:14][com.facebook.buck.io.watchman.WatchmanTransportClient] Closing Watchman transport.
+[2019-04-11 15:23:28.942][debug][command:null][tid:14][com.facebook.buck.cli.Main] Watchman capabilities: [CLOCK_SYNC_TIMEOUT, GLOB_GENERATOR, SUPPORTS_PROJECT_WATCH, WILDMATCH_GLOB, DIRNAME] Project watches: {/Users/stevenlee/Downloads/BuckTest 3=ProjectWatch{watchRoot=/Users/stevenlee/Downloads/BuckTest 3}} Glob handler config: PYTHON Query timeout ms config: Optional.empty
+[2019-04-11 15:23:28.955][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleToolchainDiscovery] Searching for Xcode toolchains under /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains
+[2019-04-11 15:23:28.955][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleToolchainDiscovery] Searching for Xcode toolchains in /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains
+[2019-04-11 15:23:28.955][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleToolchainDiscovery] Getting identifier for for Xcode toolchain under /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+[2019-04-11 15:23:28.955][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleToolchainDiscovery] Mapped SDK identifier com.apple.dt.toolchain.XcodeDefault to path /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+[2019-04-11 15:23:28.955][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Searching for Xcode platforms under /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms
+[2019-04-11 15:23:28.955][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Searching for Xcode SDKs in /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms
+[2019-04-11 15:23:28.955][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Fetching SDK name for /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.1.sdk
+[2019-04-11 15:23:28.956][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Found SDK AppleSdk{name=appletvos12.1, version=12.1, applePlatform=ApplePlatform{name=appletvos, provisioningProfileName=tvOS, architectures=[arm64], minVersionFlagPrefix=-mtvos-version-min=, appIncludesFrameworks=false}, architectures=[arm64], toolchains=[AppleToolchain{identifier=com.apple.dt.toolchain.XcodeDefault, path=/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain}]}
+[2019-04-11 15:23:28.956][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Fetching SDK name for /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS.sdk
+[2019-04-11 15:23:28.956][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Skipping already scanned SDK directory /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS.sdk
+[2019-04-11 15:23:28.956][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Fetching SDK name for /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk
+[2019-04-11 15:23:28.956][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Found SDK AppleSdk{name=iphoneos12.1, version=12.1, applePlatform=ApplePlatform{name=iphoneos, swiftName=ios, provisioningProfileName=iOS, architectures=[armv7, arm64], minVersionFlagPrefix=-mios-version-min=, stubBinaryPath=Library/Application Support/WatchKit/WK, appIncludesFrameworks=false}, architectures=[armv7, arm64], toolchains=[AppleToolchain{identifier=com.apple.dt.toolchain.XcodeDefault, path=/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain}]}
+[2019-04-11 15:23:28.956][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Fetching SDK name for /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk
+[2019-04-11 15:23:28.956][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Skipping already scanned SDK directory /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk
+[2019-04-11 15:23:28.957][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Fetching SDK name for /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS.sdk
+[2019-04-11 15:23:28.957][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Found SDK AppleSdk{name=watchos5.1, version=5.1, applePlatform=ApplePlatform{name=watchos, provisioningProfileName=iOS, architectures=[armv7k, arm64_32], minVersionFlagPrefix=-mwatchos-version-min=, stubBinaryPath=Library/Application Support/WatchKit/WK, appIncludesFrameworks=false}, architectures=[armv7k, arm64_32], toolchains=[AppleToolchain{identifier=com.apple.dt.toolchain.XcodeDefault, path=/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain}]}
+[2019-04-11 15:23:28.957][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Fetching SDK name for /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.1.sdk
+[2019-04-11 15:23:28.957][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Skipping already scanned SDK directory /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS.sdk
+[2019-04-11 15:23:28.957][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Fetching SDK name for /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk
+[2019-04-11 15:23:28.957][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Found SDK AppleSdk{name=macosx10.14, version=10.14, applePlatform=ApplePlatform{name=macosx, architectures=[i386, x86_64], minVersionFlagPrefix=-mmacosx-version-min=, appIncludesFrameworks=true}, architectures=[i386, x86_64], toolchains=[AppleToolchain{identifier=com.apple.dt.toolchain.XcodeDefault, path=/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain}]}
+[2019-04-11 15:23:28.957][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Fetching SDK name for /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
+[2019-04-11 15:23:28.958][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Skipping already scanned SDK directory /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
+[2019-04-11 15:23:28.958][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Fetching SDK name for /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator.sdk
+[2019-04-11 15:23:28.958][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Found SDK AppleSdk{name=watchsimulator5.1, version=5.1, applePlatform=ApplePlatform{name=watchsimulator, architectures=[i386, x86_64], minVersionFlagPrefix=-mwatchos-simulator-version-min=, stubBinaryPath=Library/Application Support/WatchKit/WK, appIncludesFrameworks=false}, architectures=[i386, x86_64], toolchains=[AppleToolchain{identifier=com.apple.dt.toolchain.XcodeDefault, path=/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain}]}
+[2019-04-11 15:23:28.958][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Fetching SDK name for /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator5.1.sdk
+[2019-04-11 15:23:28.958][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Skipping already scanned SDK directory /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator.sdk
+[2019-04-11 15:23:28.958][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Fetching SDK name for /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/SDKs/AppleTVSimulator.sdk
+[2019-04-11 15:23:28.959][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Found SDK AppleSdk{name=appletvsimulator12.1, version=12.1, applePlatform=ApplePlatform{name=appletvsimulator, swiftName=tvos, architectures=[x86_64], minVersionFlagPrefix=-mtvos-simulator-version-min=, appIncludesFrameworks=false}, architectures=[x86_64], toolchains=[AppleToolchain{identifier=com.apple.dt.toolchain.XcodeDefault, path=/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain}]}
+[2019-04-11 15:23:28.959][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Fetching SDK name for /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/SDKs/AppleTVSimulator12.1.sdk
+[2019-04-11 15:23:28.959][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Skipping already scanned SDK directory /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/SDKs/AppleTVSimulator.sdk
+[2019-04-11 15:23:28.959][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Fetching SDK name for /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk
+[2019-04-11 15:23:28.959][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Found SDK AppleSdk{name=iphonesimulator12.1, version=12.1, applePlatform=ApplePlatform{name=iphonesimulator, swiftName=ios, architectures=[i386, x86_64], minVersionFlagPrefix=-mios-simulator-version-min=, stubBinaryPath=Library/Application Support/WatchKit/WK, appIncludesFrameworks=false}, architectures=[i386, x86_64], toolchains=[AppleToolchain{identifier=com.apple.dt.toolchain.XcodeDefault, path=/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain}]}
+[2019-04-11 15:23:28.959][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Fetching SDK name for /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk
+[2019-04-11 15:23:28.959][debug][command:null][tid:14][com.facebook.buck.apple.toolchain.impl.AppleSdkDiscovery] Skipping already scanned SDK directory /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk
+[2019-04-11 15:23:28.960][warn ][command:null][tid:14][com.facebook.buck.core.toolchain.impl.DefaultToolchainProvider] Cannot create a toolchain: android-ndk-location. Cause: Android NDK could not be found. Make sure to set one of these  environment variables: ANDROID_NDK_REPOSITORY, ANDROID_NDK, or NDK_HOME or ndk.ndk_path or ndk.ndk_repository_path in your .buckconfig
+[2019-04-11 15:23:28.962][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.facebook.buck.event.listener.RenderingConsole] Starting render scheduler (interval 100 ms)
+[2019-04-11 15:23:28.963][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.google.common.util.concurrent.ServiceManager] Starting PerfStatsTracking [RUNNING].
+[2019-04-11 15:23:28.963][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.google.common.util.concurrent.ServiceManager] Started PerfStatsTracking [RUNNING] in 682.6 μs.
+[2019-04-11 15:23:28.964][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.google.common.util.concurrent.ServiceManager] Starting ProcessTracker [STARTING].
+[2019-04-11 15:23:28.964][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.facebook.buck.util.environment.MacWifiSsidFinder] Getting current SSID..
+[2019-04-11 15:23:28.964][debug][command:null][tid:1003][com.facebook.buck.util.perf.ProcessTracker] startUp
+[2019-04-11 15:23:28.965][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.facebook.buck.util.environment.MacWifiSsidFinder] Getting SSID from Wi-Fi interface: <CWInterface: 0x7ff4a3865430> [interfaceName=en0]
+[2019-04-11 15:23:28.965][debug][command:null][tid:1003][com.google.common.util.concurrent.ServiceManager] Started ProcessTracker [RUNNING] in 1.523 ms.
+[2019-04-11 15:23:28.965][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.facebook.buck.util.environment.MacWifiSsidFinder] No SSID found for interface <CWInterface: 0x7ff4a3865430> [interfaceName=en0].
+[2019-04-11 15:23:28.966][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.facebook.buck.cli.Main] InvocationInfo BuildId=[71c033c4-141c-4be7-8228-ff0c8ab65bdf] Args=[build, //BuckTest:BuckTest]
+[2019-04-11 15:23:28.968][debug][command:null][tid:1007][com.facebook.buck.util.environment.MacNetworkConfiguration] Determine network service order and extract device names
+[2019-04-11 15:23:28.968][warn ][command:null][tid:1006][com.facebook.buck.event.listener.PublicAnnouncementManager] Failed to get public announcements. Reason: Failed to establish connection to server.
+[2019-04-11 15:23:28.968][debug][command:null][tid:1007][com.facebook.buck.util.ListeningProcessExecutor] Launching process with params ProcessExecutorParams{command=[networksetup, -listnetworkserviceorder, ]}
+[2019-04-11 15:23:28.969][debug][command:null][tid:1007][com.facebook.buck.util.ListeningProcessExecutor] Successfully launched process com.zaxxer.nuprocess.osx.OsxProcess@411ca12f
+[2019-04-11 15:23:28.969][debug][command:null][tid:1007][com.facebook.buck.util.ListeningProcessExecutor] Waiting for process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@7d63ee30 timeout 1000 MILLISECONDS
+[2019-04-11 15:23:28.972][debug][command:null][tid:1011][com.facebook.buck.io.watchman.WatchmanTransportClient] Query [query, /Users/stevenlee/Downloads/BuckTest 3, {since=c:1554802630:396:1:5244, expression=[not, [anyof, [type, d], [dirname, .idea], [dirname, .buckd], [dirname, buck-out/cache], [dirname, tools], [dirname, .git], [dirname, buck-out/.trash], [dirname, buck-out], [match, [build], wholename, {includedotfiles=true}], [match, **/*.pbxproj, wholename, {includedotfiles=true}], [match, **/*.xcscheme, wholename, {includedotfiles=true}], [match, **/*.xcworkspacedata, wholename, {includedotfiles=true}], [match, **/*~, wholename, {includedotfiles=true}], [match, **/#*#, wholename, {includedotfiles=true}], [match, **/.#*, wholename, {includedotfiles=true}], [match, **/*.swo, wholename, {includedotfiles=true}], [match, **/*.swp, wholename, {includedotfiles=true}], [match, **/*.swpx, wholename, {includedotfiles=true}], [match, **/*.un~, wholename, {includedotfiles=true}], [match, **/*.netrhwist, wholename, {includedotfiles=true}], [match, .idea, wholename, {includedotfiles=true}], [match, .iml, wholename, {includedotfiles=true}], [match, **/*.pydevproject, wholename, {includedotfiles=true}], [match, .project, wholename, {includedotfiles=true}], [match, .metadata, wholename, {includedotfiles=true}], [match, **/*.tmp, wholename, {includedotfiles=true}], [match, **/*.bak, wholename, {includedotfiles=true}], [match, **/*.nib, wholename, {includedotfiles=true}], [match, .classpath, wholename, {includedotfiles=true}], [match, .settings, wholename, {includedotfiles=true}], [match, .loadpath, wholename, {includedotfiles=true}], [match, .externalToolBuilders, wholename, {includedotfiles=true}], [match, .cproject, wholename, {includedotfiles=true}], [match, .buildpath, wholename, {includedotfiles=true}], [match, .DS_Store, wholename, {includedotfiles=true}], [match, .AppleDouble, wholename, {includedotfiles=true}], [match, .LSOverride, wholename, {includedotfiles=true}], [match, .Spotlight-V100, wholename, {includedotfiles=true}], [match, .Trashes, wholename, {includedotfiles=true}], [match, $RECYCLE.BIN, wholename, {includedotfiles=true}], [match, **/*.sublime-workspace, wholename, {includedotfiles=true}]]], empty_on_fresh_instance=true, fields=[name, exists, new]}] returned in 2 ms
+[2019-04-11 15:23:28.972][debug][command:null][tid:1011][com.facebook.buck.io.watchman.WatchmanWatcher] Updating Watchman Cursor from c:1554802630:396:1:5244 to c:1554802630:396:1:5273
+[2019-04-11 15:23:28.972][warn ][command:null][tid:1011][com.facebook.buck.io.watchman.WatchmanWatcher] Posting WatchEvent: WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=MODIFY, path=Pods/BUCK}
+[2019-04-11 15:23:28.973][debug][command:null][tid:1011][com.facebook.buck.parser.DaemonicCellState] Invalidating target for path /Users/stevenlee/Downloads/BuckTest 3/Pods/BUCK: //Pods:leveldbLibrary
+[2019-04-11 15:23:28.973][debug][command:null][tid:1011][com.facebook.buck.parser.DaemonicCellState] Invalidating target for path /Users/stevenlee/Downloads/BuckTest 3/Pods/BUCK: //Pods:FirebaseCore
+[2019-04-11 15:23:28.973][debug][command:null][tid:1011][com.facebook.buck.parser.DaemonicCellState] Invalidating target for path /Users/stevenlee/Downloads/BuckTest 3/Pods/BUCK: //Pods:GoogleUtilities
+[2019-04-11 15:23:28.973][debug][command:null][tid:1011][com.facebook.buck.parser.DaemonicCellState] Invalidating target for path /Users/stevenlee/Downloads/BuckTest 3/Pods/BUCK: //Pods:Alamofire
+[2019-04-11 15:23:28.973][debug][command:null][tid:1011][com.facebook.buck.parser.DaemonicCellState] Invalidating target for path /Users/stevenlee/Downloads/BuckTest 3/Pods/BUCK: //Pods:IGListKit
+[2019-04-11 15:23:28.973][debug][command:null][tid:1011][com.facebook.buck.parser.DaemonicCellState] Invalidating target for path /Users/stevenlee/Downloads/BuckTest 3/Pods/BUCK: //Pods:FirebaseDatabase
+[2019-04-11 15:23:28.973][debug][command:null][tid:1011][com.facebook.buck.parser.DaemonicCellState] Invalidating target for path /Users/stevenlee/Downloads/BuckTest 3/Pods/BUCK: //Pods:FirebaseAuthInterop
+[2019-04-11 15:23:28.973][debug][command:null][tid:1011][com.facebook.buck.io.watchman.WatchmanWatcher] Posted 1 Watchman events.
+[2019-04-11 15:23:28.973][debug][command:null][tid:1011][com.facebook.buck.io.watchman.WatchmanTransportClient] Closing Watchman transport.
+[2019-04-11 15:23:28.974][info ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1009][com.facebook.buck.event.listener.LoggingBuildListener] Build started at 2019-04-11 15:23:28.974
+[2019-04-11 15:23:28.977][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1014][com.facebook.buck.io.ExecutableFinder] Executable 'python2' mapped to 'Optional[/usr/local/bin/python2]'
+[2019-04-11 15:23:28.978][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1014][com.facebook.buck.parser.BuckPythonProgram] Writing python rules stub to /Users/stevenlee/Downloads/BuckTest 3/.buckd/tmp/buck_run.AzLW03/buck_python_program134165878701254562.
+[2019-04-11 15:23:28.996][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1014][com.facebook.buck.parser.BuckPythonProgram] Created temporary buck.py instance at /Users/stevenlee/Downloads/BuckTest 3/.buckd/tmp/buck_run.AzLW03/buck_python_program134165878701254562.
+[2019-04-11 15:23:28.997][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1014][com.facebook.buck.parser.PythonDslProjectBuildFileParser] Starting buck.py command: [/usr/local/bin/python2, -u, /Users/stevenlee/Downloads/BuckTest 3/.buckd/tmp/buck_run.AzLW03/buck_python_program134165878701254562/__main__.py, --allow_empty_globs, --watchman_glob_stat_results, --watchman_use_glob_generator, --watchman_socket_path, /usr/local/var/run/watchman/stevenlee-state/sock, --project_root, /Users/stevenlee/Downloads/BuckTest 3, --cell_name, , --build_file_name, BUCK, --quiet, --config, /Users/stevenlee/Downloads/BuckTest 3/.buckd/tmp/buck_run.AzLW03/raw_config3510105510803889576.json, --ignore_paths, /Users/stevenlee/Downloads/BuckTest 3/.buckd/tmp/buck_run.AzLW03/ignore_paths4657229334804838752.json, --warn_about_deprecated_syntax] environment: Optional[{BUCK_TTY=1, MFLAGS=, TERM_SESSION_ID=B7F867FC-6086-443D-86C9-B9216F788C9B, HOME=/Users/stevenlee, XPC_SERVICE_NAME=0, Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.N5oPspERQh/Render, NAILGUN_FILESEPARATOR=/, BUCK_PYTHON_SPACE_INIT_TIME=14, LOGNAME=stevenlee, BUCK_BUILD_ID=71c033c4-141c-4be7-8228-ff0c8ab65bdf, TMPDIR=/var/folders/3q/crrbqtbs2vs_j7z2zzqj4g240000gp/T/, USER=stevenlee, SHELL=/bin/bash, TERM_PROGRAM_VERSION=421.1.1, PWD=/Users/stevenlee/Downloads/BuckTest 3, XPC_FLAGS=0x0, BUCK_TERM_COLUMNS=204, MAKELEVEL=1, LC_CTYPE=UTF-8, TERM_PROGRAM=Apple_Terminal, __CF_USER_TEXT_ENCODING=0x1F6:0:2, SHLVL=1, NAILGUN_TTY_2=1, BUCK_CLASSPATH=/Users/stevenlee/Downloads/BuckTest 3/.buckd/resources/ad23befe7c1a36c999860af0af69e726f1c8e423/buck_server, CLASSPATH=/Users/stevenlee/Downloads/BuckTest 3/.buckd/resources/ad23befe7c1a36c999860af0af69e726f1c8e423/bootstrapper_jar, NAILGUN_TTY_1=1, NAILGUN_TTY_0=1, MAKEFLAGS=, NAILGUN_PATHSEPARATOR=:, PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS::, TERM=xterm-256color, OLDPWD=/Users/stevenlee/Documents/projects/Bolt2.0, _=/usr/bin/make, SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.xtBSbF1Zl8/Listeners, PYTHONHASHSEED=7}]
+[2019-04-11 15:23:29.001][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1014][com.facebook.buck.parser.PythonDslProjectBuildFileParser] Started process com.facebook.buck.util.ProcessExecutor$LaunchedProcessImpl@6e859004 successfully
+[2019-04-11 15:23:29.011][debug][command:null][tid:1007][com.facebook.buck.util.ListeningProcessExecutor] Wait for process returned 0
+[2019-04-11 15:23:29.011][debug][command:null][tid:1007][com.facebook.buck.util.ListeningProcessExecutor] Destroying process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@7d63ee30 (force true)
+[2019-04-11 15:23:29.012][debug][command:null][tid:1007][com.facebook.buck.util.environment.MacNetworkConfiguration] Determine active state of media for device
+[2019-04-11 15:23:29.012][debug][command:null][tid:1007][com.facebook.buck.util.ListeningProcessExecutor] Launching process with params ProcessExecutorParams{command=[networksetup, -getMedia, en7]}
+[2019-04-11 15:23:29.013][debug][command:null][tid:1007][com.facebook.buck.util.ListeningProcessExecutor] Successfully launched process com.zaxxer.nuprocess.osx.OsxProcess@43c33618
+[2019-04-11 15:23:29.013][debug][command:null][tid:1007][com.facebook.buck.util.ListeningProcessExecutor] Waiting for process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@f84ae78 timeout 1000 MILLISECONDS
+[2019-04-11 15:23:29.046][debug][command:null][tid:1007][com.facebook.buck.util.ListeningProcessExecutor] Wait for process returned 0
+[2019-04-11 15:23:29.046][debug][command:null][tid:1007][com.facebook.buck.util.ListeningProcessExecutor] Destroying process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@f84ae78 (force true)
+[2019-04-11 15:23:29.046][debug][command:null][tid:1007][com.facebook.buck.util.environment.MacNetworkConfiguration] Determine WiFi SSID of device
+[2019-04-11 15:23:29.047][debug][command:null][tid:1007][com.facebook.buck.util.ListeningProcessExecutor] Launching process with params ProcessExecutorParams{command=[networksetup, -getairportnetwork, en7]}
+[2019-04-11 15:23:29.048][debug][command:null][tid:1007][com.facebook.buck.util.ListeningProcessExecutor] Successfully launched process com.zaxxer.nuprocess.osx.OsxProcess@5589945f
+[2019-04-11 15:23:29.048][debug][command:null][tid:1007][com.facebook.buck.util.ListeningProcessExecutor] Waiting for process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@7bd1969c timeout 1000 MILLISECONDS
+[2019-04-11 15:23:29.082][debug][command:null][tid:1007][com.facebook.buck.util.ListeningProcessExecutor] Wait for process returned 10
+[2019-04-11 15:23:29.082][debug][command:null][tid:1007][com.facebook.buck.util.ListeningProcessExecutor] Destroying process com.facebook.buck.util.ListeningProcessExecutor$LaunchedProcessImpl@7bd1969c (force true)
+[2019-04-11 15:23:29.374][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] SDK AppleSdk{name=appletvos12.1, version=12.1, applePlatform=ApplePlatform{name=appletvos, provisioningProfileName=tvOS, architectures=[arm64], minVersionFlagPrefix=-mtvos-version-min=, appIncludesFrameworks=false}, architectures=[arm64], toolchains=[AppleToolchain{identifier=com.apple.dt.toolchain.XcodeDefault, path=/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain}]} using default version 12.1
+[2019-04-11 15:23:29.378][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Xcode build version is: 10B61
+[2019-04-11 15:23:29.381][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Apple toolchain path: /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+[2019-04-11 15:23:29.381][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Headers verification platform whitelist: [^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/Library/Frameworks\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS.sdk\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain\E\/.*]
+[2019-04-11 15:23:29.382][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] SDK AppleSdk{name=iphoneos12.1, version=12.1, applePlatform=ApplePlatform{name=iphoneos, swiftName=ios, provisioningProfileName=iOS, architectures=[armv7, arm64], minVersionFlagPrefix=-mios-version-min=, stubBinaryPath=Library/Application Support/WatchKit/WK, appIncludesFrameworks=false}, architectures=[armv7, arm64], toolchains=[AppleToolchain{identifier=com.apple.dt.toolchain.XcodeDefault, path=/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain}]} using default version 11.0
+[2019-04-11 15:23:29.382][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Xcode build version is: 10B61
+[2019-04-11 15:23:29.384][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Apple toolchain path: /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+[2019-04-11 15:23:29.384][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Headers verification platform whitelist: [^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain\E\/.*]
+[2019-04-11 15:23:29.385][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Xcode build version is: 10B61
+[2019-04-11 15:23:29.386][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Apple toolchain path: /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+[2019-04-11 15:23:29.386][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Headers verification platform whitelist: [^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain\E\/.*]
+[2019-04-11 15:23:29.386][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] SDK AppleSdk{name=watchos5.1, version=5.1, applePlatform=ApplePlatform{name=watchos, provisioningProfileName=iOS, architectures=[armv7k, arm64_32], minVersionFlagPrefix=-mwatchos-version-min=, stubBinaryPath=Library/Application Support/WatchKit/WK, appIncludesFrameworks=false}, architectures=[armv7k, arm64_32], toolchains=[AppleToolchain{identifier=com.apple.dt.toolchain.XcodeDefault, path=/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain}]} using default version 5.1
+[2019-04-11 15:23:29.387][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Xcode build version is: 10B61
+[2019-04-11 15:23:29.388][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Apple toolchain path: /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+[2019-04-11 15:23:29.388][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Headers verification platform whitelist: [^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/Library/Frameworks\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS.sdk\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain\E\/.*]
+[2019-04-11 15:23:29.391][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Xcode build version is: 10B61
+[2019-04-11 15:23:29.392][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Apple toolchain path: /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+[2019-04-11 15:23:29.392][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Headers verification platform whitelist: [^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/Library/Frameworks\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS.sdk\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain\E\/.*]
+[2019-04-11 15:23:29.393][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] SDK AppleSdk{name=macosx10.14, version=10.14, applePlatform=ApplePlatform{name=macosx, architectures=[i386, x86_64], minVersionFlagPrefix=-mmacosx-version-min=, appIncludesFrameworks=true}, architectures=[i386, x86_64], toolchains=[AppleToolchain{identifier=com.apple.dt.toolchain.XcodeDefault, path=/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain}]} using default version 10.14
+[2019-04-11 15:23:29.393][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Xcode build version is: 10B61
+[2019-04-11 15:23:29.402][warn ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] In /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/version.plist, missing ProductBuildVersion. Build version will be unset for this platform.
+[2019-04-11 15:23:29.403][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Apple toolchain path: /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+[2019-04-11 15:23:29.403][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Headers verification platform whitelist: [^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain\E\/.*]
+[2019-04-11 15:23:29.404][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Xcode build version is: 10B61
+[2019-04-11 15:23:29.405][warn ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] In /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/version.plist, missing ProductBuildVersion. Build version will be unset for this platform.
+[2019-04-11 15:23:29.405][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Apple toolchain path: /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+[2019-04-11 15:23:29.405][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Headers verification platform whitelist: [^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain\E\/.*]
+[2019-04-11 15:23:29.405][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] SDK AppleSdk{name=watchsimulator5.1, version=5.1, applePlatform=ApplePlatform{name=watchsimulator, architectures=[i386, x86_64], minVersionFlagPrefix=-mwatchos-simulator-version-min=, stubBinaryPath=Library/Application Support/WatchKit/WK, appIncludesFrameworks=false}, architectures=[i386, x86_64], toolchains=[AppleToolchain{identifier=com.apple.dt.toolchain.XcodeDefault, path=/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain}]} using default version 5.1
+[2019-04-11 15:23:29.406][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Xcode build version is: 10B61
+[2019-04-11 15:23:29.407][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Apple toolchain path: /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+[2019-04-11 15:23:29.407][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Headers verification platform whitelist: [^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/Library/Frameworks\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator.sdk\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain\E\/.*]
+[2019-04-11 15:23:29.408][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Xcode build version is: 10B61
+[2019-04-11 15:23:29.409][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Apple toolchain path: /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+[2019-04-11 15:23:29.409][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Headers verification platform whitelist: [^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/Library/Frameworks\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator.sdk\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain\E\/.*]
+[2019-04-11 15:23:29.411][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] SDK AppleSdk{name=appletvsimulator12.1, version=12.1, applePlatform=ApplePlatform{name=appletvsimulator, swiftName=tvos, architectures=[x86_64], minVersionFlagPrefix=-mtvos-simulator-version-min=, appIncludesFrameworks=false}, architectures=[x86_64], toolchains=[AppleToolchain{identifier=com.apple.dt.toolchain.XcodeDefault, path=/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain}]} using default version 12.1
+[2019-04-11 15:23:29.411][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Xcode build version is: 10B61
+[2019-04-11 15:23:29.412][warn ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/version.plist does not exist. Build version will be unset for this platform.
+[2019-04-11 15:23:29.412][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Apple toolchain path: /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+[2019-04-11 15:23:29.412][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Headers verification platform whitelist: [^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/Library/Frameworks\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/SDKs/AppleTVSimulator.sdk\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain\E\/.*]
+[2019-04-11 15:23:29.414][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] SDK AppleSdk{name=iphonesimulator12.1, version=12.1, applePlatform=ApplePlatform{name=iphonesimulator, swiftName=ios, architectures=[i386, x86_64], minVersionFlagPrefix=-mios-simulator-version-min=, stubBinaryPath=Library/Application Support/WatchKit/WK, appIncludesFrameworks=false}, architectures=[i386, x86_64], toolchains=[AppleToolchain{identifier=com.apple.dt.toolchain.XcodeDefault, path=/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain}]} using default version 11.0
+[2019-04-11 15:23:29.415][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Xcode build version is: 10B61
+[2019-04-11 15:23:29.415][warn ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/version.plist does not exist. Build version will be unset for this platform.
+[2019-04-11 15:23:29.415][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Apple toolchain path: /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+[2019-04-11 15:23:29.416][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Headers verification platform whitelist: [^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain\E\/.*]
+[2019-04-11 15:23:29.416][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Xcode build version is: 10B61
+[2019-04-11 15:23:29.417][warn ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/version.plist does not exist. Build version will be unset for this platform.
+[2019-04-11 15:23:29.417][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Apple toolchain path: /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+[2019-04-11 15:23:29.417][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Headers verification platform whitelist: [^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain\E\/.*]
+[2019-04-11 15:23:29.417][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] SDK AppleSdk{name=appletvos, version=12.1, applePlatform=ApplePlatform{name=appletvos, provisioningProfileName=tvOS, architectures=[arm64], minVersionFlagPrefix=-mtvos-version-min=, appIncludesFrameworks=false}, architectures=[arm64], toolchains=[AppleToolchain{identifier=com.apple.dt.toolchain.XcodeDefault, path=/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain}]} using default version 12.1
+[2019-04-11 15:23:29.418][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Xcode build version is: 10B61
+[2019-04-11 15:23:29.419][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Apple toolchain path: /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+[2019-04-11 15:23:29.419][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Headers verification platform whitelist: [^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/Library/Frameworks\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS.sdk\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain\E\/.*]
+[2019-04-11 15:23:29.419][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] SDK AppleSdk{name=appletvsimulator, version=12.1, applePlatform=ApplePlatform{name=appletvsimulator, swiftName=tvos, architectures=[x86_64], minVersionFlagPrefix=-mtvos-simulator-version-min=, appIncludesFrameworks=false}, architectures=[x86_64], toolchains=[AppleToolchain{identifier=com.apple.dt.toolchain.XcodeDefault, path=/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain}]} using default version 12.1
+[2019-04-11 15:23:29.420][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Xcode build version is: 10B61
+[2019-04-11 15:23:29.420][warn ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/version.plist does not exist. Build version will be unset for this platform.
+[2019-04-11 15:23:29.420][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Apple toolchain path: /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+[2019-04-11 15:23:29.421][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Headers verification platform whitelist: [^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/Library/Frameworks\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/SDKs/AppleTVSimulator.sdk\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain\E\/.*]
+[2019-04-11 15:23:29.421][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] SDK AppleSdk{name=iphoneos, version=12.1, applePlatform=ApplePlatform{name=iphoneos, swiftName=ios, provisioningProfileName=iOS, architectures=[armv7, arm64], minVersionFlagPrefix=-mios-version-min=, stubBinaryPath=Library/Application Support/WatchKit/WK, appIncludesFrameworks=false}, architectures=[armv7, arm64], toolchains=[AppleToolchain{identifier=com.apple.dt.toolchain.XcodeDefault, path=/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain}]} using default version 11.0
+[2019-04-11 15:23:29.421][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Xcode build version is: 10B61
+[2019-04-11 15:23:29.422][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Apple toolchain path: /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+[2019-04-11 15:23:29.423][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Headers verification platform whitelist: [^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain\E\/.*]
+[2019-04-11 15:23:29.423][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Xcode build version is: 10B61
+[2019-04-11 15:23:29.426][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Apple toolchain path: /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+[2019-04-11 15:23:29.426][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Headers verification platform whitelist: [^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain\E\/.*]
+[2019-04-11 15:23:29.426][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] SDK AppleSdk{name=iphonesimulator, version=12.1, applePlatform=ApplePlatform{name=iphonesimulator, swiftName=ios, architectures=[i386, x86_64], minVersionFlagPrefix=-mios-simulator-version-min=, stubBinaryPath=Library/Application Support/WatchKit/WK, appIncludesFrameworks=false}, architectures=[i386, x86_64], toolchains=[AppleToolchain{identifier=com.apple.dt.toolchain.XcodeDefault, path=/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain}]} using default version 11.0
+[2019-04-11 15:23:29.427][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Xcode build version is: 10B61
+[2019-04-11 15:23:29.427][warn ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/version.plist does not exist. Build version will be unset for this platform.
+[2019-04-11 15:23:29.428][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Apple toolchain path: /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+[2019-04-11 15:23:29.428][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Headers verification platform whitelist: [^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain\E\/.*]
+[2019-04-11 15:23:29.428][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Xcode build version is: 10B61
+[2019-04-11 15:23:29.429][warn ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/version.plist does not exist. Build version will be unset for this platform.
+[2019-04-11 15:23:29.429][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Apple toolchain path: /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+[2019-04-11 15:23:29.429][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Headers verification platform whitelist: [^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain\E\/.*]
+[2019-04-11 15:23:29.429][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] SDK AppleSdk{name=macosx, version=10.14, applePlatform=ApplePlatform{name=macosx, architectures=[i386, x86_64], minVersionFlagPrefix=-mmacosx-version-min=, appIncludesFrameworks=true}, architectures=[i386, x86_64], toolchains=[AppleToolchain{identifier=com.apple.dt.toolchain.XcodeDefault, path=/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain}]} using default version 10.14
+[2019-04-11 15:23:29.430][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Xcode build version is: 10B61
+[2019-04-11 15:23:29.431][warn ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] In /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/version.plist, missing ProductBuildVersion. Build version will be unset for this platform.
+[2019-04-11 15:23:29.431][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Apple toolchain path: /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+[2019-04-11 15:23:29.431][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Headers verification platform whitelist: [^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain\E\/.*]
+[2019-04-11 15:23:29.432][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Xcode build version is: 10B61
+[2019-04-11 15:23:29.433][warn ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] In /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/version.plist, missing ProductBuildVersion. Build version will be unset for this platform.
+[2019-04-11 15:23:29.433][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Apple toolchain path: /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+[2019-04-11 15:23:29.433][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Headers verification platform whitelist: [^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain\E\/.*]
+[2019-04-11 15:23:29.433][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] SDK AppleSdk{name=watchos, version=5.1, applePlatform=ApplePlatform{name=watchos, provisioningProfileName=iOS, architectures=[armv7k, arm64_32], minVersionFlagPrefix=-mwatchos-version-min=, stubBinaryPath=Library/Application Support/WatchKit/WK, appIncludesFrameworks=false}, architectures=[armv7k, arm64_32], toolchains=[AppleToolchain{identifier=com.apple.dt.toolchain.XcodeDefault, path=/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain}]} using default version 5.1
+[2019-04-11 15:23:29.434][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Xcode build version is: 10B61
+[2019-04-11 15:23:29.435][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Apple toolchain path: /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+[2019-04-11 15:23:29.435][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Headers verification platform whitelist: [^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/Library/Frameworks\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS.sdk\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain\E\/.*]
+[2019-04-11 15:23:29.439][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Xcode build version is: 10B61
+[2019-04-11 15:23:29.440][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Apple toolchain path: /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+[2019-04-11 15:23:29.440][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Headers verification platform whitelist: [^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/Library/Frameworks\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS.sdk\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain\E\/.*]
+[2019-04-11 15:23:29.440][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] SDK AppleSdk{name=watchsimulator, version=5.1, applePlatform=ApplePlatform{name=watchsimulator, architectures=[i386, x86_64], minVersionFlagPrefix=-mwatchos-simulator-version-min=, stubBinaryPath=Library/Application Support/WatchKit/WK, appIncludesFrameworks=false}, architectures=[i386, x86_64], toolchains=[AppleToolchain{identifier=com.apple.dt.toolchain.XcodeDefault, path=/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain}]} using default version 5.1
+[2019-04-11 15:23:29.441][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Xcode build version is: 10B61
+[2019-04-11 15:23:29.442][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Apple toolchain path: /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+[2019-04-11 15:23:29.442][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Headers verification platform whitelist: [^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/Library/Frameworks\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator.sdk\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain\E\/.*]
+[2019-04-11 15:23:29.443][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Xcode build version is: 10B61
+[2019-04-11 15:23:29.444][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Apple toolchain path: /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+[2019-04-11 15:23:29.444][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.apple.toolchain.impl.AppleCxxPlatforms] Headers verification platform whitelist: [^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/Library/Frameworks\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator.sdk\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain\E\/.*]
+[2019-04-11 15:23:29.445][warn ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.core.toolchain.impl.DefaultToolchainProvider] Cannot create a toolchain: ndk-cxx-platforms. Cause: Android NDK could not be found. Make sure to set one of these  environment variables: ANDROID_NDK_REPOSITORY, ANDROID_NDK, or NDK_HOME or ndk.ndk_path or ndk.ndk_repository_path in your .buckconfig
+[2019-04-11 15:23:29.445][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.io.ExecutableFinder] Executable 'clang' mapped to 'Optional[/usr/bin/clang]'
+[2019-04-11 15:23:29.446][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.io.ExecutableFinder] Executable 'clang++' mapped to 'Optional[/usr/bin/clang++]'
+[2019-04-11 15:23:29.446][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1020][com.facebook.buck.cxx.toolchain.CxxPlatforms] Using config default C++ platform CxxPlatform{flavor=iphonesimulator-x86_64, as=com.facebook.buck.cxx.toolchain.CompilerProvider@1404d87, asflags=[-isysroot, /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk, -arch, x86_64, -mios-simulator-version-min=11.0, -iquote, /Users/stevenlee/Downloads/BuckTest 3], aspp=com.facebook.buck.cxx.toolchain.PreprocessorProvider@f87a3df, asppflags=[], cc=com.facebook.buck.cxx.toolchain.CompilerProvider@bb826f7, cflags=[-isysroot, /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk, -arch, x86_64, -mios-simulator-version-min=11.0, -iquote, /Users/stevenlee/Downloads/BuckTest 3, -g, -fmodules, -fobjc-arc, -D, BUCK, -w], cxx=com.facebook.buck.cxx.toolchain.CompilerProvider@4ebaa9e4, cxxflags=[-isysroot, /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk, -arch, x86_64, -mios-simulator-version-min=11.0, -iquote, /Users/stevenlee/Downloads/BuckTest 3, -fobjc-arc, -std=c++14, -D, DEBUG, -g], cpp=com.facebook.buck.cxx.toolchain.PreprocessorProvider@4d15f9c1, cppflags=[], cxxpp=com.facebook.buck.cxx.toolchain.PreprocessorProvider@7fbe22e7, cxxppflags=[], cudappflags=[], cudaflags=[], hipppflags=[], hipflags=[], asmppflags=[], asmflags=[], ld=com.facebook.buck.cxx.toolchain.linker.DefaultLinkerProvider@35fb2c79, ldflags=[-isysroot, /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk, -arch, x86_64, -mios-simulator-version-min=11.0, -iquote, /Users/stevenlee/Downloads/BuckTest 3, -Wl,-sdk_version, -Wl,12.1, -Wl,-ObjC, -Xlinker, -objc_abi_version, -Xlinker, 2, -fobjc-arc, -fobjc-link-runtime], runtimeLdflags={}, strip=VersionedTool{path=/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip, extraArgs=[], name=apple-strip, version=12.1:10B61}, stripFlags=[], ar=com.facebook.buck.cxx.toolchain.ArchiverProvider$1@2e9556ab, archiveContents=NORMAL, arflags=[], ranlib=com.facebook.buck.core.toolchain.toolprovider.impl.ConstantToolProvider@4c2c6949, ranlibflags=[], symbolNameTool=com.facebook.buck.cxx.toolchain.LazyDelegatingSymbolNameTool@428bc331, sharedLibraryExtension=dylib, sharedLibraryVersionedExtensionFormat=%s.dylib, staticLibraryExtension=a, objectFileExtension=o, compilerDebugPathSanitizer=com.facebook.buck.cxx.toolchain.PrefixMapDebugPathSanitizer@2effa7fd, assemblerDebugPathSanitizer=com.facebook.buck.cxx.toolchain.MungingDebugPathSanitizer@2adb8c87, headerVerification=HeaderVerification{mode=IGNORE, whitelist=[], platformWhitelist=[^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain\E\/.*], whitelistPatterns=[^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk\E\/.*, ^\Q/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain\E\/.*]}, flagMacros={SDKROOT=/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk, PLATFORM_DIR=/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform, CURRENT_ARCH=x86_64, DEVELOPER_DIR=/Users/stevenlee/Downloads/Xcode.app/Contents/Developer}, publicHeadersSymlinksEnabled=true, privateHeadersSymlinksEnabled=true, picTypeForSharedLinking=PIC, conflictingHeaderBasenameWhitelist=[]}
+[2019-04-11 15:23:29.466][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.facebook.buck.core.model.actiongraph.computation.ActionGraphProvider] Computing TargetGraph HashCode...
+[2019-04-11 15:23:29.466][debug][command:null][tid:1025][com.facebook.buck.parser.PythonDslProjectBuildFileParser] Closing buck.py process stdin
+[2019-04-11 15:23:29.466][info ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.facebook.buck.core.model.actiongraph.computation.ActionGraphProvider] ActionGraph cache miss against 1 entries.
+[2019-04-11 15:23:29.466][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.facebook.buck.core.model.actiongraph.computation.SerialActionGraphFactory] start target graph walk
+[2019-04-11 15:23:29.489][debug][command:null][tid:1025][com.facebook.buck.parser.PythonDslProjectBuildFileParser] Waiting for process com.facebook.buck.util.ProcessExecutor$LaunchedProcessImpl@6e859004 to exit...
+[2019-04-11 15:23:29.489][debug][command:null][tid:1025][com.facebook.buck.parser.PythonDslProjectBuildFileParser] Process com.facebook.buck.util.ProcessExecutor$LaunchedProcessImpl@6e859004 exited cleanly.
+[2019-04-11 15:23:29.531][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.facebook.buck.core.model.actiongraph.computation.SerialActionGraphFactory] end target graph walk
+[2019-04-11 15:23:29.531][info ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.facebook.buck.core.model.actiongraph.computation.ActionGraphProvider] ActionGraph cache assignment.
+[2019-04-11 15:23:29.532][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.facebook.buck.core.build.engine.impl.MetadataChecker] Checking metadata_storage for /Users/stevenlee/Downloads/BuckTest 3
+[2019-04-11 15:23:29.548][warn ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1022][com.facebook.buck.rules.keys.RuleKeyBuilder] Attempting to add absolute path to rule key. Only using file name: /usr/bin/codesign
+[2019-04-11 15:23:29.549][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1022][com.facebook.buck.core.build.engine.cache.manager.BuildCacheArtifactFetcher] Cache miss for '//BuckTest:BuckTest#dwarf-and-dsym,no-include-frameworks' with rulekey '8a74232f33455b78c30ead9335999ddad3db92af'
+[2019-04-11 15:23:29.550][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1023][com.facebook.buck.core.build.engine.cache.manager.BuildCacheArtifactFetcher] Cache miss for '//BuckTest:AppBinary#apple-dsym,iphonesimulator-x86_64' with rulekey 'c450ae674bfe26e16ae5741b63d3df5dc9c846a8'
+[2019-04-11 15:23:29.550][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1021][com.facebook.buck.core.build.engine.cache.manager.BuildCacheArtifactFetcher] Cache miss for '//BuckTest:AppBinary#iphonesimulator-x86_64,strip-non-global,stripped' with rulekey '7ef10cc5c1ede68ee04af1fa9cb73de02923edcd'
+[2019-04-11 15:23:29.550][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1019][com.facebook.buck.core.build.engine.cache.manager.BuildCacheArtifactFetcher] Cache miss for '//BuckTest:AppBinary#apple-debuggable-binary,dwarf-and-dsym,iphonesimulator-x86_64' with rulekey '5e2bd2d9e63a306432412467ec977293029ed3ad'
+[2019-04-11 15:23:29.551][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1018][com.facebook.buck.core.build.engine.cache.manager.BuildCacheArtifactFetcher] Cache miss for '//BuckTest:AppBinary#binary,iphonesimulator-x86_64' with rulekey '94bf55e3a9c9bdadf8980d1f0ad3f3d909f8ba66'
+[2019-04-11 15:23:29.551][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1022][com.facebook.buck.core.build.engine.cache.manager.BuildCacheArtifactFetcher] Cache miss for '//Pods:FirebaseDatabase#iphonesimulator-x86_64,static' with rulekey 'f9694e40cae42a05e2122491e7fa2dc5037a9b4d'
+[2019-04-11 15:23:29.553][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1019][com.facebook.buck.core.build.engine.cache.manager.BuildCacheArtifactFetcher] Cache miss for '//Pods:FirebaseDatabase#compile-FIRDatabase.m.obae9bcbf,iphonesimulator-x86_64' with rulekey '4dee4b3bc59f507156ff961915d1d5d2ea3dbc08'
+[2019-04-11 15:23:29.555][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1014][com.facebook.buck.core.build.engine.cache.manager.BuildCacheArtifactFetcher] Cache miss for '//Pods:FirebaseDatabase#compile-FIRDatabaseComponent.m.oa01a384b,iphonesimulator-x86_64' with rulekey 'da2372b07a26e7a9848f1cefa18780e22a0d3438'
+[2019-04-11 15:23:29.556][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1014][com.facebook.buck.core.build.engine.cache.manager.BuildCacheArtifactFetcher] Cache miss for '//Pods:FirebaseDatabase#compile-FAuthTokenProvider.m.o5cbf1cc7,iphonesimulator-x86_64' with rulekey '849ccb6bf27ae1ff361dcc453c6cb028a386fff6'
+[2019-04-11 15:23:29.556][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1024][com.facebook.buck.core.build.engine.cache.manager.BuildCacheArtifactFetcher] Cache miss for '//Pods:FirebaseDatabase#compile-FCancelEvent.m.o0757dd01,iphonesimulator-x86_64' with rulekey '8a0beec6890d09b0fcfbaf3624cca6ee3c2620ee'
+[2019-04-11 15:23:29.565][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1022][com.facebook.buck.core.build.engine.cache.manager.BuildCacheArtifactFetcher] Cache miss for '//Pods:FirebaseDatabase#compile-FAuthTokenProvider.m.o5cbf1cc7,iphonesimulator-x86_64' with rulekey 'c0f1ee59ba4aced8b9686f3cfd1c67210cb39e25'
+[2019-04-11 15:23:29.565][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1019][com.facebook.buck.core.build.engine.cache.manager.BuildCacheArtifactFetcher] Cache miss for '//Pods:FirebaseDatabase#compile-FCancelEvent.m.o0757dd01,iphonesimulator-x86_64' with rulekey 'bcd24567301c829a789d4ec62ef91a0ae197cc3a'
+[2019-04-11 15:23:29.565][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1021][com.facebook.buck.core.build.engine.cache.manager.BuildCacheArtifactFetcher] Cache miss for '//Pods:FirebaseDatabase#compile-FIRDatabaseComponent.m.oa01a384b,iphonesimulator-x86_64' with rulekey 'fca3accda32e3156dd662d8de1cd6b855169181b'
+[2019-04-11 15:23:29.565][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1014][com.facebook.buck.core.build.engine.cache.manager.BuildCacheArtifactFetcher] Cache miss for '//Pods:FirebaseDatabase#compile-FIRDatabase.m.obae9bcbf,iphonesimulator-x86_64' with rulekey '124325dbca7a5958e14eccc5113a23f765da9e5a'
+[2019-04-11 15:23:29.567][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1022][com.facebook.buck.core.build.engine.impl.CachingBuildRuleBuilder] Building locally: //Pods:FirebaseDatabase#compile-FAuthTokenProvider.m.o5cbf1cc7,iphonesimulator-x86_64
+[2019-04-11 15:23:29.568][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1014][com.facebook.buck.core.build.engine.impl.CachingBuildRuleBuilder] Building locally: //Pods:FirebaseDatabase#compile-FCancelEvent.m.o0757dd01,iphonesimulator-x86_64
+[2019-04-11 15:23:29.568][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1024][com.facebook.buck.core.build.engine.impl.CachingBuildRuleBuilder] Building locally: //Pods:FirebaseDatabase#compile-FIRDatabase.m.obae9bcbf,iphonesimulator-x86_64
+[2019-04-11 15:23:29.568][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1019][com.facebook.buck.core.build.engine.impl.CachingBuildRuleBuilder] Building locally: //Pods:FirebaseDatabase#compile-FIRDatabaseComponent.m.oa01a384b,iphonesimulator-x86_64
+[2019-04-11 15:23:29.573][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1014][com.facebook.buck.cxx.CxxPreprocessAndCompileStep] preprocess_and_compile Pods/FirebaseDatabase/Firebase/Database/Core/View/FCancelEvent.m -> buck-out/gen/Pods/FirebaseDatabase#compile-FCancelEvent.m.o0757dd01,iphonesimulator-x86_64/FirebaseDatabase/Firebase/Database/Core/View/FCancelEvent.m.o
+[2019-04-11 15:23:29.574][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1024][com.facebook.buck.cxx.CxxPreprocessAndCompileStep] preprocess_and_compile Pods/FirebaseDatabase/Firebase/Database/Api/FIRDatabase.m -> buck-out/gen/Pods/FirebaseDatabase#compile-FIRDatabase.m.obae9bcbf,iphonesimulator-x86_64/FirebaseDatabase/Firebase/Database/Api/FIRDatabase.m.o
+[2019-04-11 15:23:29.574][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1019][com.facebook.buck.cxx.CxxPreprocessAndCompileStep] preprocess_and_compile Pods/FirebaseDatabase/Firebase/Database/Api/FIRDatabaseComponent.m -> buck-out/gen/Pods/FirebaseDatabase#compile-FIRDatabaseComponent.m.oa01a384b,iphonesimulator-x86_64/FirebaseDatabase/Firebase/Database/Api/FIRDatabaseComponent.m.o
+[2019-04-11 15:23:29.574][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1022][com.facebook.buck.cxx.CxxPreprocessAndCompileStep] preprocess_and_compile Pods/FirebaseDatabase/Firebase/Database/Login/FAuthTokenProvider.m -> buck-out/gen/Pods/FirebaseDatabase#compile-FAuthTokenProvider.m.o5cbf1cc7,iphonesimulator-x86_64/FirebaseDatabase/Firebase/Database/Login/FAuthTokenProvider.m.o
+[2019-04-11 15:23:29.574][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1019][com.facebook.buck.cxx.CxxPreprocessAndCompileStep] Running command (pwd=Optional[/Users/stevenlee/Downloads/BuckTest 3]): (verbosity level disables command output)
+[2019-04-11 15:23:29.574][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1024][com.facebook.buck.cxx.CxxPreprocessAndCompileStep] Running command (pwd=Optional[/Users/stevenlee/Downloads/BuckTest 3]): (verbosity level disables command output)
+[2019-04-11 15:23:29.580][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1014][com.facebook.buck.cxx.CxxPreprocessAndCompileStep] Running command (pwd=Optional[/Users/stevenlee/Downloads/BuckTest 3]): (verbosity level disables command output)
+[2019-04-11 15:23:29.580][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1022][com.facebook.buck.cxx.CxxPreprocessAndCompileStep] Running command (pwd=Optional[/Users/stevenlee/Downloads/BuckTest 3]): (verbosity level disables command output)
+[2019-04-11 15:23:29.683][warn ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1022][com.facebook.buck.cxx.CxxPreprocessAndCompileStep] error 1 preprocess_and_compile Pods/FirebaseDatabase/Firebase/Database/Login/FAuthTokenProvider.m
+[2019-04-11 15:23:29.683][warn ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1009][com.facebook.buck.event.listener.LoggingBuildListener] While building module 'FirebaseAuthInterop' imported from Pods/FirebaseDatabase/Firebase/Database/Login/FAuthTokenProvider.m:19:
+In file included from <module-includes>:1:
+In file included from buck-out/gen/Pods/FirebaseAuthInterop#header-mode-symlink-tree-with-modulemap,headers,iphonesimulator-x86_64/FirebaseAuthInterop/FirebaseAuthInterop.h:1:
+[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:20:1: [0m[0;1;31merror: [0m[1munknown type name 'NS_ASSUME_NONNULL_BEGIN'[0m
+NS_ASSUME_NONNULL_BEGIN
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:25:1: [0m[0;1;31merror: [0m[1mexpected identifier or '('[0m
+typedef void (^FIRTokenCallback)(NSString *_Nullable token, NSError *_Nullable error)
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:30:1: [0m[0;1;31merror: [0m[1mexpected function body after function declarator[0m
+@protocol FIRAuthInterop
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:13: [0m[0;1;31merror: [0m[1mexpected ')'[0m
+- (nullable NSString *)getUserID;
+[0;1;32m            ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:3: [0m[0;1;30mnote: [0mto match this '('[0m
+- (nullable NSString *)getUserID;
+[0;1;32m  ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:1: [0m[0;1;31merror: [0m[1mmissing context for method declaration[0m
+- (nullable NSString *)getUserID;
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:38:1: [0m[0;1;31merror: [0m[1mexpected method body[0m
+@end
+[0;1;32m^
+[0m[1mPods/FirebaseDatabase/Firebase/Database/Login/FAuthTokenProvider.m:19:9: [0m[0;1;31mfatal error: [0m[1mcould not build module 'FirebaseAuthInterop'[0m
+#import <FirebaseAuthInterop/FIRAuthInterop.h>
+[0;1;32m ~~~~~~~^
+[0m7 errors generated.
+[2019-04-11 15:23:29.683][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1022][com.facebook.buck.core.build.engine.impl.CachingBuildRuleBuilder] Building rule [//Pods:FirebaseDatabase#compile-FAuthTokenProvider.m.o5cbf1cc7,iphonesimulator-x86_64] failed.
+com.facebook.buck.core.build.engine.impl.BuildRuleFailedException: com.facebook.buck.step.StepFailedException: Command failed with exit code 1.
+stderr: While building module 'FirebaseAuthInterop' imported from Pods/FirebaseDatabase/Firebase/Database/Login/FAuthTokenProvider.m:19:
+In file included from <module-includes>:1:
+In file included from buck-out/gen/Pods/FirebaseAuthInterop#header-mode-symlink-tree-with-modulemap,headers,iphonesimulator-x86_64/FirebaseAuthInterop/FirebaseAuthInterop.h:1:
+[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:20:1: [0m[0;1;31merror: [0m[1munknown type name 'NS_ASSUME_NONNULL_BEGIN'[0m
+NS_ASSUME_NONNULL_BEGIN
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:25:1: [0m[0;1;31merror: [0m[1mexpected identifier or '('[0m
+typedef void (^FIRTokenCallback)(NSString *_Nullable token, NSError *_Nullable error)
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:30:1: [0m[0;1;31merror: [0m[1mexpected function body after function declarator[0m
+@protocol FIRAuthInterop
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:13: [0m[0;1;31merror: [0m[1mexpected ')'[0m
+- (nullable NSString *)getUserID;
+[0;1;32m            ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:3: [0m[0;1;30mnote: [0mto match this '('[0m
+- (nullable NSString *)getUserID;
+[0;1;32m  ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:1: [0m[0;1;31merror: [0m[1mmissing context for method declaration[0m
+- (nullable NSString *)getUserID;
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:38:1: [0m[0;1;31merror: [0m[1mexpected method body[0m
+@end
+[0;1;32m^
+[0m[1mPods/FirebaseDatabase/Firebase/Database/Login/FAuthTokenProvider.m:19:9: [0m[0;1;31mfatal error: [0m[1mcould not build module 'FirebaseAuthInterop'[0m
+#import <FirebaseAuthInterop/FIRAuthInterop.h>
+[0;1;32m ~~~~~~~^
+[0m7 errors generated.
+  When running <objective-c preprocess_and_compile>.
+	at com.facebook.buck.core.build.engine.impl.CachingBuildRuleBuilder.getFailedException(CachingBuildRuleBuilder.java:1223)
+	at com.facebook.buck.core.build.engine.impl.CachingBuildRuleBuilder.lambda$build$2(CachingBuildRuleBuilder.java:386)
+	at com.google.common.util.concurrent.AbstractCatchingFuture$AsyncCatchingFuture.doFallback(AbstractCatchingFuture.java:172)
+	at com.google.common.util.concurrent.AbstractCatchingFuture$AsyncCatchingFuture.doFallback(AbstractCatchingFuture.java:159)
+	at com.google.common.util.concurrent.AbstractCatchingFuture.run(AbstractCatchingFuture.java:112)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1016)
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:867)
+	at com.google.common.util.concurrent.AbstractFuture.setException(AbstractFuture.java:713)
+	at com.google.common.util.concurrent.AbstractTransformFuture.run(AbstractTransformFuture.java:97)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1016)
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:867)
+	at com.google.common.util.concurrent.AbstractFuture.setException(AbstractFuture.java:713)
+	at com.google.common.util.concurrent.AbstractTransformFuture.run(AbstractTransformFuture.java:97)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1016)
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:867)
+	at com.google.common.util.concurrent.AbstractFuture.setFuture(AbstractFuture.java:754)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleAsyncTask.afterRanInterruptibly(TrustedListenableFutureTask.java:170)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleAsyncTask.afterRanInterruptibly(TrustedListenableFutureTask.java:145)
+	at com.google.common.util.concurrent.InterruptibleTask.run(InterruptibleTask.java:80)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask.run(TrustedListenableFutureTask.java:80)
+	at com.facebook.buck.util.concurrent.WeightedListeningExecutorService.lambda$submit$2(WeightedListeningExecutorService.java:100)
+	at com.facebook.buck.util.concurrent.WeightedListeningExecutorService.lambda$submitWithSemaphore$0(WeightedListeningExecutorService.java:74)
+	at com.google.common.util.concurrent.AbstractTransformFuture$AsyncTransformFuture.doTransform(AbstractTransformFuture.java:206)
+	at com.google.common.util.concurrent.AbstractTransformFuture$AsyncTransformFuture.doTransform(AbstractTransformFuture.java:195)
+	at com.google.common.util.concurrent.AbstractTransformFuture.run(AbstractTransformFuture.java:115)
+	at com.google.common.util.concurrent.MoreExecutors$5$1.run(MoreExecutors.java:999)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.facebook.buck.step.StepFailedException: Command failed with exit code 1.
+stderr: While building module 'FirebaseAuthInterop' imported from Pods/FirebaseDatabase/Firebase/Database/Login/FAuthTokenProvider.m:19:
+In file included from <module-includes>:1:
+In file included from buck-out/gen/Pods/FirebaseAuthInterop#header-mode-symlink-tree-with-modulemap,headers,iphonesimulator-x86_64/FirebaseAuthInterop/FirebaseAuthInterop.h:1:
+[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:20:1: [0m[0;1;31merror: [0m[1munknown type name 'NS_ASSUME_NONNULL_BEGIN'[0m
+NS_ASSUME_NONNULL_BEGIN
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:25:1: [0m[0;1;31merror: [0m[1mexpected identifier or '('[0m
+typedef void (^FIRTokenCallback)(NSString *_Nullable token, NSError *_Nullable error)
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:30:1: [0m[0;1;31merror: [0m[1mexpected function body after function declarator[0m
+@protocol FIRAuthInterop
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:13: [0m[0;1;31merror: [0m[1mexpected ')'[0m
+- (nullable NSString *)getUserID;
+[0;1;32m            ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:3: [0m[0;1;30mnote: [0mto match this '('[0m
+- (nullable NSString *)getUserID;
+[0;1;32m  ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:1: [0m[0;1;31merror: [0m[1mmissing context for method declaration[0m
+- (nullable NSString *)getUserID;
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:38:1: [0m[0;1;31merror: [0m[1mexpected method body[0m
+@end
+[0;1;32m^
+[0m[1mPods/FirebaseDatabase/Firebase/Database/Login/FAuthTokenProvider.m:19:9: [0m[0;1;31mfatal error: [0m[1mcould not build module 'FirebaseAuthInterop'[0m
+#import <FirebaseAuthInterop/FIRAuthInterop.h>
+[0;1;32m ~~~~~~~^
+[0m7 errors generated.
+  When running <objective-c preprocess_and_compile>.
+	at com.facebook.buck.step.StepFailedException.createForFailingStepWithException(StepFailedException.java:57)
+	at com.facebook.buck.step.StepFailedException.createForFailingStepWithExitCode(StepFailedException.java:51)
+	at com.facebook.buck.step.DefaultStepRunner.runStepForBuildTarget(DefaultStepRunner.java:54)
+	at com.facebook.buck.core.build.engine.impl.CachingBuildRuleBuilder$BuildRuleSteps.executeCommands(CachingBuildRuleBuilder.java:1449)
+	at com.facebook.buck.core.build.engine.impl.CachingBuildRuleBuilder$BuildRuleSteps.runWithDefaultExecutor(CachingBuildRuleBuilder.java:1411)
+	at com.facebook.buck.core.build.engine.impl.CachingBuildRuleBuilder$2.runWithDefaultBehavior(CachingBuildRuleBuilder.java:850)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleAsyncTask.runInterruptibly(TrustedListenableFutureTask.java:162)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleAsyncTask.runInterruptibly(TrustedListenableFutureTask.java:145)
+	at com.google.common.util.concurrent.InterruptibleTask.run(InterruptibleTask.java:57)
+	... 10 more
+Caused by: com.facebook.buck.core.exceptions.HumanReadableException: Command failed with exit code 1.
+stderr: While building module 'FirebaseAuthInterop' imported from Pods/FirebaseDatabase/Firebase/Database/Login/FAuthTokenProvider.m:19:
+In file included from <module-includes>:1:
+In file included from buck-out/gen/Pods/FirebaseAuthInterop#header-mode-symlink-tree-with-modulemap,headers,iphonesimulator-x86_64/FirebaseAuthInterop/FirebaseAuthInterop.h:1:
+[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:20:1: [0m[0;1;31merror: [0m[1munknown type name 'NS_ASSUME_NONNULL_BEGIN'[0m
+NS_ASSUME_NONNULL_BEGIN
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:25:1: [0m[0;1;31merror: [0m[1mexpected identifier or '('[0m
+typedef void (^FIRTokenCallback)(NSString *_Nullable token, NSError *_Nullable error)
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:30:1: [0m[0;1;31merror: [0m[1mexpected function body after function declarator[0m
+@protocol FIRAuthInterop
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:13: [0m[0;1;31merror: [0m[1mexpected ')'[0m
+- (nullable NSString *)getUserID;
+[0;1;32m            ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:3: [0m[0;1;30mnote: [0mto match this '('[0m
+- (nullable NSString *)getUserID;
+[0;1;32m  ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:1: [0m[0;1;31merror: [0m[1mmissing context for method declaration[0m
+- (nullable NSString *)getUserID;
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:38:1: [0m[0;1;31merror: [0m[1mexpected method body[0m
+@end
+[0;1;32m^
+[0m[1mPods/FirebaseDatabase/Firebase/Database/Login/FAuthTokenProvider.m:19:9: [0m[0;1;31mfatal error: [0m[1mcould not build module 'FirebaseAuthInterop'[0m
+#import <FirebaseAuthInterop/FIRAuthInterop.h>
+[0;1;32m ~~~~~~~^
+[0m7 errors generated.
+	at com.facebook.buck.step.StepFailedException.createForFailingStepWithExitCode(StepFailedException.java:52)
+	... 17 more
+
+[2019-04-11 15:23:29.688][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1014][com.facebook.buck.core.build.engine.impl.CachingBuildRuleBuilder] Build completed: cxx_preprocess_and_compile //Pods:FirebaseDatabase#compile-FCancelEvent.m.o0757dd01,iphonesimulator-x86_64 (119945385ns)
+[2019-04-11 15:23:29.688][warn ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1019][com.facebook.buck.cxx.CxxPreprocessAndCompileStep] error 1 preprocess_and_compile Pods/FirebaseDatabase/Firebase/Database/Api/FIRDatabaseComponent.m
+[2019-04-11 15:23:29.688][warn ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1009][com.facebook.buck.event.listener.LoggingBuildListener] While building module 'FirebaseAuthInterop' imported from Pods/FirebaseDatabase/Firebase/Database/Api/FIRDatabaseComponent.m:23:
+In file included from <module-includes>:1:
+In file included from buck-out/gen/Pods/FirebaseAuthInterop#header-mode-symlink-tree-with-modulemap,headers,iphonesimulator-x86_64/FirebaseAuthInterop/FirebaseAuthInterop.h:1:
+[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:20:1: [0m[0;1;31merror: [0m[1munknown type name 'NS_ASSUME_NONNULL_BEGIN'[0m
+NS_ASSUME_NONNULL_BEGIN
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:25:1: [0m[0;1;31merror: [0m[1mexpected identifier or '('[0m
+typedef void (^FIRTokenCallback)(NSString *_Nullable token, NSError *_Nullable error)
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:30:1: [0m[0;1;31merror: [0m[1mexpected function body after function declarator[0m
+@protocol FIRAuthInterop
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:13: [0m[0;1;31merror: [0m[1mexpected ')'[0m
+- (nullable NSString *)getUserID;
+[0;1;32m            ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:3: [0m[0;1;30mnote: [0mto match this '('[0m
+- (nullable NSString *)getUserID;
+[0;1;32m  ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:1: [0m[0;1;31merror: [0m[1mmissing context for method declaration[0m
+- (nullable NSString *)getUserID;
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:38:1: [0m[0;1;31merror: [0m[1mexpected method body[0m
+@end
+[0;1;32m^
+[0m[1mPods/FirebaseDatabase/Firebase/Database/Api/FIRDatabaseComponent.m:23:9: [0m[0;1;31mfatal error: [0m[1mcould not build module 'FirebaseAuthInterop'[0m
+#import <FirebaseAuthInterop/FIRAuthInterop.h>
+[0;1;32m ~~~~~~~^
+[0m7 errors generated.
+[2019-04-11 15:23:29.688][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1019][com.facebook.buck.core.build.engine.impl.CachingBuildRuleBuilder] Building rule [//Pods:FirebaseDatabase#compile-FIRDatabaseComponent.m.oa01a384b,iphonesimulator-x86_64] failed.
+com.facebook.buck.core.build.engine.impl.BuildRuleFailedException: com.facebook.buck.step.StepFailedException: Command failed with exit code 1.
+stderr: While building module 'FirebaseAuthInterop' imported from Pods/FirebaseDatabase/Firebase/Database/Api/FIRDatabaseComponent.m:23:
+In file included from <module-includes>:1:
+In file included from buck-out/gen/Pods/FirebaseAuthInterop#header-mode-symlink-tree-with-modulemap,headers,iphonesimulator-x86_64/FirebaseAuthInterop/FirebaseAuthInterop.h:1:
+[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:20:1: [0m[0;1;31merror: [0m[1munknown type name 'NS_ASSUME_NONNULL_BEGIN'[0m
+NS_ASSUME_NONNULL_BEGIN
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:25:1: [0m[0;1;31merror: [0m[1mexpected identifier or '('[0m
+typedef void (^FIRTokenCallback)(NSString *_Nullable token, NSError *_Nullable error)
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:30:1: [0m[0;1;31merror: [0m[1mexpected function body after function declarator[0m
+@protocol FIRAuthInterop
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:13: [0m[0;1;31merror: [0m[1mexpected ')'[0m
+- (nullable NSString *)getUserID;
+[0;1;32m            ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:3: [0m[0;1;30mnote: [0mto match this '('[0m
+- (nullable NSString *)getUserID;
+[0;1;32m  ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:1: [0m[0;1;31merror: [0m[1mmissing context for method declaration[0m
+- (nullable NSString *)getUserID;
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:38:1: [0m[0;1;31merror: [0m[1mexpected method body[0m
+@end
+[0;1;32m^
+[0m[1mPods/FirebaseDatabase/Firebase/Database/Api/FIRDatabaseComponent.m:23:9: [0m[0;1;31mfatal error: [0m[1mcould not build module 'FirebaseAuthInterop'[0m
+#import <FirebaseAuthInterop/FIRAuthInterop.h>
+[0;1;32m ~~~~~~~^
+[0m7 errors generated.
+  When running <objective-c preprocess_and_compile>.
+	at com.facebook.buck.core.build.engine.impl.CachingBuildRuleBuilder.getFailedException(CachingBuildRuleBuilder.java:1223)
+	at com.facebook.buck.core.build.engine.impl.CachingBuildRuleBuilder.lambda$build$2(CachingBuildRuleBuilder.java:386)
+	at com.google.common.util.concurrent.AbstractCatchingFuture$AsyncCatchingFuture.doFallback(AbstractCatchingFuture.java:172)
+	at com.google.common.util.concurrent.AbstractCatchingFuture$AsyncCatchingFuture.doFallback(AbstractCatchingFuture.java:159)
+	at com.google.common.util.concurrent.AbstractCatchingFuture.run(AbstractCatchingFuture.java:112)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1016)
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:867)
+	at com.google.common.util.concurrent.AbstractFuture.setException(AbstractFuture.java:713)
+	at com.google.common.util.concurrent.AbstractTransformFuture.run(AbstractTransformFuture.java:97)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1016)
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:867)
+	at com.google.common.util.concurrent.AbstractFuture.setException(AbstractFuture.java:713)
+	at com.google.common.util.concurrent.AbstractTransformFuture.run(AbstractTransformFuture.java:97)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1016)
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:867)
+	at com.google.common.util.concurrent.AbstractFuture.setFuture(AbstractFuture.java:754)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleAsyncTask.afterRanInterruptibly(TrustedListenableFutureTask.java:170)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleAsyncTask.afterRanInterruptibly(TrustedListenableFutureTask.java:145)
+	at com.google.common.util.concurrent.InterruptibleTask.run(InterruptibleTask.java:80)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask.run(TrustedListenableFutureTask.java:80)
+	at com.facebook.buck.util.concurrent.WeightedListeningExecutorService.lambda$submit$2(WeightedListeningExecutorService.java:100)
+	at com.facebook.buck.util.concurrent.WeightedListeningExecutorService.lambda$submitWithSemaphore$0(WeightedListeningExecutorService.java:74)
+	at com.google.common.util.concurrent.AbstractTransformFuture$AsyncTransformFuture.doTransform(AbstractTransformFuture.java:206)
+	at com.google.common.util.concurrent.AbstractTransformFuture$AsyncTransformFuture.doTransform(AbstractTransformFuture.java:195)
+	at com.google.common.util.concurrent.AbstractTransformFuture.run(AbstractTransformFuture.java:115)
+	at com.google.common.util.concurrent.MoreExecutors$5$1.run(MoreExecutors.java:999)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.facebook.buck.step.StepFailedException: Command failed with exit code 1.
+stderr: While building module 'FirebaseAuthInterop' imported from Pods/FirebaseDatabase/Firebase/Database/Api/FIRDatabaseComponent.m:23:
+In file included from <module-includes>:1:
+In file included from buck-out/gen/Pods/FirebaseAuthInterop#header-mode-symlink-tree-with-modulemap,headers,iphonesimulator-x86_64/FirebaseAuthInterop/FirebaseAuthInterop.h:1:
+[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:20:1: [0m[0;1;31merror: [0m[1munknown type name 'NS_ASSUME_NONNULL_BEGIN'[0m
+NS_ASSUME_NONNULL_BEGIN
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:25:1: [0m[0;1;31merror: [0m[1mexpected identifier or '('[0m
+typedef void (^FIRTokenCallback)(NSString *_Nullable token, NSError *_Nullable error)
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:30:1: [0m[0;1;31merror: [0m[1mexpected function body after function declarator[0m
+@protocol FIRAuthInterop
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:13: [0m[0;1;31merror: [0m[1mexpected ')'[0m
+- (nullable NSString *)getUserID;
+[0;1;32m            ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:3: [0m[0;1;30mnote: [0mto match this '('[0m
+- (nullable NSString *)getUserID;
+[0;1;32m  ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:1: [0m[0;1;31merror: [0m[1mmissing context for method declaration[0m
+- (nullable NSString *)getUserID;
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:38:1: [0m[0;1;31merror: [0m[1mexpected method body[0m
+@end
+[0;1;32m^
+[0m[1mPods/FirebaseDatabase/Firebase/Database/Api/FIRDatabaseComponent.m:23:9: [0m[0;1;31mfatal error: [0m[1mcould not build module 'FirebaseAuthInterop'[0m
+#import <FirebaseAuthInterop/FIRAuthInterop.h>
+[0;1;32m ~~~~~~~^
+[0m7 errors generated.
+  When running <objective-c preprocess_and_compile>.
+	at com.facebook.buck.step.StepFailedException.createForFailingStepWithException(StepFailedException.java:57)
+	at com.facebook.buck.step.StepFailedException.createForFailingStepWithExitCode(StepFailedException.java:51)
+	at com.facebook.buck.step.DefaultStepRunner.runStepForBuildTarget(DefaultStepRunner.java:54)
+	at com.facebook.buck.core.build.engine.impl.CachingBuildRuleBuilder$BuildRuleSteps.executeCommands(CachingBuildRuleBuilder.java:1449)
+	at com.facebook.buck.core.build.engine.impl.CachingBuildRuleBuilder$BuildRuleSteps.runWithDefaultExecutor(CachingBuildRuleBuilder.java:1411)
+	at com.facebook.buck.core.build.engine.impl.CachingBuildRuleBuilder$2.runWithDefaultBehavior(CachingBuildRuleBuilder.java:850)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleAsyncTask.runInterruptibly(TrustedListenableFutureTask.java:162)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleAsyncTask.runInterruptibly(TrustedListenableFutureTask.java:145)
+	at com.google.common.util.concurrent.InterruptibleTask.run(InterruptibleTask.java:57)
+	... 10 more
+Caused by: com.facebook.buck.core.exceptions.HumanReadableException: Command failed with exit code 1.
+stderr: While building module 'FirebaseAuthInterop' imported from Pods/FirebaseDatabase/Firebase/Database/Api/FIRDatabaseComponent.m:23:
+In file included from <module-includes>:1:
+In file included from buck-out/gen/Pods/FirebaseAuthInterop#header-mode-symlink-tree-with-modulemap,headers,iphonesimulator-x86_64/FirebaseAuthInterop/FirebaseAuthInterop.h:1:
+[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:20:1: [0m[0;1;31merror: [0m[1munknown type name 'NS_ASSUME_NONNULL_BEGIN'[0m
+NS_ASSUME_NONNULL_BEGIN
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:25:1: [0m[0;1;31merror: [0m[1mexpected identifier or '('[0m
+typedef void (^FIRTokenCallback)(NSString *_Nullable token, NSError *_Nullable error)
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:30:1: [0m[0;1;31merror: [0m[1mexpected function body after function declarator[0m
+@protocol FIRAuthInterop
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:13: [0m[0;1;31merror: [0m[1mexpected ')'[0m
+- (nullable NSString *)getUserID;
+[0;1;32m            ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:3: [0m[0;1;30mnote: [0mto match this '('[0m
+- (nullable NSString *)getUserID;
+[0;1;32m  ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:1: [0m[0;1;31merror: [0m[1mmissing context for method declaration[0m
+- (nullable NSString *)getUserID;
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:38:1: [0m[0;1;31merror: [0m[1mexpected method body[0m
+@end
+[0;1;32m^
+[0m[1mPods/FirebaseDatabase/Firebase/Database/Api/FIRDatabaseComponent.m:23:9: [0m[0;1;31mfatal error: [0m[1mcould not build module 'FirebaseAuthInterop'[0m
+#import <FirebaseAuthInterop/FIRAuthInterop.h>
+[0;1;32m ~~~~~~~^
+[0m7 errors generated.
+	at com.facebook.buck.step.StepFailedException.createForFailingStepWithExitCode(StepFailedException.java:52)
+	... 17 more
+
+[2019-04-11 15:23:29.690][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1014][com.facebook.buck.cxx.Depfiles] Processing dependency file buck-out/gen/Pods/FirebaseDatabase#compile-FCancelEvent.m.o0757dd01,iphonesimulator-x86_64/FirebaseDatabase/Firebase/Database/Core/View/FCancelEvent.m.o.dep as Makefile
+[2019-04-11 15:23:29.694][warn ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1024][com.facebook.buck.cxx.CxxPreprocessAndCompileStep] error 1 preprocess_and_compile Pods/FirebaseDatabase/Firebase/Database/Api/FIRDatabase.m
+[2019-04-11 15:23:29.694][warn ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1009][com.facebook.buck.event.listener.LoggingBuildListener] While building module 'FirebaseAuthInterop' imported from Pods/FirebaseDatabase/Firebase/Database/Api/FIRDatabase.m:19:
+In file included from <module-includes>:1:
+In file included from buck-out/gen/Pods/FirebaseAuthInterop#header-mode-symlink-tree-with-modulemap,headers,iphonesimulator-x86_64/FirebaseAuthInterop/FirebaseAuthInterop.h:1:
+[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:20:1: [0m[0;1;31merror: [0m[1munknown type name 'NS_ASSUME_NONNULL_BEGIN'[0m
+NS_ASSUME_NONNULL_BEGIN
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:25:1: [0m[0;1;31merror: [0m[1mexpected identifier or '('[0m
+typedef void (^FIRTokenCallback)(NSString *_Nullable token, NSError *_Nullable error)
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:30:1: [0m[0;1;31merror: [0m[1mexpected function body after function declarator[0m
+@protocol FIRAuthInterop
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:13: [0m[0;1;31merror: [0m[1mexpected ')'[0m
+- (nullable NSString *)getUserID;
+[0;1;32m            ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:3: [0m[0;1;30mnote: [0mto match this '('[0m
+- (nullable NSString *)getUserID;
+[0;1;32m  ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:1: [0m[0;1;31merror: [0m[1mmissing context for method declaration[0m
+- (nullable NSString *)getUserID;
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:38:1: [0m[0;1;31merror: [0m[1mexpected method body[0m
+@end
+[0;1;32m^
+[0m[1mPods/FirebaseDatabase/Firebase/Database/Api/FIRDatabase.m:19:9: [0m[0;1;31mfatal error: [0m[1mcould not build module 'FirebaseAuthInterop'[0m
+#import <FirebaseAuthInterop/FIRAuthInterop.h>
+[0;1;32m ~~~~~~~^
+[0m7 errors generated.
+[2019-04-11 15:23:29.695][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1024][com.facebook.buck.core.build.engine.impl.CachingBuildRuleBuilder] Building rule [//Pods:FirebaseDatabase#compile-FIRDatabase.m.obae9bcbf,iphonesimulator-x86_64] failed.
+com.facebook.buck.core.build.engine.impl.BuildRuleFailedException: com.facebook.buck.step.StepFailedException: Command failed with exit code 1.
+stderr: While building module 'FirebaseAuthInterop' imported from Pods/FirebaseDatabase/Firebase/Database/Api/FIRDatabase.m:19:
+In file included from <module-includes>:1:
+In file included from buck-out/gen/Pods/FirebaseAuthInterop#header-mode-symlink-tree-with-modulemap,headers,iphonesimulator-x86_64/FirebaseAuthInterop/FirebaseAuthInterop.h:1:
+[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:20:1: [0m[0;1;31merror: [0m[1munknown type name 'NS_ASSUME_NONNULL_BEGIN'[0m
+NS_ASSUME_NONNULL_BEGIN
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:25:1: [0m[0;1;31merror: [0m[1mexpected identifier or '('[0m
+typedef void (^FIRTokenCallback)(NSString *_Nullable token, NSError *_Nullable error)
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:30:1: [0m[0;1;31merror: [0m[1mexpected function body after function declarator[0m
+@protocol FIRAuthInterop
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:13: [0m[0;1;31merror: [0m[1mexpected ')'[0m
+- (nullable NSString *)getUserID;
+[0;1;32m            ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:3: [0m[0;1;30mnote: [0mto match this '('[0m
+- (nullable NSString *)getUserID;
+[0;1;32m  ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:1: [0m[0;1;31merror: [0m[1mmissing context for method declaration[0m
+- (nullable NSString *)getUserID;
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:38:1: [0m[0;1;31merror: [0m[1mexpected method body[0m
+@end
+[0;1;32m^
+[0m[1mPods/FirebaseDatabase/Firebase/Database/Api/FIRDatabase.m:19:9: [0m[0;1;31mfatal error: [0m[1mcould not build module 'FirebaseAuthInterop'[0m
+#import <FirebaseAuthInterop/FIRAuthInterop.h>
+[0;1;32m ~~~~~~~^
+[0m7 errors generated.
+  When running <objective-c preprocess_and_compile>.
+	at com.facebook.buck.core.build.engine.impl.CachingBuildRuleBuilder.getFailedException(CachingBuildRuleBuilder.java:1223)
+	at com.facebook.buck.core.build.engine.impl.CachingBuildRuleBuilder.lambda$build$2(CachingBuildRuleBuilder.java:386)
+	at com.google.common.util.concurrent.AbstractCatchingFuture$AsyncCatchingFuture.doFallback(AbstractCatchingFuture.java:172)
+	at com.google.common.util.concurrent.AbstractCatchingFuture$AsyncCatchingFuture.doFallback(AbstractCatchingFuture.java:159)
+	at com.google.common.util.concurrent.AbstractCatchingFuture.run(AbstractCatchingFuture.java:112)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1016)
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:867)
+	at com.google.common.util.concurrent.AbstractFuture.setException(AbstractFuture.java:713)
+	at com.google.common.util.concurrent.AbstractTransformFuture.run(AbstractTransformFuture.java:97)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1016)
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:867)
+	at com.google.common.util.concurrent.AbstractFuture.setException(AbstractFuture.java:713)
+	at com.google.common.util.concurrent.AbstractTransformFuture.run(AbstractTransformFuture.java:97)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1016)
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:867)
+	at com.google.common.util.concurrent.AbstractFuture.setFuture(AbstractFuture.java:754)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleAsyncTask.afterRanInterruptibly(TrustedListenableFutureTask.java:170)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleAsyncTask.afterRanInterruptibly(TrustedListenableFutureTask.java:145)
+	at com.google.common.util.concurrent.InterruptibleTask.run(InterruptibleTask.java:80)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask.run(TrustedListenableFutureTask.java:80)
+	at com.facebook.buck.util.concurrent.WeightedListeningExecutorService.lambda$submit$2(WeightedListeningExecutorService.java:100)
+	at com.facebook.buck.util.concurrent.WeightedListeningExecutorService.lambda$submitWithSemaphore$0(WeightedListeningExecutorService.java:74)
+	at com.google.common.util.concurrent.AbstractTransformFuture$AsyncTransformFuture.doTransform(AbstractTransformFuture.java:206)
+	at com.google.common.util.concurrent.AbstractTransformFuture$AsyncTransformFuture.doTransform(AbstractTransformFuture.java:195)
+	at com.google.common.util.concurrent.AbstractTransformFuture.run(AbstractTransformFuture.java:115)
+	at com.google.common.util.concurrent.MoreExecutors$5$1.run(MoreExecutors.java:999)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.facebook.buck.step.StepFailedException: Command failed with exit code 1.
+stderr: While building module 'FirebaseAuthInterop' imported from Pods/FirebaseDatabase/Firebase/Database/Api/FIRDatabase.m:19:
+In file included from <module-includes>:1:
+In file included from buck-out/gen/Pods/FirebaseAuthInterop#header-mode-symlink-tree-with-modulemap,headers,iphonesimulator-x86_64/FirebaseAuthInterop/FirebaseAuthInterop.h:1:
+[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:20:1: [0m[0;1;31merror: [0m[1munknown type name 'NS_ASSUME_NONNULL_BEGIN'[0m
+NS_ASSUME_NONNULL_BEGIN
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:25:1: [0m[0;1;31merror: [0m[1mexpected identifier or '('[0m
+typedef void (^FIRTokenCallback)(NSString *_Nullable token, NSError *_Nullable error)
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:30:1: [0m[0;1;31merror: [0m[1mexpected function body after function declarator[0m
+@protocol FIRAuthInterop
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:13: [0m[0;1;31merror: [0m[1mexpected ')'[0m
+- (nullable NSString *)getUserID;
+[0;1;32m            ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:3: [0m[0;1;30mnote: [0mto match this '('[0m
+- (nullable NSString *)getUserID;
+[0;1;32m  ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:1: [0m[0;1;31merror: [0m[1mmissing context for method declaration[0m
+- (nullable NSString *)getUserID;
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:38:1: [0m[0;1;31merror: [0m[1mexpected method body[0m
+@end
+[0;1;32m^
+[0m[1mPods/FirebaseDatabase/Firebase/Database/Api/FIRDatabase.m:19:9: [0m[0;1;31mfatal error: [0m[1mcould not build module 'FirebaseAuthInterop'[0m
+#import <FirebaseAuthInterop/FIRAuthInterop.h>
+[0;1;32m ~~~~~~~^
+[0m7 errors generated.
+  When running <objective-c preprocess_and_compile>.
+	at com.facebook.buck.step.StepFailedException.createForFailingStepWithException(StepFailedException.java:57)
+	at com.facebook.buck.step.StepFailedException.createForFailingStepWithExitCode(StepFailedException.java:51)
+	at com.facebook.buck.step.DefaultStepRunner.runStepForBuildTarget(DefaultStepRunner.java:54)
+	at com.facebook.buck.core.build.engine.impl.CachingBuildRuleBuilder$BuildRuleSteps.executeCommands(CachingBuildRuleBuilder.java:1449)
+	at com.facebook.buck.core.build.engine.impl.CachingBuildRuleBuilder$BuildRuleSteps.runWithDefaultExecutor(CachingBuildRuleBuilder.java:1411)
+	at com.facebook.buck.core.build.engine.impl.CachingBuildRuleBuilder$2.runWithDefaultBehavior(CachingBuildRuleBuilder.java:850)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleAsyncTask.runInterruptibly(TrustedListenableFutureTask.java:162)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleAsyncTask.runInterruptibly(TrustedListenableFutureTask.java:145)
+	at com.google.common.util.concurrent.InterruptibleTask.run(InterruptibleTask.java:57)
+	... 10 more
+Caused by: com.facebook.buck.core.exceptions.HumanReadableException: Command failed with exit code 1.
+stderr: While building module 'FirebaseAuthInterop' imported from Pods/FirebaseDatabase/Firebase/Database/Api/FIRDatabase.m:19:
+In file included from <module-includes>:1:
+In file included from buck-out/gen/Pods/FirebaseAuthInterop#header-mode-symlink-tree-with-modulemap,headers,iphonesimulator-x86_64/FirebaseAuthInterop/FirebaseAuthInterop.h:1:
+[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:20:1: [0m[0;1;31merror: [0m[1munknown type name 'NS_ASSUME_NONNULL_BEGIN'[0m
+NS_ASSUME_NONNULL_BEGIN
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:25:1: [0m[0;1;31merror: [0m[1mexpected identifier or '('[0m
+typedef void (^FIRTokenCallback)(NSString *_Nullable token, NSError *_Nullable error)
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:30:1: [0m[0;1;31merror: [0m[1mexpected function body after function declarator[0m
+@protocol FIRAuthInterop
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:13: [0m[0;1;31merror: [0m[1mexpected ')'[0m
+- (nullable NSString *)getUserID;
+[0;1;32m            ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:3: [0m[0;1;30mnote: [0mto match this '('[0m
+- (nullable NSString *)getUserID;
+[0;1;32m  ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:1: [0m[0;1;31merror: [0m[1mmissing context for method declaration[0m
+- (nullable NSString *)getUserID;
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:38:1: [0m[0;1;31merror: [0m[1mexpected method body[0m
+@end
+[0;1;32m^
+[0m[1mPods/FirebaseDatabase/Firebase/Database/Api/FIRDatabase.m:19:9: [0m[0;1;31mfatal error: [0m[1mcould not build module 'FirebaseAuthInterop'[0m
+#import <FirebaseAuthInterop/FIRAuthInterop.h>
+[0;1;32m ~~~~~~~^
+[0m7 errors generated.
+	at com.facebook.buck.step.StepFailedException.createForFailingStepWithExitCode(StepFailedException.java:52)
+	... 17 more
+
+[2019-04-11 15:23:29.743][info ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1009][com.facebook.buck.event.listener.LoggingBuildListener] Build finished at 2019-04-11 15:23:29.743
+[2019-04-11 15:23:29.744][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:1003][com.facebook.buck.util.perf.ProcessTracker] shutDown
+[2019-04-11 15:23:29.744][debug][command:null][tid:1002][com.google.common.util.concurrent.ServiceManager] Service PerfStatsTracking [TERMINATED] has terminated. Previous state was: STOPPING
+[2019-04-11 15:23:29.744][debug][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.facebook.buck.event.listener.RenderingConsole] Stopping render scheduler
+[2019-04-11 15:23:29.746][info ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.facebook.buck.cli.Main] Awaiting termination of PROJECT executor service. Waiting for all jobs to complete, or up to maximum of 60 seconds...
+[2019-04-11 15:23:29.746][info ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.facebook.buck.cli.Main] Successfully terminated PROJECT executor service.
+[2019-04-11 15:23:29.746][info ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.facebook.buck.cli.Main] Awaiting termination of NETWORK executor service. Waiting for all jobs to complete, or up to maximum of 60 seconds...
+[2019-04-11 15:23:29.746][info ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.facebook.buck.cli.Main] Successfully terminated NETWORK executor service.
+[2019-04-11 15:23:29.746][info ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.facebook.buck.cli.Main] Awaiting termination of CPU executor service. Waiting for all jobs to complete, or up to maximum of 60 seconds...
+[2019-04-11 15:23:29.746][info ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.facebook.buck.cli.Main] Successfully terminated CPU executor service.
+[2019-04-11 15:23:29.746][info ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.facebook.buck.cli.Main] Awaiting termination of ScheduledExecutorService executor service. Waiting for all jobs to complete, or up to maximum of 60 seconds...
+[2019-04-11 15:23:29.746][info ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.facebook.buck.cli.Main] Successfully terminated ScheduledExecutorService executor service.
+[2019-04-11 15:23:29.746][info ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.facebook.buck.cli.Main] Awaiting termination of CounterAggregatorExecutor executor service. Waiting for all jobs to complete, or up to maximum of 20 seconds...
+[2019-04-11 15:23:29.746][info ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.facebook.buck.cli.Main] Successfully terminated CounterAggregatorExecutor executor service.
+[2019-04-11 15:23:29.746][info ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.facebook.buck.cli.Main] Awaiting termination of HTTP Read executor service. Waiting for all jobs to complete, or up to maximum of 1800 seconds...
+[2019-04-11 15:23:29.746][info ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.facebook.buck.cli.Main] Successfully terminated HTTP Read executor service.
+[2019-04-11 15:23:29.746][info ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.facebook.buck.cli.Main] Awaiting termination of Download Heavy Build HTTP Read executor service. Waiting for all jobs to complete, or up to maximum of 1800 seconds...
+[2019-04-11 15:23:29.746][info ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.facebook.buck.cli.Main] Successfully terminated Download Heavy Build HTTP Read executor service.
+[2019-04-11 15:23:29.746][info ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.facebook.buck.cli.Main] Awaiting termination of HTTP Write executor service. Waiting for all jobs to complete, or up to maximum of 1800 seconds...
+[2019-04-11 15:23:29.746][info ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.facebook.buck.cli.Main] Successfully terminated HTTP Write executor service.
+[2019-04-11 15:23:29.746][info ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.facebook.buck.cli.Main] Awaiting termination of Disk IO executor service. Waiting for all jobs to complete, or up to maximum of 10 seconds...
+[2019-04-11 15:23:29.747][info ][command:71c033c4-141c-4be7-8228-ff0c8ab65bdf][tid:14][com.facebook.buck.cli.Main] Successfully terminated Disk IO executor service.
+[2019-04-11 15:23:29.747][debug][command:null][tid:62][com.facebook.buck.io.AsynchronousDirectoryContentsCleaner] Starting to clean buck-out/.trash
+[2019-04-11 15:23:29.747][debug][command:null][tid:62][com.facebook.buck.io.AsynchronousDirectoryContentsCleaner] Done cleaning buck-out/.trash
+[2019-04-11 15:23:29.747][debug][command:null][tid:66][com.facebook.buck.event.listener.ChromeTraceBuildListener] Writing Chrome trace to buck-out/log/2019-04-11_07h23m28s_buildcommand_71c033c4-141c-4be7-8228-ff0c8ab65bdf/build.2019-04-11.15-23-28.71c033c4-141c-4be7-8228-ff0c8ab65bdf.trace
+[2019-04-11 15:23:29.747][debug][command:null][tid:1003][com.google.common.util.concurrent.ServiceManager] Service ProcessTracker [TERMINATED] has terminated. Previous state was: STOPPING
+[2019-04-11 15:23:29.753][warn ][command:null][tid:14][com.facebook.buck.cli.Main] Command failed:
+com.facebook.buck.command.Build$BuildExecutionException: com.facebook.buck.core.build.engine.impl.BuildRuleFailedException: com.facebook.buck.step.StepFailedException: Command failed with exit code 1.
+stderr: While building module 'FirebaseAuthInterop' imported from Pods/FirebaseDatabase/Firebase/Database/Api/FIRDatabase.m:19:
+In file included from <module-includes>:1:
+In file included from buck-out/gen/Pods/FirebaseAuthInterop#header-mode-symlink-tree-with-modulemap,headers,iphonesimulator-x86_64/FirebaseAuthInterop/FirebaseAuthInterop.h:1:
+[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:20:1: [0m[0;1;31merror: [0m[1munknown type name 'NS_ASSUME_NONNULL_BEGIN'[0m
+NS_ASSUME_NONNULL_BEGIN
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:25:1: [0m[0;1;31merror: [0m[1mexpected identifier or '('[0m
+typedef void (^FIRTokenCallback)(NSString *_Nullable token, NSError *_Nullable error)
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:30:1: [0m[0;1;31merror: [0m[1mexpected function body after function declarator[0m
+@protocol FIRAuthInterop
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:13: [0m[0;1;31merror: [0m[1mexpected ')'[0m
+- (nullable NSString *)getUserID;
+[0;1;32m            ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:3: [0m[0;1;30mnote: [0mto match this '('[0m
+- (nullable NSString *)getUserID;
+[0;1;32m  ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:1: [0m[0;1;31merror: [0m[1mmissing context for method declaration[0m
+- (nullable NSString *)getUserID;
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:38:1: [0m[0;1;31merror: [0m[1mexpected method body[0m
+@end
+[0;1;32m^
+[0m[1mPods/FirebaseDatabase/Firebase/Database/Api/FIRDatabase.m:19:9: [0m[0;1;31mfatal error: [0m[1mcould not build module 'FirebaseAuthInterop'[0m
+#import <FirebaseAuthInterop/FIRAuthInterop.h>
+[0;1;32m ~~~~~~~^
+[0m7 errors generated.
+  When running <objective-c preprocess_and_compile>.
+	at com.facebook.buck.command.Build.waitForBuildToFinish(Build.java:323)
+	at com.facebook.buck.command.Build.waitForBuildToFinishAndPrintFailuresToEventBus(Build.java:421)
+	at com.facebook.buck.command.Build.executeAndPrintFailuresToEventBus(Build.java:144)
+	at com.facebook.buck.command.LocalBuildExecutor.buildTargets(LocalBuildExecutor.java:148)
+	at com.facebook.buck.cli.BuildCommand.executeLocalBuild(BuildCommand.java:761)
+	at com.facebook.buck.cli.BuildCommand.executeBuildAndProcessResult(BuildCommand.java:458)
+	at com.facebook.buck.cli.BuildCommand.run(BuildCommand.java:372)
+	at com.facebook.buck.cli.BuildCommand.runWithoutHelp(BuildCommand.java:338)
+	at com.facebook.buck.cli.AbstractCommand.run(AbstractCommand.java:242)
+	at com.facebook.buck.cli.AbstractContainerCommand.run(AbstractContainerCommand.java:79)
+	at com.facebook.buck.cli.Main.runMainWithExitCode(Main.java:1300)
+	at com.facebook.buck.cli.Main.runMainThenExit(Main.java:464)
+	at com.facebook.buck.cli.Main.nailMain(Main.java:2412)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.facebook.nailgun.NGSession.runImpl(NGSession.java:313)
+	at com.facebook.nailgun.NGSession.run(NGSession.java:199)
+Caused by: com.facebook.buck.core.build.engine.impl.BuildRuleFailedException: com.facebook.buck.step.StepFailedException: Command failed with exit code 1.
+stderr: While building module 'FirebaseAuthInterop' imported from Pods/FirebaseDatabase/Firebase/Database/Api/FIRDatabase.m:19:
+In file included from <module-includes>:1:
+In file included from buck-out/gen/Pods/FirebaseAuthInterop#header-mode-symlink-tree-with-modulemap,headers,iphonesimulator-x86_64/FirebaseAuthInterop/FirebaseAuthInterop.h:1:
+[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:20:1: [0m[0;1;31merror: [0m[1munknown type name 'NS_ASSUME_NONNULL_BEGIN'[0m
+NS_ASSUME_NONNULL_BEGIN
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:25:1: [0m[0;1;31merror: [0m[1mexpected identifier or '('[0m
+typedef void (^FIRTokenCallback)(NSString *_Nullable token, NSError *_Nullable error)
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:30:1: [0m[0;1;31merror: [0m[1mexpected function body after function declarator[0m
+@protocol FIRAuthInterop
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:13: [0m[0;1;31merror: [0m[1mexpected ')'[0m
+- (nullable NSString *)getUserID;
+[0;1;32m            ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:3: [0m[0;1;30mnote: [0mto match this '('[0m
+- (nullable NSString *)getUserID;
+[0;1;32m  ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:1: [0m[0;1;31merror: [0m[1mmissing context for method declaration[0m
+- (nullable NSString *)getUserID;
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:38:1: [0m[0;1;31merror: [0m[1mexpected method body[0m
+@end
+[0;1;32m^
+[0m[1mPods/FirebaseDatabase/Firebase/Database/Api/FIRDatabase.m:19:9: [0m[0;1;31mfatal error: [0m[1mcould not build module 'FirebaseAuthInterop'[0m
+#import <FirebaseAuthInterop/FIRAuthInterop.h>
+[0;1;32m ~~~~~~~^
+[0m7 errors generated.
+  When running <objective-c preprocess_and_compile>.
+	at com.facebook.buck.core.build.engine.impl.CachingBuildRuleBuilder.getFailedException(CachingBuildRuleBuilder.java:1223)
+	at com.facebook.buck.core.build.engine.impl.CachingBuildRuleBuilder.lambda$build$2(CachingBuildRuleBuilder.java:386)
+	at com.google.common.util.concurrent.AbstractCatchingFuture$AsyncCatchingFuture.doFallback(AbstractCatchingFuture.java:172)
+	at com.google.common.util.concurrent.AbstractCatchingFuture$AsyncCatchingFuture.doFallback(AbstractCatchingFuture.java:159)
+	at com.google.common.util.concurrent.AbstractCatchingFuture.run(AbstractCatchingFuture.java:112)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1016)
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:867)
+	at com.google.common.util.concurrent.AbstractFuture.setException(AbstractFuture.java:713)
+	at com.google.common.util.concurrent.AbstractTransformFuture.run(AbstractTransformFuture.java:97)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1016)
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:867)
+	at com.google.common.util.concurrent.AbstractFuture.setException(AbstractFuture.java:713)
+	at com.google.common.util.concurrent.AbstractTransformFuture.run(AbstractTransformFuture.java:97)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1016)
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:867)
+	at com.google.common.util.concurrent.AbstractFuture.setFuture(AbstractFuture.java:754)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleAsyncTask.afterRanInterruptibly(TrustedListenableFutureTask.java:170)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleAsyncTask.afterRanInterruptibly(TrustedListenableFutureTask.java:145)
+	at com.google.common.util.concurrent.InterruptibleTask.run(InterruptibleTask.java:80)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask.run(TrustedListenableFutureTask.java:80)
+	at com.facebook.buck.util.concurrent.WeightedListeningExecutorService.lambda$submit$2(WeightedListeningExecutorService.java:100)
+	at com.facebook.buck.util.concurrent.WeightedListeningExecutorService.lambda$submitWithSemaphore$0(WeightedListeningExecutorService.java:74)
+	at com.google.common.util.concurrent.AbstractTransformFuture$AsyncTransformFuture.doTransform(AbstractTransformFuture.java:206)
+	at com.google.common.util.concurrent.AbstractTransformFuture$AsyncTransformFuture.doTransform(AbstractTransformFuture.java:195)
+	at com.google.common.util.concurrent.AbstractTransformFuture.run(AbstractTransformFuture.java:115)
+	at com.google.common.util.concurrent.MoreExecutors$5$1.run(MoreExecutors.java:999)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.facebook.buck.step.StepFailedException: Command failed with exit code 1.
+stderr: While building module 'FirebaseAuthInterop' imported from Pods/FirebaseDatabase/Firebase/Database/Api/FIRDatabase.m:19:
+In file included from <module-includes>:1:
+In file included from buck-out/gen/Pods/FirebaseAuthInterop#header-mode-symlink-tree-with-modulemap,headers,iphonesimulator-x86_64/FirebaseAuthInterop/FirebaseAuthInterop.h:1:
+[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:20:1: [0m[0;1;31merror: [0m[1munknown type name 'NS_ASSUME_NONNULL_BEGIN'[0m
+NS_ASSUME_NONNULL_BEGIN
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:25:1: [0m[0;1;31merror: [0m[1mexpected identifier or '('[0m
+typedef void (^FIRTokenCallback)(NSString *_Nullable token, NSError *_Nullable error)
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:30:1: [0m[0;1;31merror: [0m[1mexpected function body after function declarator[0m
+@protocol FIRAuthInterop
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:13: [0m[0;1;31merror: [0m[1mexpected ')'[0m
+- (nullable NSString *)getUserID;
+[0;1;32m            ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:3: [0m[0;1;30mnote: [0mto match this '('[0m
+- (nullable NSString *)getUserID;
+[0;1;32m  ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:1: [0m[0;1;31merror: [0m[1mmissing context for method declaration[0m
+- (nullable NSString *)getUserID;
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:38:1: [0m[0;1;31merror: [0m[1mexpected method body[0m
+@end
+[0;1;32m^
+[0m[1mPods/FirebaseDatabase/Firebase/Database/Api/FIRDatabase.m:19:9: [0m[0;1;31mfatal error: [0m[1mcould not build module 'FirebaseAuthInterop'[0m
+#import <FirebaseAuthInterop/FIRAuthInterop.h>
+[0;1;32m ~~~~~~~^
+[0m7 errors generated.
+  When running <objective-c preprocess_and_compile>.
+	at com.facebook.buck.step.StepFailedException.createForFailingStepWithException(StepFailedException.java:57)
+	at com.facebook.buck.step.StepFailedException.createForFailingStepWithExitCode(StepFailedException.java:51)
+	at com.facebook.buck.step.DefaultStepRunner.runStepForBuildTarget(DefaultStepRunner.java:54)
+	at com.facebook.buck.core.build.engine.impl.CachingBuildRuleBuilder$BuildRuleSteps.executeCommands(CachingBuildRuleBuilder.java:1449)
+	at com.facebook.buck.core.build.engine.impl.CachingBuildRuleBuilder$BuildRuleSteps.runWithDefaultExecutor(CachingBuildRuleBuilder.java:1411)
+	at com.facebook.buck.core.build.engine.impl.CachingBuildRuleBuilder$2.runWithDefaultBehavior(CachingBuildRuleBuilder.java:850)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleAsyncTask.runInterruptibly(TrustedListenableFutureTask.java:162)
+	at com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleAsyncTask.runInterruptibly(TrustedListenableFutureTask.java:145)
+	at com.google.common.util.concurrent.InterruptibleTask.run(InterruptibleTask.java:57)
+	... 10 more
+Caused by: com.facebook.buck.core.exceptions.HumanReadableException: Command failed with exit code 1.
+stderr: While building module 'FirebaseAuthInterop' imported from Pods/FirebaseDatabase/Firebase/Database/Api/FIRDatabase.m:19:
+In file included from <module-includes>:1:
+In file included from buck-out/gen/Pods/FirebaseAuthInterop#header-mode-symlink-tree-with-modulemap,headers,iphonesimulator-x86_64/FirebaseAuthInterop/FirebaseAuthInterop.h:1:
+[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:20:1: [0m[0;1;31merror: [0m[1munknown type name 'NS_ASSUME_NONNULL_BEGIN'[0m
+NS_ASSUME_NONNULL_BEGIN
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:25:1: [0m[0;1;31merror: [0m[1mexpected identifier or '('[0m
+typedef void (^FIRTokenCallback)(NSString *_Nullable token, NSError *_Nullable error)
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:30:1: [0m[0;1;31merror: [0m[1mexpected function body after function declarator[0m
+@protocol FIRAuthInterop
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:13: [0m[0;1;31merror: [0m[1mexpected ')'[0m
+- (nullable NSString *)getUserID;
+[0;1;32m            ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:3: [0m[0;1;30mnote: [0mto match this '('[0m
+- (nullable NSString *)getUserID;
+[0;1;32m  ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:1: [0m[0;1;31merror: [0m[1mmissing context for method declaration[0m
+- (nullable NSString *)getUserID;
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:38:1: [0m[0;1;31merror: [0m[1mexpected method body[0m
+@end
+[0;1;32m^
+[0m[1mPods/FirebaseDatabase/Firebase/Database/Api/FIRDatabase.m:19:9: [0m[0;1;31mfatal error: [0m[1mcould not build module 'FirebaseAuthInterop'[0m
+#import <FirebaseAuthInterop/FIRAuthInterop.h>
+[0;1;32m ~~~~~~~^
+[0m7 errors generated.
+	at com.facebook.buck.step.StepFailedException.createForFailingStepWithExitCode(StepFailedException.java:52)
+	... 17 more
+
+[2019-04-11 15:23:29.755][warn ][command:null][tid:14][com.facebook.buck.util.Console] Command failure: Command failed with exit code 1.
+stderr: While building module 'FirebaseAuthInterop' imported from Pods/FirebaseDatabase/Firebase/Database/Api/FIRDatabase.m:19:
+In file included from <module-includes>:1:
+In file included from buck-out/gen/Pods/FirebaseAuthInterop#header-mode-symlink-tree-with-modulemap,headers,iphonesimulator-x86_64/FirebaseAuthInterop/FirebaseAuthInterop.h:1:
+[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:20:1: [0m[0;1;31merror: [0m[1munknown type name 'NS_ASSUME_NONNULL_BEGIN'[0m
+NS_ASSUME_NONNULL_BEGIN
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:25:1: [0m[0;1;31merror: [0m[1mexpected identifier or '('[0m
+typedef void (^FIRTokenCallback)(NSString *_Nullable token, NSError *_Nullable error)
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:30:1: [0m[0;1;31merror: [0m[1mexpected function body after function declarator[0m
+@protocol FIRAuthInterop
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:13: [0m[0;1;31merror: [0m[1mexpected ')'[0m
+- (nullable NSString *)getUserID;
+[0;1;32m            ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:3: [0m[0;1;30mnote: [0mto match this '('[0m
+- (nullable NSString *)getUserID;
+[0;1;32m  ^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:36:1: [0m[0;1;31merror: [0m[1mmissing context for method declaration[0m
+- (nullable NSString *)getUserID;
+[0;1;32m^
+[0m[1mPods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h:38:1: [0m[0;1;31merror: [0m[1mexpected method body[0m
+@end
+[0;1;32m^
+[0m[1mPods/FirebaseDatabase/Firebase/Database/Api/FIRDatabase.m:19:9: [0m[0;1;31mfatal error: [0m[1mcould not build module 'FirebaseAuthInterop'[0m
+#import <FirebaseAuthInterop/FIRAuthInterop.h>
+[0;1;32m ~~~~~~~^
+[0m7 errors generated.
+    When running <objective-c preprocess_and_compile>.
+    When building rule //Pods:FirebaseDatabase#compile-FIRDatabase.m.obae9bcbf,iphonesimulator-x86_64.
+[2019-04-11 15:23:29.755][debug][command:null][tid:14][com.facebook.buck.cli.Main] Done.
+[2019-04-11 15:23:29.755][info ][command:null][tid:14][com.facebook.nailgun.NGSession] Nail cleanly exited with status 1
+[2019-04-11 15:23:29.755][debug][command:null][tid:14][com.facebook.nailgun.NGCommunicator] Shutting down socket for input
+[2019-04-11 15:23:29.755][debug][command:null][tid:14][com.facebook.nailgun.NGCommunicator] Shutting down socket for output
+[2019-04-11 15:23:29.755][debug][command:null][tid:993][com.facebook.nailgun.NGCommunicator] Socket is disconnected
+[2019-04-11 15:23:29.756][debug][command:null][tid:14][com.facebook.nailgun.NGCommunicator] Shutting down read ExecutorService
+[2019-04-11 15:23:29.756][debug][command:null][tid:993][com.facebook.nailgun.NGCommunicator] Nailgun client disconnected
+[2019-04-11 15:23:29.756][debug][command:null][tid:993][com.facebook.nailgun.NGCommunicator] Orchestrator thread finished
+[2019-04-11 15:23:29.756][debug][command:null][tid:14][com.facebook.nailgun.NGCommunicator] Shutting down orchestrator ExecutorService
+[2019-04-11 15:23:29.756][debug][command:null][tid:14][com.facebook.nailgun.NGSession] NGSession 1 is closing client socket
+[2019-04-11 15:23:34.409][debug][command:null][tid:14][com.facebook.nailgun.NGSession] NGSession 1 accepted new connection
+[2019-04-11 15:23:34.411][debug][command:null][tid:1036][com.facebook.nailgun.NGCommunicator] Orchestrator thread started
+[2019-04-11 15:23:34.411][debug][command:null][tid:14][com.facebook.nailgun.NGCommunicator] Shutting down socket for input
+[2019-04-11 15:23:34.412][debug][command:null][tid:14][com.facebook.nailgun.NGCommunicator] Shutting down socket for output
+[2019-04-11 15:23:34.412][debug][command:null][tid:14][com.facebook.nailgun.NGCommunicator] Shutting down read ExecutorService
+[2019-04-11 15:23:34.412][debug][command:null][tid:1036][com.facebook.nailgun.NGCommunicator] Socket is disconnected
+[2019-04-11 15:23:34.412][debug][command:null][tid:1036][com.facebook.nailgun.NGCommunicator] Nailgun client disconnected
+[2019-04-11 15:23:34.412][debug][command:null][tid:1036][com.facebook.nailgun.NGCommunicator] Orchestrator thread finished
+[2019-04-11 15:23:34.412][debug][command:null][tid:14][com.facebook.nailgun.NGCommunicator] Shutting down orchestrator ExecutorService
+[2019-04-11 15:23:34.413][debug][command:null][tid:14][com.facebook.nailgun.NGSession] NGSession 1 is closing client socket
+[2019-04-11 15:23:34.420][debug][command:null][tid:14][com.facebook.nailgun.NGSession] NGSession 1 accepted new connection
+[2019-04-11 15:23:34.423][debug][command:null][tid:1038][com.facebook.nailgun.NGCommunicator] Orchestrator thread started
+[2019-04-11 15:23:34.423][debug][command:null][tid:14][com.facebook.buck.util.config.Configs] Loading configuration for /Users/stevenlee/Downloads/BuckTest 3
+[2019-04-11 15:23:34.424][debug][command:null][tid:14][com.facebook.buck.util.config.Configs] Loaded project configuration file /Users/stevenlee/Downloads/BuckTest 3/.buckconfig
+[2019-04-11 15:23:34.424][debug][command:null][tid:14][com.facebook.buck.util.config.Configs] Adding configuration overrides RawConfig{values={}}
+[2019-04-11 15:23:34.426][debug][command:null][tid:14][com.facebook.buck.cli.Main] Rotating log.
