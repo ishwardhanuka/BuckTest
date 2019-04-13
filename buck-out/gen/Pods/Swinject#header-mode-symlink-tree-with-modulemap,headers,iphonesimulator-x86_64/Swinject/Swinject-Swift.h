@@ -1,0 +1,1 @@
+/Users/stevenlee/Downloads/BuckTest 3/buck-out/gen/Pods/Swinject#apple-swift-compile,iphonesimulator-x86_64/Swinject-Swift.h

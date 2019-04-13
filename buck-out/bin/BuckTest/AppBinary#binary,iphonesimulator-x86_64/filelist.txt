@@ -1,0 +1,20 @@
+buck-out/gen/BuckTest/AppBinary#iphonesimulator-x86_64,swift-compile/AppBinary.o
+buck-out/gen/Pods/SwinjectStoryboard#iphonesimulator-x86_64,static/libSwinjectStoryboard.a
+buck-out/gen/Pods/RxCocoa#iphonesimulator-x86_64,static/libRxCocoa.a
+buck-out/gen/Pods/Validator#iphonesimulator-x86_64,static/libValidator.a
+buck-out/gen/Pods/Swinject#iphonesimulator-x86_64,static/libSwinject.a
+buck-out/gen/Pods/SwiftyRSA#iphonesimulator-x86_64,static/libSwiftyRSA.a
+buck-out/gen/Pods/SwiftKeychainWrapper#iphonesimulator-x86_64,static/libSwiftKeychainWrapper.a
+buck-out/gen/Pods/SkyFloatingLabelTextField#iphonesimulator-x86_64,static/libSkyFloatingLabelTextField.a
+buck-out/gen/Pods/RxSwift#iphonesimulator-x86_64,static/libRxSwift.a
+buck-out/gen/Pods/Mixpanel#iphonesimulator-x86_64,static/libMixpanel.a
+buck-out/gen/Pods/Lottie#iphonesimulator-x86_64,static/libLottie.a
+buck-out/gen/Pods/Hero#iphonesimulator-x86_64,static/libHero.a
+buck-out/gen/Pods/FirebaseCore#iphonesimulator-x86_64,static/libFirebaseCore.a
+buck-out/gen/Pods/CountryPickerSwift#iphonesimulator-x86_64,static/libCountryPickerSwift.a
+buck-out/gen/Pods/Alamofire#iphonesimulator-x86_64,static/libAlamofire.a
+buck-out/gen/Pods/SVProgressHUD#iphonesimulator-x86_64,static/libSVProgressHUD.a
+/Users/stevenlee/Downloads/BuckTest 3/Pods/KochavaTrackeriOS/KochavaTrackeriOS/Libraries/libKochavaTrackeriOS.a
+buck-out/gen/Pods/IGListKit#iphonesimulator-x86_64,static/libIGListKit.a
+buck-out/gen/Pods/GoogleUtilities#iphonesimulator-x86_64,static/libGoogleUtilities.a
+buck-out/gen/Pods/GTMSessionFetcher#iphonesimulator-x86_64,static/libGTMSessionFetcher.a

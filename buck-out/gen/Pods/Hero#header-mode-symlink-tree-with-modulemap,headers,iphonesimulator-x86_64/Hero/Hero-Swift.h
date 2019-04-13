@@ -1,0 +1,1 @@
+/Users/stevenlee/Downloads/BuckTest 3/buck-out/gen/Pods/Hero#apple-swift-compile,iphonesimulator-x86_64/Hero-Swift.h

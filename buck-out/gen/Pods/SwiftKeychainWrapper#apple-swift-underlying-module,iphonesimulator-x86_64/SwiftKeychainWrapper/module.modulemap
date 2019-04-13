@@ -1,0 +1,7 @@
+module SwiftKeychainWrapper {
+    umbrella header "SwiftKeychainWrapper.h"
+
+    export *
+    module * { export * }
+}
+

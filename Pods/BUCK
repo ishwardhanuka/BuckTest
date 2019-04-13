@@ -11,10 +11,272 @@ apple_third_party_lib(
     ]),
 )
 apple_third_party_lib(
-    name = 'Alamofire',
+    name = "Alamofire",
     srcs = glob([
-        'Alamofire/Source/*.swift'
+        "Alamofire/Source/*.swift"
     ]),
+)
+apple_third_party_lib(
+    name = "Swinject",
+    exported_headers = glob([
+        "Swinject/**/*.h",
+    ]),
+    srcs = glob([
+        "Swinject/**/*.swift"
+    ]),
+)
+apple_third_party_lib(
+    name = "SwinjectStoryboard",
+    exported_headers = glob([
+        "SwinjectStoryboard/**/*.h",
+    ]),
+    srcs = glob([
+        'SwinjectStoryboard/**/*.swift',
+        'SwinjectStoryboard/**/*.m',
+    ]),
+    deps = [
+        "//Pods:Swinject"
+    ],
+    
+)
+
+apple_third_party_lib(
+    name = "RxSwift",
+    
+    srcs = glob([
+        "RxSwift/**/*.swift"
+
+    ])
+)
+
+apple_third_party_lib(
+    name = "RxCocoa",
+    exported_headers = glob([
+        "RxCocoa/**/*.h",
+    ]),
+    srcs = glob([
+        "RxCocoa/**/*.swift",
+        "RxCocoa/**/*.m"
+
+    ]),
+    deps = [
+        "//Pods:RxSwift"
+    ],
+)
+
+#FBSDKCoreKit
+apple_third_party_lib(
+    name = "Bolts",
+    exported_headers = glob([
+        "Bolts/**/*.h",
+        "Bolts/**/*.hm",
+    ]),
+    srcs = glob([
+        "Bolts/**/*.m"
+
+    ]),
+)
+
+apple_third_party_lib(
+    name = "FBSDKCoreKit",
+    exported_headers = glob([
+        "FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/*.h",
+        "FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/*.h",
+        "FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/*.h",
+    ], exclude = [
+        "FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKDeviceButton.h",
+        "FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKDeviceViewControllerBase.h",
+        "FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/Device/**/*"
+    ]),
+    srcs = glob([
+        "FBSDKCoreKit/**/*.m"
+
+    ], exclude = [
+        "FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKDeviceButton.m",
+        "FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKDeviceViewControllerBase.m",
+        "FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/Device/**/*"
+    ]),
+    deps = [
+        "//Pods:Bolts"
+    ],
+)
+
+prebuilt_apple_framework(
+    name = 'Intercom',
+    preferred_linkage = 'shared',
+    framework = 'Intercom/Intercom/Intercom.framework',
+    visibility = ["PUBLIC"],
+    frameworks = [
+        '$SDKROOT/System/Library/Frameworks/Foundation.framework',
+        '$SDKROOT/System/Library/Frameworks/UIKit.framework',
+        '$SDKROOT/System/Library/Frameworks/Accelerate.framework',
+        '$SDKROOT/System/Library/Frameworks/Security.framework',
+        '$SDKROOT/System/Library/Frameworks/SystemConfiguration.framework',
+        '$SDKROOT/System/Library/Frameworks/MobileCoreServices.framework',
+        '$SDKROOT/System/Library/Frameworks/ImageIO.framework',
+        '$SDKROOT/System/Library/Frameworks/AudioToolbox.framework',
+        '$SDKROOT/System/Library/Frameworks/QuartzCore.framework',
+        '$SDKROOT/System/Library/Frameworks/CoreGraphics.framework',
+        '$SDKROOT/System/Library/Frameworks/Photos.framework',
+        '$SDKROOT/System/Library/Frameworks/Accelerate.framework',
+        '$SDKROOT/System/Library/Frameworks/WebKit.framework',
+    ],
+    exported_linker_flags = ["-licucore",
+    "-lxml2"
+    ]
+)
+
+apple_third_party_lib(
+    name = "Hero",
+    srcs = glob([
+        "Hero/**/*.swift"
+    ]),
+)
+
+apple_third_party_lib(
+    name = "Lottie",
+    module_name="Lottie",
+    srcs = glob([
+        "lottie-ios/**/*.swift"
+    ]),
+)
+
+prebuilt_apple_framework(
+    name = 'ZDCChat',
+    preferred_linkage = 'shared',
+    framework = 'ZDCChat/ZDCChat.framework',
+    visibility = ["PUBLIC"],
+)
+
+prebuilt_apple_framework(
+    name = 'ZDCChatAPI',
+    preferred_linkage = 'shared',
+    framework = 'ZDCChat/ZDCChatAPI.framework',
+    visibility = ["PUBLIC"],
+)
+
+prebuilt_apple_framework(
+    name = 'Fabric',
+    preferred_linkage = 'shared',
+    framework = 'Fabric/iOS/Fabric.framework',
+    visibility = ["PUBLIC"],
+)
+
+prebuilt_apple_framework(
+    name = 'Crashlytics',
+    preferred_linkage = 'shared',
+    framework = 'Crashlytics/iOS/Crashlytics.framework',
+    visibility = ["PUBLIC"],
+)
+
+
+prebuilt_cxx_library(
+    name = "KochavaTrackeriOS",
+    exported_headers = glob([
+        "KochavaTrackeriOS/**/*.h",
+    ]),
+    static_lib = "KochavaTrackeriOS/KochavaTrackeriOS/Libraries/libKochavaTrackeriOS.a",
+    visibility = ["PUBLIC"],
+
+)
+
+#Mixpanel
+apple_resource(
+    name = "MixpanelResources",
+    dirs = [],
+    files = glob(["Mixpanel-swift/Mixpanel/*.png","Mixpanel-swift/Mixpanel/*.xib"]),
+)
+apple_third_party_lib(
+    name = "Mixpanel",
+    exported_headers = glob([
+        "Mixpanel-swift/Mixpanel/*.h",
+    ]),
+    srcs = glob([
+        "Mixpanel-swift/Mixpanel/*.swift",
+        "Mixpanel-swift/Mixpanel/*.m"
+    ]),
+    deps = [
+        "//Pods:MixpanelResources"
+    ],
+)
+
+apple_third_party_lib(
+    name = "SwiftKeychainWrapper",
+    exported_headers = glob([
+        "SwiftKeychainWrapper/SwiftKeychainWrapper/*.h",
+    ]),
+    srcs = glob([
+        "SwiftKeychainWrapper/SwiftKeychainWrapper/*.swift",
+    ]),
+)
+
+apple_third_party_lib(
+    name = "SkyFloatingLabelTextField",
+    srcs = glob([
+        "SkyFloatingLabelTextField/Sources/*.swift",
+    ]),
+)
+
+apple_third_party_lib(
+    name = "SwiftyRSA",
+    exported_headers = glob([
+        "SwiftyRSA/Source/*.h",
+    ]),
+    srcs = glob([
+        "SwiftyRSA/Source/*.swift",
+        "SwiftyRSA/Source/*.m"
+    ]),
+)
+
+#CountryPickerSwift
+apple_asset_catalog(
+  name = "CountryPickerSwiftAppAsset",
+  dirs = ["CountryPickerSwift/CountryPicker/Classes/Flags.xcassets"],
+)
+apple_resource(
+    name = "CountryPickerSwiftResources",
+    dirs = [],
+    files = glob(["CountryPickerSwift/CountryPicker/Assets/CountryPicker.bundle","CountryPickerSwift/CountryPicker/Classes/*.xib","CountryPickerSwift/CountryPicker/Classes/Flags.xcassets/*"]),
+)
+apple_third_party_lib(
+    name = "CountryPickerSwift",
+    module_name="CountryPicker",
+    srcs = glob([
+        "CountryPickerSwift/CountryPicker/Classes/*.swift",
+    ]),
+    deps = [
+        "//Pods:CountryPickerSwiftAppAsset",
+        "//Pods:CountryPickerSwiftResources",
+    ],frameworks = [
+        '$SDKROOT/System/Library/Frameworks/CoreTelephony.framework',
+    ],
+)
+
+apple_third_party_lib(
+    name = "Validator",
+    srcs = glob([
+        "Validator/**/*.swift"
+    ]),
+)
+
+#SVProgressHUD
+apple_resource(
+    name = "SVProgressHUDResources",
+    dirs = [],
+    files = glob(["SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"]),
+)
+
+apple_third_party_lib(
+    name = "SVProgressHUD",
+    exported_headers = glob([
+        "SVProgressHUD/**/*.h",
+    ]),
+    srcs = glob([
+        "SVProgressHUD/**/*.m"
+    ]),
+    deps = [
+        "//Pods:SVProgressHUDResources",
+    ]
 )
 
 #firebase/core
@@ -77,8 +339,11 @@ apple_third_party_lib(
 )
 apple_third_party_lib(
     name = "FirebaseAuthInterop",
+    preprocessor_flags = ['-fobjc-arc'],
     exported_headers = glob([
 	    "FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h",
+	    
+	    
     ]),
     srcs = glob([
 	    #"FirebaseAuthInterop/Interop/Auth/**/FIRAuthInterop.h",
@@ -104,4 +369,110 @@ apple_third_party_lib(
     frameworks = [
         "$SDKROOT/System/Library/Frameworks/Foundation.framework",
     ],
+)
+
+#auth
+apple_third_party_lib(
+    name = "GTMSessionFetcher",
+    exported_headers = glob([
+	    "GTMSessionFetcher/**/*.h",
+	    
+	    
+    ]),
+    srcs = glob([
+	    "GTMSessionFetcher/**/*.m",
+    ]),
+)
+apple_third_party_lib(
+    name = "FirebaseAuth",
+    exported_headers = glob([
+	    "FirebaseAuth/Interop/**/*.h",
+	    
+	    
+    ]),
+    srcs = glob([
+	    "FirebaseAuth/Interop/**/*.m",
+    ]),
+    frameworks = [
+        "$SDKROOT/System/Library/Frameworks/Foundation.framework",
+    ],
+    deps = [
+        "//Pods:FirebaseAuthInterop",
+        "//Pods:FirebaseCore",
+        "//Pods:GoogleUtilities",
+        "//Pods:GTMSessionFetcher",
+ 
+    ],
+)
+
+#firebaseMessaging
+apple_third_party_lib(
+    name = "FirebaseAnalyticsInterop",
+    exported_headers = glob([
+	    "FirebaseAnalyticsInterop/Interop/**/*.h",
+	    
+	    
+    ]),
+    srcs = glob([
+	    "FirebaseAnalyticsInterop/Interop/**/*.m",
+    ])
+)
+
+apple_third_party_lib(
+    name = "FirebaseInstanceID",
+    exported_headers = glob([
+	    "FirebaseInstanceID/**/*.h",
+	    
+	    
+    ]),
+    srcs = glob([
+	    "FirebaseInstanceID/**/*.m",
+	    "FirebaseInstanceID/**/*.mh",
+    ]),
+    deps = [
+        "//Pods:GoogleUtilities",
+        "//Pods:FirebaseCore",
+    ],
+)
+
+apple_third_party_lib(
+    name = "Protobuf",
+    exported_headers = glob([
+	    "Protobuf/**/*h"
+
+        "Protobuf/objectivec/*.h",
+    ]),
+    srcs = glob([
+	    "Protobuf/*.m"
+
+    ]),
+    preprocessor_flags = ["-fno-objc-arc"]
+)
+
+apple_third_party_lib(
+    name = "FirebaseMessaging",
+    exported_headers = glob([
+	    "firebaseDefine.h",
+	    "FirebaseMessaging/**/*.h",
+	    #"FirebaseMessaging/**/*.pbobjc.h",
+	    
+	    
+    ], exclude = [
+        "FirebaseMessaging/Firebase/Messaging/FirebaseMessaging.h",
+    ]),
+    srcs = glob([
+	    "FirebaseMessaging/**/*.m",
+	    "FirebaseMessaging/**/*.mh",
+	    #"FirebaseMessaging/**/*.pbobjc.m",
+    ]),
+    frameworks = [
+        "$SDKROOT/System/Library/Frameworks/SystemConfiguration.framework",
+    ],
+    deps = [
+        "//Pods:FirebaseCore",
+        "//Pods:FirebaseAnalyticsInterop",
+        "//Pods:FirebaseInstanceID",
+        "//Pods:GoogleUtilities",
+        "//Pods:Protobuf",
+    ]
 )

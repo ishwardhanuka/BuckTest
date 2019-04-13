@@ -1,0 +1,65 @@
+InvocationInfo {"buildId":"d11dce4b-8222-4a26-90fd-6ea1506b89ba","superConsoleEnabled":true,"isDaemon":true,"subCommand":"buildcommand","commandArgs":["build","//BuckTest:BuckTest"],"unexpandedCommandArgs":["build","//BuckTest:BuckTest"],"buckLogDir":"buck-out/log","timestampMillis":1555143978633}
+FileCreate {"timestamp":1555143978665,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/SVProgressHUD/.DS_Store}"}
+FileCreate {"timestamp":1555143978678,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/SVProgressHUD/SVProgressHUD/SVRadialGradientLayer.m}"}
+FileCreate {"timestamp":1555143978680,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/SVProgressHUD/SVProgressHUD/SVIndefiniteAnimatedView.h}"}
+FileCreate {"timestamp":1555143978680,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/SVProgressHUD/SVProgressHUD/SVIndefiniteAnimatedView.m}"}
+FileCreate {"timestamp":1555143978680,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/SVProgressHUD/SVProgressHUD/SVProgressAnimatedView.h}"}
+FileCreate {"timestamp":1555143978680,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/SVProgressHUD/SVProgressHUD/SVProgressAnimatedView.m}"}
+FileCreate {"timestamp":1555143978680,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.h}"}
+FileCreate {"timestamp":1555143978680,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.m}"}
+FileCreate {"timestamp":1555143978680,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/SVProgressHUD/SVProgressHUD/SVRadialGradientLayer.h}"}
+FileCreate {"timestamp":1555143978740,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Pods.xcodeproj/xcuserdata/stevenlee.xcuserdatad/xcschemes/xcschememanagement.plist}"}
+FileCreate {"timestamp":1555143978740,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist}"}
+FileCreate {"timestamp":1555143978740,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch}"}
+FileCreate {"timestamp":1555143978741,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Target Support Files/SVProgressHUD/SVProgressHUD-dummy.m}"}
+FileCreate {"timestamp":1555143978741,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Target Support Files/SVProgressHUD/SVProgressHUD.xcconfig}"}
+FileCreate {"timestamp":1555143978741,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Target Support Files/SVProgressHUD/SVProgressHUD.modulemap}"}
+FileCreate {"timestamp":1555143978741,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Target Support Files/SVProgressHUD/SVProgressHUD-umbrella.h}"}
+FileCreate {"timestamp":1555143978741,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Public/KochavaTrackeriOS/KVAFromObjectProtocol.h}"}
+FileCreate {"timestamp":1555143978741,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Public/KochavaTrackeriOS/KochavaEvent.h}"}
+FileCreate {"timestamp":1555143978741,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Public/KochavaTrackeriOS/KVAContext.h}"}
+FileCreate {"timestamp":1555143978741,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Public/KochavaTrackeriOS/KVAConsent.h}"}
+FileCreate {"timestamp":1555143978741,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Public/KochavaTrackeriOS/KochavaTracker.h}"}
+FileCreate {"timestamp":1555143978741,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Public/KochavaTrackeriOS/KVAAsForContextObjectProtocol.h}"}
+FileCreate {"timestamp":1555143978742,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Public/KochavaTrackeriOS/KVAPartner.h}"}
+FileCreate {"timestamp":1555143978742,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Private/KochavaTrackeriOS/KVAFromObjectProtocol.h}"}
+FileCreate {"timestamp":1555143978742,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Private/KochavaTrackeriOS/KochavaEvent.h}"}
+FileCreate {"timestamp":1555143978742,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Private/KochavaTrackeriOS/KVAContext.h}"}
+FileCreate {"timestamp":1555143978742,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Private/KochavaTrackeriOS/KVAConsent.h}"}
+FileCreate {"timestamp":1555143978742,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Private/KochavaTrackeriOS/KochavaTracker.h}"}
+FileCreate {"timestamp":1555143978742,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Private/KochavaTrackeriOS/KVAAsForContextObjectProtocol.h}"}
+FileCreate {"timestamp":1555143978742,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Private/KochavaTrackeriOS/KVAPartner.h}"}
+FileCreate {"timestamp":1555143978742,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Private/FirebaseAuthInterop/FIRAuthInterop.h}"}
+FileCreate {"timestamp":1555143978742,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Public/FirebaseAuthInterop/FIRAuthInterop.h}"}
+FileCreate {"timestamp":1555143978743,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Public/FirebaseAnalyticsInterop/FIRInteropEventNames.h}"}
+FileCreate {"timestamp":1555143978743,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Public/FirebaseAnalyticsInterop/FIRAnalyticsInteropListener.h}"}
+FileCreate {"timestamp":1555143978743,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Public/FirebaseAnalyticsInterop/FIRAnalyticsInterop.h}"}
+FileCreate {"timestamp":1555143978743,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Public/FirebaseAnalyticsInterop/FIRInteropParameterNames.h}"}
+FileCreate {"timestamp":1555143978743,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Private/FirebaseAnalyticsInterop/FIRInteropEventNames.h}"}
+FileCreate {"timestamp":1555143978743,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Private/FirebaseAnalyticsInterop/FIRAnalyticsInteropListener.h}"}
+FileCreate {"timestamp":1555143978743,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Private/FirebaseAnalyticsInterop/FIRAnalyticsInterop.h}"}
+FileCreate {"timestamp":1555143978743,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Private/FirebaseAnalyticsInterop/FIRInteropParameterNames.h}"}
+FileCreate {"timestamp":1555143978743,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Public/Firebase/Firebase.h}"}
+FileCreate {"timestamp":1555143978743,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Private/Firebase/Firebase.h}"}
+FileDelete {"timestamp":1555143978744,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=DELETE, path=Pods/Validator/.DS_Store}"}
+FileDelete {"timestamp":1555143978744,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=DELETE, path=Pods/Validator/Validator/.DS_Store}"}
+FileDelete {"timestamp":1555143978744,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=DELETE, path=Pods/Validator/Validator/Sources/.DS_Store}"}
+FileCreate {"timestamp":1555143978744,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/success@2x.png}"}
+FileCreate {"timestamp":1555143978744,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/success@3x.png}"}
+FileCreate {"timestamp":1555143978744,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/info@2x.png}"}
+FileCreate {"timestamp":1555143978744,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/error.png}"}
+FileCreate {"timestamp":1555143978744,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/success.png}"}
+FileCreate {"timestamp":1555143978745,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/angle-mask.png}"}
+FileCreate {"timestamp":1555143978745,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/SVProgressHUD/README.md}"}
+FileCreate {"timestamp":1555143978745,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/info.png}"}
+FileCreate {"timestamp":1555143978745,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/error@3x.png}"}
+FileCreate {"timestamp":1555143978745,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/angle-mask@3x.png}"}
+FileCreate {"timestamp":1555143978745,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/angle-mask@2x.png}"}
+FileCreate {"timestamp":1555143978745,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/error@2x.png}"}
+FileCreate {"timestamp":1555143978745,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/info@3x.png}"}
+FileCreate {"timestamp":1555143978745,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/SVProgressHUD/LICENSE}"}
+ParseStarted {"timestamp":1555143978747}
+ParseFinished {"timestamp":1555143979229}
+BuildFinished {"timestamp":1555143979229}
+Cache.Stats {"cacheHitsPerMode":{"dir":0},"cacheErrorsPerMode":{"dir":0},"totalCacheHits":0,"totalCacheErrors":0,"totalCacheMisses":0,"totalCacheIgnores":0,"totalCacheLocalKeyUnchangedHits":0,"successUploadCount":0,"failureUploadCount":0}
+ExitCode {"exitCode":10}

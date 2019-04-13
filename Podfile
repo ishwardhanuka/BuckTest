@@ -11,6 +11,26 @@ target 'BuckTest' do
   pod 'Firebase/Messaging' 
   pod 'Alamofire'
   pod 'IGListKit'
+  pod 'Swinject'
+  pod 'SwinjectStoryboard'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'KochavaTrackeriOS'
+  pod 'FBSDKCoreKit'
+  pod 'ZDCChat' #have some bundles need to include later on
+  pod 'Fabric'
+  pod 'Crashlytics'
+  pod 'Mixpanel-swift'
+  pod 'SwiftyRSA'
+  pod 'SwiftKeychainWrapper'
+  pod 'SkyFloatingLabelTextField'
+  pod 'CountryPickerSwift'
+  pod 'Validator'
+  pod 'SVProgressHUD'
+  pod 'Intercom'
+  pod 'Hero'
+  pod 'lottie-ios'
+  pod 'IQKeyboardManagerSwift'
   # Pods for BuckTest
 
   target 'BuckTestTests' do

@@ -8,7 +8,7 @@
   GCC_PREPROCESSOR_DEFINITIONS = FIRCore_VERSION=5.4.1 Firebase_VERSION=5.20.0
 
 [swift]
-  version = 4.0
+  version = 4.2
   compiler_flags = -DBUCK -enable-testing -g -Onone -whole-module-optimization
   use_filelist = true
 

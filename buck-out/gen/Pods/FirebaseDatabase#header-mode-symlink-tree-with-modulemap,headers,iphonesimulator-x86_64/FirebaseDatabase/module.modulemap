@@ -1,7 +1,0 @@
-module FirebaseDatabase {
-    umbrella header "FirebaseDatabase.h"
-
-    export *
-    module * { export * }
-}
-

@@ -22,7 +22,28 @@ apple_library(
         "//Pods:Alamofire",
         "//Pods:IGListKit",
         "//Pods:FirebaseCore",
-        "//Pods:FirebaseDatabase"
+        "//Pods:FirebaseAuth",
+        "//Pods:Swinject",
+        "//Pods:SwinjectStoryboard",
+        "//Pods:RxSwift",
+        "//Pods:RxCocoa",
+        "//Pods:KochavaTrackeriOS",
+        "//Pods:ZDCChat",
+        "//Pods:ZDCChatAPI",
+        "//Pods:Fabric",
+        "//Pods:Crashlytics",
+        "//Pods:Mixpanel",
+        "//Pods:SwiftyRSA",
+        "//Pods:SwiftKeychainWrapper",
+        "//Pods:SkyFloatingLabelTextField",
+        "//Pods:CountryPickerSwift",
+        "//Pods:Validator",
+        "//Pods:SVProgressHUD",
+        "//Pods:Intercom",
+        "//Pods:Hero",
+        "//Pods:Lottie"
+        #"//Pods:FBSDKCoreKit",
+        #"//Pods:FirebaseMessaging"
     ]
 )
 
@@ -36,6 +57,8 @@ apple_binary(
     frameworks = [
         '$SDKROOT/System/Library/Frameworks/Foundation.framework',
         '$SDKROOT/System/Library/Frameworks/UIKit.framework',
+        '$SDKROOT/System/Library/Frameworks/AssetsLibrary.framework',
+        '$SDKROOT/System/Library/Frameworks/CoreTelephony.framework',
     ],
 )
 

@@ -1,0 +1,9 @@
+Pods/SwinjectStoryboard/Sources/Box.swift
+Pods/SwinjectStoryboard/Sources/Container+SwinjectStoryboard.swift
+Pods/SwinjectStoryboard/Sources/InjectionVerifiable.swift
+Pods/SwinjectStoryboard/Sources/RegistrationNameAssociatable.swift
+Pods/SwinjectStoryboard/Sources/SwinjectStoryboard+StoryboardReference.swift
+Pods/SwinjectStoryboard/Sources/SwinjectStoryboard.swift
+Pods/SwinjectStoryboard/Sources/SwinjectStoryboardOption.swift
+Pods/SwinjectStoryboard/Sources/UnavailableItems.swift
+Pods/SwinjectStoryboard/Sources/ViewController+Swinject.swift

@@ -1,5 +1,17 @@
 PODS:
   - Alamofire (4.8.2)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - CountryPickerSwift (1.8.0)
+  - Crashlytics (3.12.0):
+    - Fabric (~> 1.9.0)
+  - Fabric (1.9.0)
+  - FBSDKCoreKit (4.44.0):
+    - Bolts (~> 1.9)
   - Firebase/Auth (5.20.1):
     - Firebase/CoreOnly
     - FirebaseAuth (= 5.4.2)
@@ -74,30 +86,84 @@ PODS:
   - GoogleUtilities/UserDefaults (5.5.0):
     - GoogleUtilities/Logger
   - GTMSessionFetcher/Core (1.2.1)
+  - Hero (1.4.0)
   - IGListKit (3.4.0):
     - IGListKit/Default (= 3.4.0)
   - IGListKit/Default (3.4.0):
     - IGListKit/Diffing
   - IGListKit/Diffing (3.4.0)
+  - Intercom (5.2.1)
+  - IQKeyboardManagerSwift (6.2.1)
+  - KochavaTrackeriOS (3.9.0)
   - leveldb-library (1.20)
+  - lottie-ios (3.0.4)
+  - Mixpanel-swift (2.6.2):
+    - Mixpanel-swift/Complete (= 2.6.2)
+  - Mixpanel-swift/Complete (2.6.2)
   - nanopb (0.3.901):
     - nanopb/decode (= 0.3.901)
     - nanopb/encode (= 0.3.901)
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
   - Protobuf (3.7.0)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.5.0)
+  - SkyFloatingLabelTextField (3.6.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftKeychainWrapper (3.2.0)
+  - SwiftyRSA (1.5.0):
+    - SwiftyRSA/ObjC (= 1.5.0)
+  - SwiftyRSA/ObjC (1.5.0)
+  - Swinject (2.6.0)
+  - SwinjectStoryboard (2.2.0):
+    - Swinject (~> 2.6)
+  - Validator (3.1.1)
+  - ZDCChat (1.4.0):
+    - ZDCChat/API (= 1.4.0)
+    - ZDCChat/Localization (= 1.4.0)
+    - ZDCChat/UI (= 1.4.0)
+  - ZDCChat/API (1.4.0)
+  - ZDCChat/Localization (1.4.0)
+  - ZDCChat/UI (1.4.0):
+    - ZDCChat/API
 
 DEPENDENCIES:
   - Alamofire
+  - CountryPickerSwift
+  - Crashlytics
+  - Fabric
+  - FBSDKCoreKit
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Database
   - Firebase/Messaging
+  - Hero
   - IGListKit
+  - Intercom
+  - IQKeyboardManagerSwift
+  - KochavaTrackeriOS
+  - lottie-ios
+  - Mixpanel-swift
+  - RxCocoa
+  - RxSwift
+  - SkyFloatingLabelTextField
+  - SVProgressHUD
+  - SwiftKeychainWrapper
+  - SwiftyRSA
+  - Swinject
+  - SwinjectStoryboard
+  - Validator
+  - ZDCChat
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - Bolts
+    - CountryPickerSwift
+    - Crashlytics
+    - Fabric
+    - FBSDKCoreKit
     - Firebase
     - FirebaseAnalytics
     - FirebaseAnalyticsInterop
@@ -110,13 +176,34 @@ SPEC REPOS:
     - GoogleAppMeasurement
     - GoogleUtilities
     - GTMSessionFetcher
+    - Hero
     - IGListKit
+    - Intercom
+    - IQKeyboardManagerSwift
+    - KochavaTrackeriOS
     - leveldb-library
+    - lottie-ios
+    - Mixpanel-swift
     - nanopb
     - Protobuf
+    - RxCocoa
+    - RxSwift
+    - SkyFloatingLabelTextField
+    - SVProgressHUD
+    - SwiftKeychainWrapper
+    - SwiftyRSA
+    - Swinject
+    - SwinjectStoryboard
+    - Validator
+    - ZDCChat
 
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  CountryPickerSwift: 4c328ae9687322cacf541120f5c43f0e2c1ba194
+  Crashlytics: 07fb167b1694128c1c9a5a5cc319b0e9c3ca0933
+  Fabric: f988e33c97f08930a413e08123064d2e5f68d655
+  FBSDKCoreKit: 8bcd4503afe43f28823c2175a6142a7f50f1bf28
   Firebase: 2f5235e62f141cb86181c3af0dfe4509706351ac
   FirebaseAnalytics: fd72a26bf8dac84cefba2f0864366f718555a5b0
   FirebaseAnalyticsInterop: efbe45c8385ec626e29f9525e5ebd38520dfb6c1
@@ -129,11 +216,27 @@ SPEC CHECKSUMS:
   GoogleAppMeasurement: 1624046ab1bcc5e170061a56ef5679000b079c8e
   GoogleUtilities: 6481e6318c5fcabaaa8513ef8120f329055d7c10
   GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
+  Hero: bac92350d7201a1a940003e0767c7b52ce7c99a1
   IGListKit: 7a5d788e9fb746bcd402baa8e8b24bc3bd2a5a07
+  Intercom: 53f07c24f0ca18c1e910750e79b75f9c9867338f
+  IQKeyboardManagerSwift: 0f0ae8935360b4003e6ea1ac7c19898f01e2f7c7
+  KochavaTrackeriOS: afe35d5ad0fbadfd3c15da4b88ed640e6b421557
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  lottie-ios: 55a2de40418f8de2b155efaba4d4d1a025a5c570
+  Mixpanel-swift: eea98bb65fd80e992a9ecb3a0a421eca542ea72f
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   Protobuf: 7a877b7f3e5964e3fce995e2eb323dbc6831bb5a
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SkyFloatingLabelTextField: 38164979b79512f9ff9288ad8acfc4bbf5d843e3
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftKeychainWrapper: 82c4c02cdc36f9a24f7edfcaab3e336401caa1a1
+  SwiftyRSA: 6e528fb1b1a87d5111c48081083b141d6d65f1cf
+  Swinject: 48a96cda93633cf2860697b4ce76ab5db9ebaca2
+  SwinjectStoryboard: 32512ef16c2b0ff5b8f823b23539c4a50f6d3383
+  Validator: b34ab17a8fffd0c1ffd8f9002ead4d1e02cd9e6e
+  ZDCChat: 1def9764647bb81cf71aebd9df38aa4024c52d12
 
-PODFILE CHECKSUM: bc05008b2ad5f32ef38c71bf28336e6de9bf747f
+PODFILE CHECKSUM: fb0e1b6d4fb2895f14031f8d5b5273adfb33b453
 
 COCOAPODS: 1.6.1

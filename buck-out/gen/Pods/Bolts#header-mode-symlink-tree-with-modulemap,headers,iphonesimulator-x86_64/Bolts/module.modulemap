@@ -1,0 +1,7 @@
+module Bolts {
+    umbrella header "Bolts.h"
+
+    export *
+    module * { export * }
+}
+

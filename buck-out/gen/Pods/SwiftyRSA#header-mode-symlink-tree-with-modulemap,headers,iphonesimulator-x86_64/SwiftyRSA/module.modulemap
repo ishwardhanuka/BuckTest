@@ -1,0 +1,11 @@
+module SwiftyRSA {
+    umbrella header "SwiftyRSA.h"
+
+    export *
+    module * { export * }
+}
+
+module SwiftyRSA.Swift {
+    header "SwiftyRSA-Swift.h"
+    requires objc
+}
