@@ -55,10 +55,16 @@ buck-out/gen/Pods/Mixpanel#apple-swift-compile,iphonesimulator-x86_64/Mixpanel.s
 buck-out/gen/Pods/Lottie#apple-swift-compile,iphonesimulator-x86_64/Lottie.swiftmodule
 -Xlinker
 -add_ast_path
+buck-out/gen/Pods/IQKeyboardManagerSwift#apple-swift-compile,iphonesimulator-x86_64/IQKeyboardManagerSwift.swiftmodule
+-Xlinker
+-add_ast_path
 buck-out/gen/Pods/Hero#apple-swift-compile,iphonesimulator-x86_64/Hero.swiftmodule
 -Xlinker
 -add_ast_path
 buck-out/gen/Pods/CountryPickerSwift#apple-swift-compile,iphonesimulator-x86_64/CountryPicker.swiftmodule
+-Xlinker
+-add_ast_path
+buck-out/gen/Pods/Armchair#apple-swift-compile,iphonesimulator-x86_64/Armchair.swiftmodule
 -Xlinker
 -add_ast_path
 buck-out/gen/Pods/Alamofire#apple-swift-compile,iphonesimulator-x86_64/Alamofire.swiftmodule
@@ -72,6 +78,18 @@ buck-out/gen/Pods/Alamofire#apple-swift-compile,iphonesimulator-x86_64/Alamofire
 @loader_path/Frameworks
 -L
 /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator
+-rpath
+@loader_path/Frameworks
+-rpath
+@loader_path/Frameworks
+-rpath
+@loader_path/Frameworks
+-rpath
+@loader_path/Frameworks
+-rpath
+@loader_path/Frameworks
+-rpath
+@loader_path/Frameworks
 -rpath
 @loader_path/Frameworks
 -rpath
@@ -104,6 +122,12 @@ buck-out/gen/Pods/Alamofire#apple-swift-compile,iphonesimulator-x86_64/Alamofire
 '/Users/stevenlee/Downloads/BuckTest 3/buck-out/gen/Pods/ZDCChat'
 -F
 '/Users/stevenlee/Downloads/BuckTest 3/buck-out/gen/Pods/ZDCChatAPI'
+-F
+'/Users/stevenlee/Downloads/BuckTest 3/buck-out/gen/Pods/ZendeskCoreSDK'
+-F
+'/Users/stevenlee/Downloads/BuckTest 3/buck-out/gen/Pods/ZendeskProviderSDK'
+-F
+'/Users/stevenlee/Downloads/BuckTest 3/buck-out/gen/Pods/ZendeskSDK'
 -F
 /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks
 -framework
@@ -144,6 +168,12 @@ Intercom
 ZDCChat
 -framework
 ZDCChatAPI
+-framework
+ZendeskCoreSDK
+-framework
+ZendeskProviderSDK
+-framework
+ZendeskSDK
 -Xlinker
 -filelist
 -Xlinker

@@ -16,7 +16,7 @@ apple_asset_catalog(
 apple_library(
     name = "AppLibrary",
     configs = library_configs(),
-    swift_version = "4.0",
+    swift_version = "4.2",
 
     deps = [
         "//Pods:Alamofire",
@@ -41,7 +41,12 @@ apple_library(
         "//Pods:SVProgressHUD",
         "//Pods:Intercom",
         "//Pods:Hero",
-        "//Pods:Lottie"
+        "//Pods:Lottie",
+        "//Pods:Armchair",
+        "//Pods:IQKeyboardManagerSwift",
+        "//Pods:ZendeskCoreSDK",
+        "//Pods:ZendeskProviderSDK",
+        "//Pods:ZendeskSDK",
         #"//Pods:FBSDKCoreKit",
         #"//Pods:FirebaseMessaging"
     ]

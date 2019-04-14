@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.8.2)
+  - Armchair (0.3.6)
   - Bolts (1.9.0):
     - Bolts/AppLinks (= 1.9.0)
     - Bolts/Tasks (= 1.9.0)
@@ -127,9 +128,19 @@ PODS:
   - ZDCChat/Localization (1.4.0)
   - ZDCChat/UI (1.4.0):
     - ZDCChat/API
+  - ZendeskSDK (2.3.0):
+    - ZendeskSDK/Providers (= 2.3.0)
+    - ZendeskSDK/UI (= 2.3.0)
+  - ZendeskSDK/Core (2.3.0)
+  - ZendeskSDK/Providers (2.3.0):
+    - ZendeskSDK/Core
+  - ZendeskSDK/UI (2.3.0):
+    - ZendeskSDK/Core
+    - ZendeskSDK/Providers
 
 DEPENDENCIES:
   - Alamofire
+  - Armchair
   - CountryPickerSwift
   - Crashlytics
   - Fabric
@@ -155,10 +166,12 @@ DEPENDENCIES:
   - SwinjectStoryboard
   - Validator
   - ZDCChat
+  - ZendeskSDK (= 2.3.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - Armchair
     - Bolts
     - CountryPickerSwift
     - Crashlytics
@@ -196,9 +209,11 @@ SPEC REPOS:
     - SwinjectStoryboard
     - Validator
     - ZDCChat
+    - ZendeskSDK
 
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Armchair: 2dd361337cf81937e73e8b9d48f9eda9a21d316c
   Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
   CountryPickerSwift: 4c328ae9687322cacf541120f5c43f0e2c1ba194
   Crashlytics: 07fb167b1694128c1c9a5a5cc319b0e9c3ca0933
@@ -236,7 +251,8 @@ SPEC CHECKSUMS:
   SwinjectStoryboard: 32512ef16c2b0ff5b8f823b23539c4a50f6d3383
   Validator: b34ab17a8fffd0c1ffd8f9002ead4d1e02cd9e6e
   ZDCChat: 1def9764647bb81cf71aebd9df38aa4024c52d12
+  ZendeskSDK: af6509ad7968d367f95b2645713802712152f879
 
-PODFILE CHECKSUM: fb0e1b6d4fb2895f14031f8d5b5273adfb33b453
+PODFILE CHECKSUM: d0c17dcd46d7762ad368eb5c1a1039456b4675ad
 
 COCOAPODS: 1.6.1

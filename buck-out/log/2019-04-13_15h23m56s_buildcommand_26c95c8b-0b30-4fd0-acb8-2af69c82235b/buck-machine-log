@@ -1,0 +1,78 @@
+InvocationInfo {"buildId":"26c95c8b-0b30-4fd0-acb8-2af69c82235b","superConsoleEnabled":true,"isDaemon":true,"subCommand":"buildcommand","commandArgs":["build","//BuckTest:BuckTest"],"unexpandedCommandArgs":["build","//BuckTest:BuckTest"],"buckLogDir":"buck-out/log","timestampMillis":1555169036300}
+FileCreate {"timestamp":1555169036359,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/.DS_Store}"}
+FileCreate {"timestamp":1555169036359,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/.DS_Store}"}
+FileCreate {"timestamp":1555169036438,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Source/Armchair.h}"}
+FileCreate {"timestamp":1555169036438,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Source/Armchair.swift}"}
+FileCreate {"timestamp":1555169036440,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Pods.xcodeproj/xcuserdata/stevenlee.xcuserdatad/xcschemes/xcschememanagement.plist}"}
+FileCreate {"timestamp":1555169036441,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/.DS_Store}"}
+FileCreate {"timestamp":1555169036441,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Target Support Files/Armchair/Armchair-dummy.m}"}
+FileCreate {"timestamp":1555169036441,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Target Support Files/Armchair/Armchair.xcconfig}"}
+FileCreate {"timestamp":1555169036441,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Target Support Files/Armchair/Armchair.modulemap}"}
+FileCreate {"timestamp":1555169036442,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Target Support Files/Armchair/Armchair-umbrella.h}"}
+FileCreate {"timestamp":1555169036442,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Target Support Files/Armchair/Armchair-Info.plist}"}
+FileCreate {"timestamp":1555169036442,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Target Support Files/Armchair/Armchair-prefix.pch}"}
+FileCreate {"timestamp":1555169036442,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Public/KochavaTrackeriOS/KVAFromObjectProtocol.h}"}
+FileCreate {"timestamp":1555169036442,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Public/KochavaTrackeriOS/KochavaEvent.h}"}
+FileCreate {"timestamp":1555169036442,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Public/KochavaTrackeriOS/KVAContext.h}"}
+FileCreate {"timestamp":1555169036442,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Public/KochavaTrackeriOS/KVAConsent.h}"}
+FileCreate {"timestamp":1555169036442,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Public/KochavaTrackeriOS/KochavaTracker.h}"}
+FileCreate {"timestamp":1555169036443,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Public/KochavaTrackeriOS/KVAAsForContextObjectProtocol.h}"}
+FileCreate {"timestamp":1555169036443,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Public/KochavaTrackeriOS/KVAPartner.h}"}
+FileCreate {"timestamp":1555169036443,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Private/KochavaTrackeriOS/KVAFromObjectProtocol.h}"}
+FileCreate {"timestamp":1555169036443,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Private/KochavaTrackeriOS/KochavaEvent.h}"}
+FileCreate {"timestamp":1555169036443,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Private/KochavaTrackeriOS/KVAContext.h}"}
+FileCreate {"timestamp":1555169036443,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Private/KochavaTrackeriOS/KVAConsent.h}"}
+FileCreate {"timestamp":1555169036443,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Private/KochavaTrackeriOS/KochavaTracker.h}"}
+FileCreate {"timestamp":1555169036443,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Private/KochavaTrackeriOS/KVAAsForContextObjectProtocol.h}"}
+FileCreate {"timestamp":1555169036443,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Private/KochavaTrackeriOS/KVAPartner.h}"}
+FileCreate {"timestamp":1555169036444,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Private/FirebaseAuthInterop/FIRAuthInterop.h}"}
+FileCreate {"timestamp":1555169036444,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Public/FirebaseAuthInterop/FIRAuthInterop.h}"}
+FileCreate {"timestamp":1555169036444,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Public/FirebaseAnalyticsInterop/FIRInteropEventNames.h}"}
+FileCreate {"timestamp":1555169036444,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Public/FirebaseAnalyticsInterop/FIRAnalyticsInteropListener.h}"}
+FileCreate {"timestamp":1555169036444,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Public/FirebaseAnalyticsInterop/FIRAnalyticsInterop.h}"}
+FileCreate {"timestamp":1555169036444,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Public/FirebaseAnalyticsInterop/FIRInteropParameterNames.h}"}
+FileCreate {"timestamp":1555169036444,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Private/FirebaseAnalyticsInterop/FIRInteropEventNames.h}"}
+FileCreate {"timestamp":1555169036444,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Private/FirebaseAnalyticsInterop/FIRAnalyticsInteropListener.h}"}
+FileCreate {"timestamp":1555169036444,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Private/FirebaseAnalyticsInterop/FIRAnalyticsInterop.h}"}
+FileCreate {"timestamp":1555169036445,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Private/FirebaseAnalyticsInterop/FIRInteropParameterNames.h}"}
+FileCreate {"timestamp":1555169036445,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Public/Firebase/Firebase.h}"}
+FileCreate {"timestamp":1555169036445,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Headers/Private/Firebase/Firebase.h}"}
+FileCreate {"timestamp":1555169036445,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/id.lproj/ArmchairLocalizable.strings}"}
+FileCreate {"timestamp":1555169036445,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/nl.lproj/ArmchairLocalizable.strings}"}
+FileCreate {"timestamp":1555169036445,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/th.lproj/ArmchairLocalizable.strings}"}
+FileCreate {"timestamp":1555169036445,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/pt.lproj/ArmchairLocalizable.strings}"}
+FileCreate {"timestamp":1555169036446,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/ro.lproj/ArmchairLocalizable.strings}"}
+FileCreate {"timestamp":1555169036446,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/ca.lproj/ArmchairLocalizable.strings}"}
+FileCreate {"timestamp":1555169036446,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/zh-Hant.lproj/ArmchairLocalizable.strings}"}
+FileCreate {"timestamp":1555169036446,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/hu.lproj/ArmchairLocalizable.strings}"}
+FileCreate {"timestamp":1555169036446,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/tr.lproj/ArmchairLocalizable.strings}"}
+FileCreate {"timestamp":1555169036446,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/pl.lproj/ArmchairLocalizable.strings}"}
+FileCreate {"timestamp":1555169036446,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/pt-BR.lproj/ArmchairLocalizable.strings}"}
+FileCreate {"timestamp":1555169036446,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/vi.lproj/ArmchairLocalizable.strings}"}
+FileCreate {"timestamp":1555169036447,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/ru.lproj/ArmchairLocalizable.strings}"}
+FileCreate {"timestamp":1555169036447,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/fr.lproj/ArmchairLocalizable.strings}"}
+FileCreate {"timestamp":1555169036447,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/fi.lproj/ArmchairLocalizable.strings}"}
+FileCreate {"timestamp":1555169036447,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/he.lproj/ArmchairLocalizable.strings}"}
+FileCreate {"timestamp":1555169036447,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/ar.lproj/ArmchairLocalizable.strings}"}
+FileCreate {"timestamp":1555169036447,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/el.lproj/ArmchairLocalizable.strings}"}
+FileCreate {"timestamp":1555169036447,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/zh-Hans.lproj/ArmchairLocalizable.strings}"}
+FileCreate {"timestamp":1555169036448,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/ja.lproj/ArmchairLocalizable.strings}"}
+FileCreate {"timestamp":1555169036448,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/en.lproj/ArmchairLocalizable.strings}"}
+FileCreate {"timestamp":1555169036448,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/arm.lproj/ArmchairLocalizable.strings}"}
+FileCreate {"timestamp":1555169036448,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/nb.lproj/ArmchairLocalizable.strings}"}
+FileCreate {"timestamp":1555169036448,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/es.lproj/ArmchairLocalizable.strings}"}
+FileCreate {"timestamp":1555169036448,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/da.lproj/ArmchairLocalizable.strings}"}
+FileCreate {"timestamp":1555169036448,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/it.lproj/ArmchairLocalizable.strings}"}
+FileCreate {"timestamp":1555169036449,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/sk.lproj/ArmchairLocalizable.strings}"}
+FileCreate {"timestamp":1555169036449,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/ms.lproj/ArmchairLocalizable.strings}"}
+FileCreate {"timestamp":1555169036449,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/sv.lproj/ArmchairLocalizable.strings}"}
+FileCreate {"timestamp":1555169036449,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/cs.lproj/ArmchairLocalizable.strings}"}
+FileCreate {"timestamp":1555169036449,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/ko.lproj/ArmchairLocalizable.strings}"}
+FileCreate {"timestamp":1555169036449,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/LICENSE}"}
+FileCreate {"timestamp":1555169036449,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/README.md}"}
+FileCreate {"timestamp":1555169036449,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=CREATE, path=Pods/Armchair/Localization/de.lproj/ArmchairLocalizable.strings}"}
+ParseStarted {"timestamp":1555169036776}
+ParseFinished {"timestamp":1555169036780}
+BuildFinished {"timestamp":1555169036780}
+Cache.Stats {"cacheHitsPerMode":{"dir":0},"cacheErrorsPerMode":{"dir":0},"totalCacheHits":0,"totalCacheErrors":0,"totalCacheMisses":0,"totalCacheIgnores":0,"totalCacheLocalKeyUnchangedHits":0,"successUploadCount":0,"failureUploadCount":0}
+ExitCode {"exitCode":10}

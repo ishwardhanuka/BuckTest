@@ -1,0 +1,1 @@
+/Users/stevenlee/Downloads/BuckTest 3/buck-out/gen/Pods/Armchair#apple-swift-compile,iphonesimulator-x86_64/Armchair-Swift.h

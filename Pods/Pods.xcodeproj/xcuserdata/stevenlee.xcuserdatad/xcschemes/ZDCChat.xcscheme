@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "42513BD025A0FCAC7AA6D3926972737B"
+               BlueprintIdentifier = "39F2483EFB2A2100C11E7C917E2F8A54"
                BuildableName = "ZDCChat"
                BlueprintName = "ZDCChat"
                ReferencedContainer = "container:Pods.xcodeproj">

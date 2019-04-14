@@ -141,6 +141,21 @@ apple_third_party_lib(
     ]),
 )
 
+#IQKeyboardManager
+apple_resource(
+    name = "IQKeyboardManagerResources",
+    dirs = [],
+    files = glob(["IQKeyboardManagerSwift/IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle"]),
+)
+apple_third_party_lib(
+    name = "IQKeyboardManagerSwift",
+    srcs = glob([
+        "IQKeyboardManagerSwift/IQKeyboardManagerSwift/**/*.swift"
+    ]),deps = [
+        "//Pods:IQKeyboardManagerResources",
+    ]
+)
+
 prebuilt_apple_framework(
     name = 'ZDCChat',
     preferred_linkage = 'shared',
@@ -168,6 +183,41 @@ prebuilt_apple_framework(
     framework = 'Crashlytics/iOS/Crashlytics.framework',
     visibility = ["PUBLIC"],
 )
+
+#zendesk
+prebuilt_apple_framework(
+    name = 'ZendeskCoreSDK',
+    preferred_linkage = 'shared',
+    framework = 'ZendeskSDK/ZendeskSDK/4.2.1/ZendeskCoreSDK.framework',
+    visibility = ["PUBLIC"],
+)
+prebuilt_apple_framework(
+    name = 'ZendeskProviderSDK',
+    preferred_linkage = 'shared',
+    framework = 'ZendeskSDK/ZendeskSDK/4.2.1/ZendeskProviderSDK.framework',
+    visibility = ["PUBLIC"],
+    deps = [
+        "//Pods:ZendeskCoreSDK",
+    ]
+)
+apple_resource(
+    name = "ZendeskResources",
+    dirs = [],
+    files = glob(["ZendeskSDK/ZendeskSDK/4.2.1/ZendeskSDKStrings.bundle"]),
+)
+
+prebuilt_apple_framework(
+    name = 'ZendeskSDK',
+    preferred_linkage = 'shared',
+    framework = 'ZendeskSDK/ZendeskSDK/4.2.1/ZendeskSDK.framework',
+    visibility = ["PUBLIC"],
+    deps = [
+        "//Pods:ZendeskCoreSDK",
+        "//Pods:ZendeskProviderSDK",
+        "//Pods:ZendeskResources",
+    ]
+)
+
 
 
 prebuilt_cxx_library(
@@ -302,6 +352,27 @@ apple_third_party_lib(
     srcs = glob([
 
         "FirebaseCore/**/*.m",
+    ])
+)
+
+#Armchair
+apple_resource(
+    name = "ArmchairResources",
+    dirs = [],
+    files = glob(["Armchair/Localization/*.lproj"]),
+)
+
+apple_third_party_lib(
+    name = "Armchair",
+    exported_headers = glob([
+        "Armchair/**/*.h",
+    ]),
+    deps = [
+        "//Pods:ArmchairResources"
+    ],
+    srcs = glob([
+
+        "Armchair/**/*.swift",
     ])
 )
 
