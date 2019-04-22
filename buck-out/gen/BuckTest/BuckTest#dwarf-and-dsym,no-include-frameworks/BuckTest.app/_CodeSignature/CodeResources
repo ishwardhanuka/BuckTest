@@ -4,9 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		9tCGQuR/fO90p7udoNyxBDTicoA=
+		</data>
 		<key>Assets.car</key>
 		<data>
-		sUbRR9fWuoCKNeaf85T+1UBVKeA=
+		ddW5QuapaSq5TZeYL/c6VdeAVxw=
 		</data>
 		<key>Contents.json</key>
 		<data>
@@ -14,7 +18,7 @@
 		</data>
 		<key>CountryView.nib</key>
 		<data>
-		LuWtub1d88bitjOVEfZAkH3e9BQ=
+		12xMEI14aw/wwreHhCI/DMixVYc=
 		</data>
 		<key>Frameworks/libswiftAVFoundation.dylib</key>
 		<data>
@@ -32,10 +36,6 @@
 		<data>
 		HnaJcVPfG7HtJU1PqBi7lhoisV4=
 		</data>
-		<key>Frameworks/libswiftCoreData.dylib</key>
-		<data>
-		qedmunoefBdoP0ZIslYSl/xG1OE=
-		</data>
 		<key>Frameworks/libswiftCoreFoundation.dylib</key>
 		<data>
 		zHZGz5giuyF099W8WegDOFV9X8E=
@@ -47,10 +47,6 @@
 		<key>Frameworks/libswiftCoreImage.dylib</key>
 		<data>
 		QdTafA6AyUkZoAdHsEpdWR2Rybw=
-		</data>
-		<key>Frameworks/libswiftCoreLocation.dylib</key>
-		<data>
-		G5QBs71+KUSlwq0AAoZne4X1FaE=
 		</data>
 		<key>Frameworks/libswiftCoreMedia.dylib</key>
 		<data>
@@ -84,10 +80,6 @@
 		<data>
 		LL6meOgzTmE4OVwHHWt9dfpR7Yw=
 		</data>
-		<key>Frameworks/libswiftPhotos.dylib</key>
-		<data>
-		ZnoS5T5Mwqec6xZpIiLnMYhwNb4=
-		</data>
 		<key>Frameworks/libswiftQuartzCore.dylib</key>
 		<data>
 		/5UKC4bEt0P3Jv5/nNy6X8Lerek=
@@ -114,7 +106,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		jdzxoq+NaPfe1XoHHWsmt8fbgxM=
+		ROwxpBrpuLR9B8r6taaMNU6RuYI=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -122,7 +114,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		bKrrX6ecrT+1ySUrE2VpXAbpMh4=
+		kP5ECdhqvoC8B1VoOt78OEwhuuw=
 		</data>
 		<key>MPCloseButton.png</key>
 		<data>
@@ -138,7 +130,7 @@
 		</data>
 		<key>Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		ttRwd+N1k/zNgv9inDBhwkFDzDQ=
+		sBWqszBsUNkX63Xn3g+K8+p1osU=
 		</data>
 		<key>Main.storyboardc/Info.plist</key>
 		<data>
@@ -146,11 +138,11 @@
 		</data>
 		<key>Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
 		<data>
-		yDJusjen1Ez9E3NzXmoaTRrdsL8=
+		4580beUt/FBowM/0HkoLhlcghEg=
 		</data>
 		<key>MiniNotificationViewController.nib</key>
 		<data>
-		OjWsMOoVNp46HmYI+3V4PY74X/0=
+		klXmW5QMA/0K8D1qOByZNkSJya8=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -158,15 +150,15 @@
 		</data>
 		<key>TakeoverNotificationViewController~ipad.nib</key>
 		<data>
-		Tl3wMaSIMgF+/Xb8ezTLHhbmSbk=
+		4g2PsenZORwLkpZ+ihpdQyB0vDk=
 		</data>
 		<key>TakeoverNotificationViewController~iphonelandscape.nib</key>
 		<data>
-		n+Amn6GEx754N64unLXrr9fL8qE=
+		TuImMbdwiLvqvS16rmH090kWCl0=
 		</data>
 		<key>TakeoverNotificationViewController~iphoneportrait.nib</key>
 		<data>
-		FJLJskjSBdMyF6Y3JYMe+6XHBPs=
+		Swt02YTYDh/2HBcb95TnQca6kQI=
 		</data>
 		<key>placeholder-image.png</key>
 		<data>
@@ -179,7 +171,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QxteauyQUZhFLIa29TVZ/aXbNXTFPAob+DkysxfZUd8=
+			gbXNeuy5lGieZVkpnl30iRl4EJb+pRAZ43HaoVo8Fvs=
 			</data>
 		</dict>
 		<key>Contents.json</key>
@@ -193,7 +185,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ih/jngEl4392rn7lZEv0mHtyV7PgxniAMZH7dr5Mlj8=
+			gx+8PxL+Mh644YQLZoI0567/zTq5mWPiTLiVkeOkz6Q=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftAVFoundation.dylib</key>
@@ -224,13 +216,6 @@
 			6Ox7mygTIp39GezzJ9yUUYTFRIHufceaRs9s2Sd5zM0=
 			</data>
 		</dict>
-		<key>Frameworks/libswiftCoreData.dylib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5+9HnjNmxJnAddh7BwGR9MFobokYJmdT1TjqVaUiJ2s=
-			</data>
-		</dict>
 		<key>Frameworks/libswiftCoreFoundation.dylib</key>
 		<dict>
 			<key>hash2</key>
@@ -250,13 +235,6 @@
 			<key>hash2</key>
 			<data>
 			+qF3adIf17jUiv8NYXv5nwykrRBZgmnlBZu7+7FdEVc=
-			</data>
-		</dict>
-		<key>Frameworks/libswiftCoreLocation.dylib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WNAUelB5VX131/euVSU0m/jVNjvNxAQRW0RpC50r7QQ=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCoreMedia.dylib</key>
@@ -315,13 +293,6 @@
 			Ht8QnTojaqD33OOxIRwc3na5rH34CH7aLMB7k8GXdhY=
 			</data>
 		</dict>
-		<key>Frameworks/libswiftPhotos.dylib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			HrnbGi69I5L6mF/gpQqxS6VAoyCJAKwjeT4aQrtj1tQ=
-			</data>
-		</dict>
 		<key>Frameworks/libswiftQuartzCore.dylib</key>
 		<dict>
 			<key>hash2</key>
@@ -361,7 +332,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oSt1r8P2LiU0qHB23eulpFImGRot8mwLKyCTccaUAN4=
+			MDOr+XjAVhIIGzUe6GxnemTrcDY+gR8T7lM4sUn9Cbg=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -375,7 +346,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8IpzjprVIrLX0iwtjbrd4DEjOKd7NtFfg8JuavG1zWQ=
+			I/UrGg3ERNjiVJcVCobdUPPwsyP0qmU88kftGylFRxU=
 			</data>
 		</dict>
 		<key>MPCloseButton.png</key>
@@ -403,7 +374,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AA0nMaXLP6gZ6poPFCO74GGhmDDyl80xrSVmbI8USNM=
+			LSmTlXGPjn5mCDjoYFyNdtJ4Y/E+hhGM2ABsUXPeI6Y=
 			</data>
 		</dict>
 		<key>Main.storyboardc/Info.plist</key>
@@ -417,35 +388,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			McB212FLYthmMZJU5acBwRlpLkc9QgBf0in5GhQ6MuU=
+			mMW5HZ01p2Mf/jcYr5+x4d/QAm+TOrMaz9v65fepT2U=
 			</data>
 		</dict>
 		<key>MiniNotificationViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iON2med27IRoKPHmShnDdM4SVsJaJPpAgEh0AaICVZM=
+			RHixQUkVe1mXVtux9h0o8AUqST1onwKLsXqgBu/rv8U=
 			</data>
 		</dict>
 		<key>TakeoverNotificationViewController~ipad.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			obZ64+5SHSyBf4XYQHQUfFxMbVCvr7rE1h+aL7PX38c=
+			tGSxnLRo1Hni1cNznVbC4xlOWCO+nTWlYt8kGmPaFLY=
 			</data>
 		</dict>
 		<key>TakeoverNotificationViewController~iphonelandscape.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2DJorL5mxJcRkgX9MQWnzH0YR7NosV26xUlAEbPC4s8=
+			xQgSQvSAiYrJyCnQ5gYQtCMo6Y8cQWFOMH1NHVEtq+M=
 			</data>
 		</dict>
 		<key>TakeoverNotificationViewController~iphoneportrait.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OK9GsPoz20Fmb/N4Bs4cw3LyWZSizSzY9fL5rnXFOEk=
+			UX9MPCW1SujL53fr+wxN9SBBIO6e2BswcRvpUJ8B7Gk=
 			</data>
 		</dict>
 		<key>placeholder-image.png</key>

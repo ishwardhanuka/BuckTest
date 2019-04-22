@@ -1,6 +1,0 @@
-InvocationInfo {"buildId":"3137ba2d-05ba-47fe-aa0b-9702afdebd06","superConsoleEnabled":true,"isDaemon":true,"subCommand":"buildcommand","commandArgs":["build","//BuckTest:BuckTest"],"unexpandedCommandArgs":["build","//BuckTest:BuckTest"],"buckLogDir":"buck-out/log","timestampMillis":1555208610651}
-ParseStarted {"timestamp":1555208610683}
-ParseFinished {"timestamp":1555208611430}
-BuildFinished {"timestamp":1555208611431}
-Cache.Stats {"cacheHitsPerMode":{"dir":0},"cacheErrorsPerMode":{"dir":0},"totalCacheHits":0,"totalCacheErrors":0,"totalCacheMisses":0,"totalCacheIgnores":0,"totalCacheLocalKeyUnchangedHits":0,"successUploadCount":0,"failureUploadCount":0}
-ExitCode {"exitCode":10}

@@ -190,6 +190,12 @@ prebuilt_apple_framework(
     preferred_linkage = 'shared',
     framework = 'ZendeskSDK/ZendeskSDK/4.2.1/ZendeskCoreSDK.framework',
     visibility = ["PUBLIC"],
+    frameworks = [
+	    '$SDKROOT/System/Library/Frameworks/MobileCoreServices.framework',
+        '$SDKROOT/System/Library/Frameworks/SystemConfiguration.framework',
+        '$SDKROOT/System/Library/Frameworks/Security.framework',
+        '$SDKROOT/System/Library/Frameworks/MessageUI.framework',
+    ]
 )
 prebuilt_apple_framework(
     name = 'ZendeskProviderSDK',
@@ -508,42 +514,70 @@ apple_third_party_lib(
 
 apple_third_party_lib(
     name = "Protobuf",
+    compiler_flags = ["-DGPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1"],
     exported_headers = glob([
-	    "Protobuf/**/*h"
-
-        "Protobuf/objectivec/*.h",
+	    "Protobuf/objectivec/*.h",
+	    "Protobuf/objectivec/google/protobuf/Any.pbobjc.h",
+        "Protobuf/objectivec/google/protobuf/Api.pbobjc.h",
+        "Protobuf/objectivec/google/protobuf/Duration.pbobjc.h",
+        "Protobuf/objectivec/google/protobuf/Empty.pbobjc.h",
+        "Protobuf/objectivec/google/protobuf/FieldMask.pbobjc.h",
+        "Protobuf/objectivec/google/protobuf/SourceContext.pbobjc.h",
+        "Protobuf/objectivec/google/protobuf/Struct.pbobjc.h",
+        "Protobuf/objectivec/google/protobuf/Timestamp.pbobjc.h",
+        "Protobuf/objectivec/google/protobuf/Type.pbobjc.h",
+        "Protobuf/objectivec/google/protobuf/Wrappers.pbobjc.h"
     ]),
     srcs = glob([
-	    "Protobuf/*.m"
-
+	    "Protobuf/objectivec/*.m",
+	    "Protobuf/objectivec/google/protobuf/Any.pbobjc.m",
+        "Protobuf/objectivec/google/protobuf/Api.pbobjc.m",
+        "Protobuf/objectivec/google/protobuf/Duration.pbobjc.m",
+        "Protobuf/objectivec/google/protobuf/Empty.pbobjc.m",
+        "Protobuf/objectivec/google/protobuf/FieldMask.pbobjc.m",
+        "Protobuf/objectivec/google/protobuf/SourceContext.pbobjc.m",
+        "Protobuf/objectivec/google/protobuf/Struct.pbobjc.m",
+        "Protobuf/objectivec/google/protobuf/Timestamp.pbobjc.m",
+        "Protobuf/objectivec/google/protobuf/Type.pbobjc.m",
+        "Protobuf/objectivec/google/protobuf/Wrappers.pbobjc.m"
+    ], exclude = [
+        "Protobuf/objectivec/GPBProtocolBuffers.m",
     ]),
-    preprocessor_flags = ["-fno-objc-arc"]
+    preprocessor_flags = ["-fno-objc-arc"],
+    
 )
 
 apple_third_party_lib(
     name = "FirebaseMessaging",
+    compiler_flags = [
+	    "-DGPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1",
+	    "-DFIRMessaging_LIB_VERSION=3.5.0"
+    ],
     exported_headers = glob([
-	    "firebaseDefine.h",
 	    "FirebaseMessaging/**/*.h",
-	    #"FirebaseMessaging/**/*.pbobjc.h",
-	    
-	    
     ], exclude = [
         "FirebaseMessaging/Firebase/Messaging/FirebaseMessaging.h",
     ]),
-    srcs = glob([
+    srcs = [
+	    ("FirebaseMessaging/Firebase/Messaging/Protos/GtalkCore.pbobjc.m", ["-fno-objc-arc"]),
+	    ("FirebaseMessaging/Firebase/Messaging/Protos/GtalkExtensions.pbobjc.m", ["-fno-objc-arc"]),
+    ] + 
+    glob([
 	    "FirebaseMessaging/**/*.m",
 	    "FirebaseMessaging/**/*.mh",
-	    #"FirebaseMessaging/**/*.pbobjc.m",
+	    "FirebaseMessaging/**/*.pbobjc.m",
+    ], exclude = [
+        "FirebaseMessaging/Firebase/Messaging/Protos/*.m",
     ]),
     frameworks = [
         "$SDKROOT/System/Library/Frameworks/SystemConfiguration.framework",
     ],
     deps = [
+	    "//Pods:Protobuf",
         "//Pods:FirebaseCore",
         "//Pods:FirebaseAnalyticsInterop",
         "//Pods:FirebaseInstanceID",
         "//Pods:GoogleUtilities",
-        "//Pods:Protobuf",
-    ]
+    ],
+
 )

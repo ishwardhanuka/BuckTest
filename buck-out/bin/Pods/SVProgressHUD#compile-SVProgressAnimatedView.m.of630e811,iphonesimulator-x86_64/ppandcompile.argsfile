@@ -36,7 +36,9 @@ buck-out/gen/Pods/SVProgressHUD#header-mode-symlink-tree-with-modulemap,headers,
 "-fdebug-prefix-map=/Users/stevenlee/Downloads/BuckTest 3=."
 "-fdebug-prefix-map=/Users/stevenlee/Downloads/BuckTest 3=./////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////"
 -fdebug-prefix-map=/Users/stevenlee/Downloads/Xcode.app/Contents/Developer=APPLE_DEVELOPER_DIR
+-fdebug-prefix-map=buck-out/gen/Pods/SVProgressHUD#iphonesimulator-x86_64,private-headers=Pods/SVProgressHUD/SVProgressHUD
 -fdebug-prefix-map=/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform=APPLE_PLATFORM_DIR
+-fdebug-prefix-map=buck-out/gen/Pods/SVProgressHUD#header-mode-symlink-tree-with-modulemap,headers,iphonesimulator-x86_64=Pods/SVProgressHUD
 -fdebug-prefix-map=/Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk=APPLE_SDKROOT
 -o
 buck-out/gen/Pods/SVProgressHUD#compile-SVProgressAnimatedView.m.of630e811,iphonesimulator-x86_64/SVProgressHUD/SVProgressHUD/SVProgressAnimatedView.m.o

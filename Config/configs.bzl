@@ -31,7 +31,7 @@ SHARED_CONFIGS = {
 ALL_LOAD_LINKER_FLAG = "-all_load"
 
 def bundle_identifier(name):
-    return "com.fundingsocieties.%s" % name
+    return "com.airbnb.%s" % name
 
 def library_configs():
     lib_specific_config = {
@@ -42,21 +42,7 @@ def library_configs():
         # https://developer.apple.com/library/archive/technotes/tn2215/_index.html
         "SKIP_INSTALL": "YES",
     }
-    library_config = {
-	    "IPHONEOS_DEPLOYMENT_TARGET": "11.0",  # common target version
-    "SDKROOT": "iphoneos", # platform
-    "GCC_OPTIMIZATION_LEVEL": "0",  # clang optimization
-    "SWIFT_OPTIMIZATION_LEVEL": "-Onone",  # swiftc optimization
-    "SWIFT_WHOLE_MODULE_OPTIMIZATION": "YES",  # for build performance
-    "ONLY_ACTIVE_ARCH": "YES",
-    "LD_RUNPATH_SEARCH_PATHS": "@executable_path/Frameworks", # To allow source files in binary
-    "SWIFT_WHOLE_MODULE_OPTIMIZATION": "YES",
-
-        # Setting SKIP_INSTALL to NO for static library configs would create
-        # create a generic xcode archive which can not be uploaded the app store
-        # https://developer.apple.com/library/archive/technotes/tn2215/_index.html
-        "SKIP_INSTALL": "YES",
-    }
+    library_config = SHARED_CONFIGS + lib_specific_config
     configs = {
         "Debug": library_config,
         "Profile": library_config,
@@ -70,17 +56,7 @@ def app_binary_configs(name):
         "DEVELOPMENT_LANGUAGE": "Swift",
         "PRODUCT_BUNDLE_IDENTIFIER": bundle_identifier(name),
     }
-    binary_config = {"IPHONEOS_DEPLOYMENT_TARGET": "11.0",  # common target version
-    "SDKROOT": "iphoneos", # platform
-    "GCC_OPTIMIZATION_LEVEL": "0",  # clang optimization
-    "SWIFT_OPTIMIZATION_LEVEL": "-Onone",  # swiftc optimization
-    "SWIFT_WHOLE_MODULE_OPTIMIZATION": "YES",  # for build performance
-    "ONLY_ACTIVE_ARCH": "YES",
-    "LD_RUNPATH_SEARCH_PATHS": "@executable_path/Frameworks", # To allow source files in binary
-    "ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES": "YES",
-        "DEVELOPMENT_LANGUAGE": "Swift",
-        "PRODUCT_BUNDLE_IDENTIFIER": bundle_identifier(name),
-    }
+    binary_config = SHARED_CONFIGS + binary_specific_config
     binary_config = config_with_updated_linker_flags(binary_config, ALL_LOAD_LINKER_FLAG)
     return configs_with_config(binary_config)
 

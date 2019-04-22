@@ -1,0 +1,1 @@
+/Users/stevenlee/Downloads/BuckTest 3/buck-out/gen/BuckTest/AppLibrary#apple-swift-compile,iphonesimulator-x86_64/AppLibrary-Swift.h

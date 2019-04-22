@@ -5,10 +5,9 @@
   combined_preprocess_and_compile = true
   pch_enabled = false
   ldflags = -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime
-  GCC_PREPROCESSOR_DEFINITIONS = FIRCore_VERSION=5.4.1 Firebase_VERSION=5.20.0
 
 [swift]
-  version = 4.2
+  version = 4.2.1
   compiler_flags = -DBUCK -enable-testing -g -Onone -whole-module-optimization
   use_filelist = true
 
@@ -22,6 +21,9 @@
   xctool_default_destination_specifier = platform=iOS Simulator,OS=latest
   xctool_path = vendor/xctool/bin/xctool
 
+[parser]
+  polyglot_parsing_enabled = true
+  default_build_file_syntax = SKYLARK
 
 [project]
   ide_force_kill = always

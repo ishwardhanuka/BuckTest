@@ -1,7 +1,0 @@
-module KochavaTrackeriOS {
-    umbrella header "KochavaTrackeriOS.h"
-
-    export *
-    module * { export * }
-}
-

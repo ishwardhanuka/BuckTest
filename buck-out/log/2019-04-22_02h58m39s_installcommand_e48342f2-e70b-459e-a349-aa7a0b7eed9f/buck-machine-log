@@ -1,0 +1,7 @@
+InvocationInfo {"buildId":"e48342f2-e70b-459e-a349-aa7a0b7eed9f","superConsoleEnabled":true,"isDaemon":true,"subCommand":"installcommand","commandArgs":["install","//BuckTest:BuckTest","--run"],"unexpandedCommandArgs":["install","//BuckTest:BuckTest","--run"],"buckLogDir":"buck-out/log","timestampMillis":1555901919544}
+ParseStarted {"timestamp":1555901919558}
+ParseFinished {"timestamp":1555901919563}
+BuildRuleEvent.Finished {"timestamp":1555901919584,"duration":{"wallMillisDuration":3},"status":"SUCCESS","cacheResult":{"type":"LOCAL_KEY_UNCHANGED_HIT"},"origin":"e46bc580-d0a0-4f79-a605-48353be7c64d","ruleKeys":{"ruleKey":{"hashCode":"d691312868101d5f88cc339bf479eb296300e48e"}},"successTypeName":"MATCHING_RULE_KEY","buildRule":{"type":"apple_bundle","name":"//BuckTest:BuckTest#dwarf-and-dsym,no-include-frameworks"}}
+BuildFinished {"timestamp":1555901919584}
+Cache.Stats {"cacheHitsPerMode":{"dir":0},"cacheErrorsPerMode":{"dir":0},"totalCacheHits":0,"totalCacheErrors":0,"totalCacheMisses":0,"totalCacheIgnores":0,"totalCacheLocalKeyUnchangedHits":1,"successUploadCount":0,"failureUploadCount":0}
+ExitCode {"exitCode":0}

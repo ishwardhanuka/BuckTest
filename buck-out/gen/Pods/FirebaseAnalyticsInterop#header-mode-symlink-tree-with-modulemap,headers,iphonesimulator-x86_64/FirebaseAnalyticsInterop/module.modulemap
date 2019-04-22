@@ -1,7 +1,0 @@
-module FirebaseAnalyticsInterop {
-    umbrella header "FirebaseAnalyticsInterop.h"
-
-    export *
-    module * { export * }
-}
-

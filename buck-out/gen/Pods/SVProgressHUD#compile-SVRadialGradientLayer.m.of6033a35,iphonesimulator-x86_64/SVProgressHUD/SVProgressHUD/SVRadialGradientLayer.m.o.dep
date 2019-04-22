@@ -1,5 +1,6 @@
 buck-out/gen/Pods/SVProgressHUD\#compile-SVRadialGradientLayer.m.of6033a35,iphonesimulator-x86_64/SVProgressHUD/SVProgressHUD/SVRadialGradientLayer.m.o: \
   Pods/SVProgressHUD/SVProgressHUD/SVRadialGradientLayer.m \
+  buck-out/gen/Pods/SVProgressHUD\#header-mode-symlink-tree-with-modulemap,headers,iphonesimulator-x86_64/SVProgressHUD/module.modulemap \
   Pods/SVProgressHUD/SVProgressHUD/SVRadialGradientLayer.h \
   /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/QuartzCore.framework/Modules/module.modulemap \
   /Users/stevenlee/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/include/module.modulemap \
