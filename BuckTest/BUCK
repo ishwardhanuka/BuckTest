@@ -17,7 +17,7 @@ apple_resource(
 apple_library(
     name = "AppLibrary",
     configs = library_configs(),
-    swift_version = "4.2.1",
+    swift_version = "5",
     srcs = [
         "ViewController.swift",
         "AppDelegate.swift",

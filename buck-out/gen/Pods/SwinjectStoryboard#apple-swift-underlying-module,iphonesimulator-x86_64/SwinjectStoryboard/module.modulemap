@@ -1,7 +1,0 @@
-module SwinjectStoryboard {
-    umbrella header "SwinjectStoryboard.h"
-
-    export *
-    module * { export * }
-}
-

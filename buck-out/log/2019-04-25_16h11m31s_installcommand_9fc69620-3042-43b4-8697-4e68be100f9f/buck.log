@@ -4206,3 +4206,18 @@
 [2019-04-26 00:11:51.768][debug][command:null][tid:290][com.facebook.nailgun.NGCommunicator] Nailgun client disconnected
 [2019-04-26 00:11:51.768][debug][command:null][tid:290][com.facebook.nailgun.NGCommunicator] Orchestrator thread finished
 [2019-04-26 00:11:51.772][debug][command:null][tid:14][com.facebook.buck.cli.Main] Done.
+[2019-04-26 00:11:51.772][info ][command:null][tid:14][com.facebook.nailgun.NGSession] Nail cleanly exited with status 0
+[2019-04-26 00:11:51.772][debug][command:null][tid:14][com.facebook.nailgun.NGCommunicator] Shutting down read ExecutorService
+[2019-04-26 00:11:51.773][debug][command:null][tid:14][com.facebook.nailgun.NGCommunicator] Shutting down orchestrator ExecutorService
+[2019-04-26 00:11:51.773][debug][command:null][tid:14][com.facebook.nailgun.NGSession] NGSession 1 is closing client socket
+[2019-04-26 00:18:11.148][debug][command:null][tid:14][com.facebook.nailgun.NGSession] NGSession 1 accepted new connection
+[2019-04-26 00:18:11.150][debug][command:null][tid:324][com.facebook.nailgun.NGCommunicator] Orchestrator thread started
+[2019-04-26 00:18:11.151][debug][command:null][tid:14][com.facebook.nailgun.NGCommunicator] Shutting down socket for input
+[2019-04-26 00:18:11.152][debug][command:null][tid:324][com.facebook.nailgun.NGCommunicator] Socket is disconnected
+[2019-04-26 00:18:11.152][debug][command:null][tid:14][com.facebook.nailgun.NGCommunicator] Shutting down socket for output
+[2019-04-26 00:18:11.152][debug][command:null][tid:324][com.facebook.nailgun.NGCommunicator] Nailgun client disconnected
+[2019-04-26 00:18:11.152][debug][command:null][tid:324][com.facebook.nailgun.NGCommunicator] Orchestrator thread finished
+[2019-04-26 00:18:11.152][debug][command:null][tid:14][com.facebook.nailgun.NGCommunicator] Shutting down read ExecutorService
+[2019-04-26 00:18:11.152][debug][command:null][tid:14][com.facebook.nailgun.NGCommunicator] Shutting down orchestrator ExecutorService
+[2019-04-26 00:18:11.152][debug][command:null][tid:14][com.facebook.nailgun.NGSession] NGSession 1 is closing client socket
+[2019-04-26 00:18:11.152][debug][command:null][tid:14][com.facebook.nailgun.NGSession] NGSession 1 stopped

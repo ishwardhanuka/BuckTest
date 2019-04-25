@@ -1,3 +1,0 @@
-Pods/SkyFloatingLabelTextField/Sources/SkyFloatingLabelTextField.swift
-Pods/SkyFloatingLabelTextField/Sources/SkyFloatingLabelTextFieldWithIcon.swift
-Pods/SkyFloatingLabelTextField/Sources/UITextField+fixCaretPosition.swift

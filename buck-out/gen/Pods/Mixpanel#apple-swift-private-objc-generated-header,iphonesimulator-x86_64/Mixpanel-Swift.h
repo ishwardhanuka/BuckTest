@@ -1,1 +1,0 @@
-/Users/stevenlee/Downloads/BuckTest 3/buck-out/gen/Pods/Mixpanel#apple-swift-compile,iphonesimulator-x86_64/Mixpanel-Swift.h

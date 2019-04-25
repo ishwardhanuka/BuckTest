@@ -1,3 +1,0 @@
-Pods/CountryPickerSwift/CountryPicker/Classes/CountryPicker.swift
-Pods/CountryPickerSwift/CountryPicker/Classes/CountryView.swift
-Pods/CountryPickerSwift/CountryPicker/Classes/CountryViewTheme.swift

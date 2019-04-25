@@ -1,7 +1,0 @@
-module Armchair {
-    umbrella header "Armchair.h"
-
-    export *
-    module * { export * }
-}
-
