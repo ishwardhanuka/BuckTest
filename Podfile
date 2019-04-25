@@ -32,7 +32,7 @@ target 'BuckTest' do
   pod 'lottie-ios'
   pod 'IQKeyboardManagerSwift'
   pod 'Armchair'
-  pod 'ZendeskSDK', '2.3.0'
+  pod 'ZendeskSDK'
   # Pods for BuckTest
 
   target 'BuckTestTests' do

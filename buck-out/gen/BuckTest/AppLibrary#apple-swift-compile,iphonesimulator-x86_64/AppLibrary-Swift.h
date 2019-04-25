@@ -196,11 +196,13 @@ SWIFT_CLASS("_TtC10AppLibrary11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITextView;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC10AppLibrary14ViewController")
 @interface ViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified textView;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;

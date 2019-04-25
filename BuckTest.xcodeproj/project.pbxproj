@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3C01DBC795B0EA564050DEB3 /* Pods_BuckTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 340D9B348FAFFBC218487663 /* Pods_BuckTestTests.framework */; };
+		568D188922719B1D0018EDCE /* BuckSupportFiles in Resources */ = {isa = PBXBuildFile; fileRef = 568D188822719B1D0018EDCE /* BuckSupportFiles */; };
 		69E141C940B1B3DDA490A65A /* Pods_BuckTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8138CBCB4C2CC7D4AA7F9682 /* Pods_BuckTest.framework */; };
 		73098074224E0A3B008FD2D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73098073224E0A3B008FD2D4 /* AppDelegate.swift */; };
 		73098076224E0A3B008FD2D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73098075224E0A3B008FD2D4 /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		059F5ED049C403E7C69BE34B /* Pods-BuckTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuckTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuckTestTests/Pods-BuckTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		340D9B348FAFFBC218487663 /* Pods_BuckTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuckTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		568D188822719B1D0018EDCE /* BuckSupportFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BuckSupportFiles; sourceTree = "<group>"; };
 		56D4511C2261910D00C960FD /* BuckTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BuckTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		6DFE8EE86B497C526AB0F826 /* Pods-BuckTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuckTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuckTestUITests/Pods-BuckTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		73098070224E0A3B008FD2D4 /* BuckTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuckTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +130,7 @@
 		73098072224E0A3B008FD2D4 /* BuckTest */ = {
 			isa = PBXGroup;
 			children = (
+				568D188822719B1D0018EDCE /* BuckSupportFiles */,
 				73098073224E0A3B008FD2D4 /* AppDelegate.swift */,
 				73098075224E0A3B008FD2D4 /* ViewController.swift */,
 				73098077224E0A3B008FD2D4 /* Main.storyboard */,
@@ -278,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7309807E224E0A3C008FD2D4 /* LaunchScreen.storyboard in Resources */,
+				568D188922719B1D0018EDCE /* BuckSupportFiles in Resources */,
 				7309807B224E0A3C008FD2D4 /* Assets.xcassets in Resources */,
 				73098079224E0A3B008FD2D4 /* Main.storyboard in Resources */,
 			);
@@ -330,9 +334,9 @@
 				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
 				"${BUILT_PRODUCTS_DIR}/SwinjectStoryboard/SwinjectStoryboard.framework",
 				"${BUILT_PRODUCTS_DIR}/Validator/Validator.framework",
-				"${PODS_ROOT}/ZendeskSDK/ZendeskSDK/4.2.1/ZendeskCoreSDK.framework",
-				"${PODS_ROOT}/ZendeskSDK/ZendeskSDK/4.2.1/ZendeskProviderSDK.framework",
-				"${PODS_ROOT}/ZendeskSDK/ZendeskSDK/4.2.1/ZendeskSDK.framework",
+				"${PODS_ROOT}/ZendeskSDK/ZendeskSDK/5.0/ZendeskCoreSDK.framework",
+				"${PODS_ROOT}/ZendeskSDK/ZendeskSDK/5.0/ZendeskProviderSDK.framework",
+				"${PODS_ROOT}/ZendeskSDK/ZendeskSDK/5.0/ZendeskSDK.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
@@ -387,7 +391,7 @@
 				"${PODS_ROOT}/Intercom/Intercom/Intercom.framework/Versions/A/Resources/IntercomTranslations.bundle",
 				"${PODS_ROOT}/ZDCChat/ZDCChatStrings.bundle",
 				"${PODS_ROOT}/ZDCChat/ZDCChat.bundle",
-				"${PODS_ROOT}/ZendeskSDK/ZendeskSDK/4.2.1/ZendeskSDKStrings.bundle",
+				"${PODS_ROOT}/ZendeskSDK/ZendeskSDK/5.0/ZendeskSDKStrings.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (

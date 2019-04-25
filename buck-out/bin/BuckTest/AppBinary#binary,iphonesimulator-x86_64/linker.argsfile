@@ -22,6 +22,9 @@ x86_64
 -fobjc-link-runtime
 -Xlinker
 -add_ast_path
+buck-out/gen/BuckTest/AppBinary#iphonesimulator-x86_64,swift-compile/AppBinary.swiftmodule
+-Xlinker
+-add_ast_path
 buck-out/gen/BuckTest/AppLibrary#apple-swift-compile,iphonesimulator-x86_64/AppLibrary.swiftmodule
 -Xlinker
 -add_ast_path

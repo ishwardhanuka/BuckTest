@@ -7,7 +7,7 @@
   ldflags = -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime
 
 [swift]
-  version = 4.2.1
+  version = 5
   compiler_flags = -DBUCK -enable-testing -g -Onone -whole-module-optimization
   use_filelist = true
 
@@ -35,5 +35,5 @@
 
 
 [build]
-  threads = 4
+  threads = 8
 

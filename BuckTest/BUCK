@@ -54,13 +54,18 @@ apple_library(
         #"//Pods:FBSDKCoreKit",
         #"//Pods:Protobuf",
         #"//Pods:FirebaseMessaging"
+        ":AppAsset",
+        ":AppResources"
     ]
 )
 apple_binary(
     name = "AppBinary",
     configs = app_binary_configs("BuckTest"),
-    swift_version = "4.2.1",
-    deps = [":AppLibrary", ":AppAsset", ':AppResources'],
+    swift_version = "5",
+    srcs = [
+        "BuckSupportFiles/Dummy.swift",
+    ],
+    deps = [":AppLibrary"],
     frameworks = [
         '$SDKROOT/System/Library/Frameworks/Foundation.framework',
         '$SDKROOT/System/Library/Frameworks/UIKit.framework',
@@ -71,18 +76,17 @@ apple_binary(
 
 apple_bundle(
     name = "BuckTest",
-    binary = ":AppBinary",
     extension = "app",
+    binary = ":AppBinary",
+    product_name = "BuckTest",
     info_plist = "Info.plist",
-    info_plist_substitutions = {
-        "PRODUCT_BUNDLE_IDENTIFIER": "com.fundingsocieties.BuckTest",
-        "CURRENT_PROJECT_VERSION": "1",
-    },
+    info_plist_substitutions = info_plist_substitutions("BuckTest"),
 )
 
+
 apple_package(
-  name = "PalmerahAppPackage",
-  bundle = ":App",
+  name = "BuckTestAppPackage",
+  bundle = ":BuckTest",
 )
 
 apple_test(

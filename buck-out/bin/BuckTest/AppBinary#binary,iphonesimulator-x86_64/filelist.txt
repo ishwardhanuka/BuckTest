@@ -1,3 +1,4 @@
+buck-out/gen/BuckTest/AppBinary#iphonesimulator-x86_64,swift-compile/AppBinary.o
 buck-out/gen/BuckTest/AppLibrary#iphonesimulator-x86_64,static/libAppLibrary.a
 buck-out/gen/Pods/SwinjectStoryboard#iphonesimulator-x86_64,static/libSwinjectStoryboard.a
 buck-out/gen/Pods/RxCocoa#iphonesimulator-x86_64,static/libRxCocoa.a

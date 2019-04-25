@@ -1,0 +1,4 @@
+InvocationInfo {"buildId":"9ef05557-69d0-47d9-bf62-1d8dd1d27929","superConsoleEnabled":true,"isDaemon":true,"subCommand":"projectcommand","commandArgs":["project","//App:workspace"],"unexpandedCommandArgs":["project","//App:workspace"],"buckLogDir":"buck-out/log","timestampMillis":1556178732905}
+FileDelete {"timestamp":1556178732921,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=DELETE, path=BuckTest.xcworkspace/xcuserdata/stevenlee.xcuserdatad/.dat.nosync4031.ckrz1A}"}
+Cache.Stats {"cacheHitsPerMode":{"dir":0},"cacheErrorsPerMode":{"dir":0},"totalCacheHits":0,"totalCacheErrors":0,"totalCacheMisses":0,"totalCacheIgnores":0,"totalCacheLocalKeyUnchangedHits":0,"successUploadCount":0,"failureUploadCount":0}
+ExitCode {"exitCode":5}

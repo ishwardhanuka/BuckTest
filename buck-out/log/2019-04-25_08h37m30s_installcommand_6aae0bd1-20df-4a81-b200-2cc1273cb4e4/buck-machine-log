@@ -1,0 +1,7 @@
+InvocationInfo {"buildId":"6aae0bd1-20df-4a81-b200-2cc1273cb4e4","superConsoleEnabled":true,"isDaemon":true,"subCommand":"installcommand","commandArgs":["install","//BuckTest:BuckTest","--run"],"unexpandedCommandArgs":["install","//BuckTest:BuckTest","--run"],"buckLogDir":"buck-out/log","timestampMillis":1556181450800}
+FileDelete {"timestamp":1556181450813,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=DELETE, path=BuckTest.xcworkspace/xcuserdata/stevenlee.xcuserdatad/.dat.nosync51eb.eOrkTR}"}
+ParseStarted {"timestamp":1556181450925}
+ParseFinished {"timestamp":1556181450934}
+BuildFinished {"timestamp":1556181450934}
+Cache.Stats {"cacheHitsPerMode":{"dir":0},"cacheErrorsPerMode":{"dir":0},"totalCacheHits":0,"totalCacheErrors":0,"totalCacheMisses":0,"totalCacheIgnores":0,"totalCacheLocalKeyUnchangedHits":0,"successUploadCount":0,"failureUploadCount":0}
+ExitCode {"exitCode":10}
