@@ -1,8 +1,0 @@
-InvocationInfo {"buildId":"4694706d-3492-4ca6-bb3f-8b511b22f672","superConsoleEnabled":true,"isDaemon":true,"subCommand":"installcommand","commandArgs":["install","//BuckTest:BuckTest","--run"],"unexpandedCommandArgs":["install","//BuckTest:BuckTest","--run"],"buckLogDir":"buck-out/log","timestampMillis":1556181089265}
-FileDelete {"timestamp":1556181089290,"filename":"WatchmanPathEvent{cellPath=/Users/stevenlee/Downloads/BuckTest 3, kind=DELETE, path=BuckTest.xcworkspace/xcuserdata/stevenlee.xcuserdatad/.dat.nosync51eb.oJOm12}"}
-ParseStarted {"timestamp":1556181089419}
-ParseFinished {"timestamp":1556181089424}
-BuildRuleEvent.Finished {"timestamp":1556181089440,"duration":{"wallMillisDuration":1},"status":"SUCCESS","cacheResult":{"type":"LOCAL_KEY_UNCHANGED_HIT"},"origin":"18aefd1d-864d-43dc-a39e-e5174b21ffac","ruleKeys":{"ruleKey":{"hashCode":"8872ba86fda1f1f4b5635cb962370b38dcf42aeb"}},"successTypeName":"MATCHING_RULE_KEY","buildRule":{"type":"apple_bundle","name":"//BuckTest:BuckTest#dwarf-and-dsym,no-include-frameworks"}}
-BuildFinished {"timestamp":1556181089440}
-Cache.Stats {"cacheHitsPerMode":{"dir":0},"cacheErrorsPerMode":{"dir":0},"totalCacheHits":0,"totalCacheErrors":0,"totalCacheMisses":0,"totalCacheIgnores":0,"totalCacheLocalKeyUnchangedHits":1,"successUploadCount":0,"failureUploadCount":0}
-ExitCode {"exitCode":0}

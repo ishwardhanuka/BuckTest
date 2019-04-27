@@ -1,1 +1,0 @@
-/Users/stevenlee/Downloads/BuckTest 3/buck-out/gen/Pods/SkyFloatingLabelTextField#apple-swift-compile,iphonesimulator-x86_64/SkyFloatingLabelTextField-Swift.h

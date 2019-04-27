@@ -1,1 +1,0 @@
-/Users/stevenlee/Downloads/BuckTest 3/buck-out/gen/Pods/Alamofire#apple-swift-compile,iphonesimulator-x86_64/Alamofire-Swift.h
