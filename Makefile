@@ -62,5 +62,5 @@ xcode_tests: project
 	xcodebuild build test -workspace App/ExampleApp.xcworkspace -scheme ExampleApp -destination 'platform=iOS Simulator,name=iPhone 8,OS=latest' | xcpretty && exit ${PIPESTATUS[0]}
 
 project: clean
-	$(BUCK) project //App:workspace
-	open App/ExampleApp.xcworkspace
+	$(BUCK) project //BuckTest:workspace
+	open BuckTest/BuckTest.xcworkspace

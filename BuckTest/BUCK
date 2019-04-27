@@ -6,11 +6,9 @@ apple_asset_catalog(
   dirs = ["Assets.xcassets"],
   app_icon = "AppIcon",
 )
-
 apple_resource(
     name = "AppResources",
-    dirs = [],
-    files = glob(["*.png","*.xib","Base.lproj/*.storyboard"]),
+    files = glob(["**/*.storyboard"]),
 )
 
 
@@ -23,31 +21,31 @@ apple_library(
         "AppDelegate.swift",
     ],
     deps = [
-        "//Pods:Alamofire",
-        "//Pods:IGListKit",
+       "//Pods:Alamofire",
+        #"//Pods:IGListKit",
         #"//Pods:FirebaseCore",
         #"//Pods:FirebaseAuth",
-         "//Pods:Swinject",
-         "//Pods:SwinjectStoryboard",
-         "//Pods:RxSwift",
-         "//Pods:RxCocoa",
+         #"//Pods:Swinject",
+         #"//Pods:SwinjectStoryboard",
+         #"//Pods:RxSwift",
+         #"//Pods:RxCocoa",
 #         "//Pods:KochavaTrackeriOS",
-         "//Pods:ZDCChat",
-         "//Pods:ZDCChatAPI",
-         "//Pods:Fabric",
-         "//Pods:Crashlytics",
-         "//Pods:Mixpanel",
-         "//Pods:SwiftyRSA",
-         "//Pods:SwiftKeychainWrapper",
-         "//Pods:SkyFloatingLabelTextField",
-         "//Pods:CountryPickerSwift",
-         "//Pods:Validator",
-         "//Pods:SVProgressHUD",
-         "//Pods:Intercom",
-         "//Pods:Hero",
-         "//Pods:Lottie",
-         "//Pods:Armchair",
-         "//Pods:IQKeyboardManagerSwift",
+         #"//Pods:ZDCChat",
+         #"//Pods:ZDCChatAPI",
+         #"//Pods:Fabric",
+         #"//Pods:Crashlytics",
+         #"//Pods:Mixpanel",
+         #"//Pods:SwiftyRSA",
+         #"//Pods:SwiftKeychainWrapper",
+         #"//Pods:SkyFloatingLabelTextField",
+         #"//Pods:CountryPickerSwift",
+         #"//Pods:Validator",
+         #"//Pods:SVProgressHUD",
+         #"//Pods:Intercom",
+         #"//Pods:Hero",
+         #"//Pods:Lottie",
+         #"//Pods:Armchair",
+         #"//Pods:IQKeyboardManagerSwift",
 #         "//Pods:ZendeskCoreSDK",
 #         "//Pods:ZendeskProviderSDK",
 #         "//Pods:ZendeskSDK",
@@ -56,6 +54,7 @@ apple_library(
         #"//Pods:FirebaseMessaging"
         ":AppAsset",
         ":AppResources"
+
     ]
 )
 apple_binary(
@@ -73,7 +72,18 @@ apple_binary(
         '$SDKROOT/System/Library/Frameworks/CoreTelephony.framework',
     ],
 )
-
+xcode_workspace_config(
+    name = "workspace",
+    workspace_name = "BuckTest",
+    src_target = ":BuckTest",
+    additional_scheme_actions = {
+        "Build": {
+            "PRE_SCHEME_ACTIONS": ["echo 'Started'"],
+            "POST_SCHEME_ACTIONS": ["echo 'Finished'"],
+        },
+    },
+    action_config_names = {"profile": "Profile"},
+)
 apple_bundle(
     name = "BuckTest",
     extension = "app",
